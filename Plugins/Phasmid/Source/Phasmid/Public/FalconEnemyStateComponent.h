@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "Components/SceneComponent.h"
 #include "Engine/TargetPoint.h"
+#include "FalconEverythingState.h"
 #include "FalconEnemyStateComponent.generated.h"
 
 
@@ -47,7 +48,9 @@ public:
 	UFUNCTION(BlueprintCallable)
 	static bool WillSpawnCollectibleOfType(UClass*& Class);
 	
-
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		TArray<FFalconEverythingState> State;
+	                      
 	/*
 	MulticastDelegateProperty Phasmid.FalconEnemyStateComponent.OnProjectileSpawned
 	MulticastDelegateProperty Phasmid.FalconEnemyStateComponent.OnExitStateDelegate
