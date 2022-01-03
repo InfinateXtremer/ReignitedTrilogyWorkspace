@@ -14,5 +14,5 @@
  * @return Actual damage the ended up being applied to the actor.
  */
 
-UFUNCTION(BlueprintCallable, BlueprintAuthorityOnly, Category = "Game|FalconDamage", meta = (WorldContext = "WorldContextObject")))
+UFUNCTION(BlueprintCallable, BlueprintAuthorityOnly, Category = "Game|FalconDamage", meta = (WorldContext = "WorldContextObject"))
 static float FalconApplyDamage(AActor* DamageCauser, float Magnitude, AActor* DamageTarget, TSubclassOf<class UDamageType> DamageTypeClass);
