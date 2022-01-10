@@ -11,13 +11,15 @@ UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
 class FALCON_API UFalconLootComponent : public UActorComponent
 {
 	GENERATED_BODY()
-		UFUNCTION(BlueprintCallable)
-		static bool DropsLootOfType(bool filterCollected, UClass *LootClass);
+
 		//UFUNCTION(BlueprintCallable)
 		//static bool getObjectSaveData(USTRUCT() saveData);
 public:	
 	// Sets default values for this component's properties
 	UFalconLootComponent();
+
+	UFUNCTION(BlueprintCallable)
+	static bool DropsLootOfType(bool filterCollected, UClass *LootClass);
 
 protected:
 	// Called when the game starts
