@@ -10,6 +10,7 @@
 /**
  * 
  */
+ 
 USTRUCT(BlueprintType)
 struct FSpyroCharacterInitialData : public FTableRowBase
 {
