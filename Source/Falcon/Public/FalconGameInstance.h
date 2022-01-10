@@ -16,7 +16,7 @@ class FALCON_API UFalconGameInstance : public UGameInstance
 {
 	GENERATED_BODY()
 
-
+public:
 	UFUNCTION(BlueprintCallable, BlueprintAuthorityOnly, Category = "Game|FalconGameInstance", meta = (WorldContext = "WorldContextObject"))
 	static void DetectPrimaryController();
 
@@ -59,7 +59,6 @@ class FALCON_API UFalconGameInstance : public UGameInstance
 	UFUNCTION(BlueprintCallable, BlueprintAuthorityOnly, Category = "Game|FalconGameInstance", meta = (WorldContext = "WorldContextObject"))
 	static void ShowExternalLoginUI();
 
-public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Game|FalconGameInstance")
 	FString MainMenuMap;
 
