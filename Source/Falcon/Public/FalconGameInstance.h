@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "FalconGameState.h"
 #include "Blueprint/UserWidget.h"
+#include "Engine/DataTable.h"
 #include "Engine/GameInstance.h"
 #include "FalconGameInstance.generated.h"
 
@@ -69,6 +70,6 @@ public:
 	UObject* _screenManager;
 	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Game|FalconGameInstance")
-	TSoftObjectPtr<UUserWidget> _widgetTable;
+	TSoftObjectPtr<UDataTable> _widgetTable;
 	
 };
