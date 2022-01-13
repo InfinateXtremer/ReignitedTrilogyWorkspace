@@ -3,14 +3,14 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "Components/SceneComponent.h"
+#include "Components/ActorComponent.h"
 #include "Engine/TargetPoint.h"
 #include "FalconEverythingState.h"
 #include "FalconEnemyStateComponent.generated.h"
 
 
-UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
-class PHASMID_API UFalconEnemyStateComponent : public USceneComponent
+UCLASS(Blueprintable, BlueprintType, ClassGroup = (Custom), meta = (BlueprintSpawnableComponent))
+class PHASMID_API UFalconEnemyStateComponent : public UActorComponent
 {
 	GENERATED_BODY()
 
