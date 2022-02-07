@@ -11,6 +11,16 @@ APhasmidBeamDamage::APhasmidBeamDamage()
 
 }
 
+float APhasmidBeamDamage::GetTimeAliveRatio() const
+{
+	return 0.0f;
+}
+
+bool APhasmidBeamDamage::IsDelayOver() const
+{
+	return false;
+}
+
 // Called when the game starts or when spawned
 void APhasmidBeamDamage::BeginPlay()
 {
