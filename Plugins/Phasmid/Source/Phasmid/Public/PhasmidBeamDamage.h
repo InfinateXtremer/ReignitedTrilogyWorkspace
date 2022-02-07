@@ -27,15 +27,13 @@ public:
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)
 		uint8 TraceChannel;
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)
-		FName StartDamagingDelay;
+		float StartDamagingDelay;
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)
 		FName DamageGroupName;
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)
 		bool bDoAllTracesEveryFrame;
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)
 		float TraceRadius;
-
-
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)
 		TArray<FVector> TraceEndPoints;
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)
