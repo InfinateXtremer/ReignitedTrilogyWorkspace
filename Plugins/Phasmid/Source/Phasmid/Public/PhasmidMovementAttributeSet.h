@@ -15,7 +15,6 @@ class PHASMID_API UPhasmidMovementAttributeSet : public UAbilitySystemTestAttrib
 	GENERATED_BODY()
 	
 public:
-	/** This measures how much damage can be absorbed before dying. */
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Attributes")
 		FGameplayAttributeData GravityScale;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Attributes")

@@ -11,13 +11,31 @@ APhasmidLevelActor::APhasmidLevelActor()
 
 }
 
-void APhasmidLevelActor::AbilityEndOverlap(FGameplayTag TriggerTag, UActorComponent * OtherComp, AActor * OtherActor, UActorComponent * OverlappedComponent)
+
+void APhasmidLevelActor::BP_HandleDamage(float Magnitude, FGameplayTagContainer DamageTags, UPrimitiveComponent * HitComponent, const AActor * DamagingActor)
 {
 }
 
-void APhasmidLevelActor::BP_HandleDamage(AActor * DamagingActor, UActorComponent * HitComponent, FGameplayTag DamageTags, float Magnitude)
+void APhasmidLevelActor::TriggerOverlapAbility(AActor * OtherActor, FGameplayTag TriggerTag)
 {
 }
+
+void APhasmidLevelActor::Client_OnShieldBreak(const FGameplayEventData Payload)
+{
+}
+
+void APhasmidLevelActor::Client_OnDeath(const FGameplayEventData Payload)
+{
+}
+
+void APhasmidLevelActor::Client_OnDamage(const FGameplayEventData Payload)
+{
+}
+
+void APhasmidLevelActor::AbilityEndOverlap(UPrimitiveComponent * OverlappedComponent, AActor * OtherActor, UPrimitiveComponent * OtherComp, FGameplayTag TriggerTag)
+{
+}
+
 
 // Called when the game starts or when spawned
 void APhasmidLevelActor::BeginPlay()

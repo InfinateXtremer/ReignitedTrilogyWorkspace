@@ -19,8 +19,8 @@ class PHASMID_API UPhasmidTeamId : public UUserDefinedEnum
 	
 };
 
-UENUM()
-enum class EPhasmidTeamId
+UENUM(BlueprintType)
+enum class EPhasmidTeamId : uint8
 {
 	TeamOne,
 	TeamTwo,

@@ -32,21 +32,27 @@ void UPhasmidCullComponent::TickComponent(float DeltaTime, ELevelTick TickType, 
 	// ...
 }
 
-void UPhasmidCullComponent::CheckCull()
+void UPhasmidCullComponent::UnbindFromCull(AActor * EventOwner)
 {
 }
 
-bool UPhasmidCullComponent::GetGameStateCullReady()
+void UPhasmidCullComponent::SetGameStateCullReady(bool bReady)
 {
-	return false;
 }
 
-bool UPhasmidCullComponent::GetMeshOffScreen(UObject * MeshComponent)
+void UPhasmidCullComponent::SetCullDistance(float NewCullDistance)
 {
-	return false;
 }
 
-bool UPhasmidCullComponent::GetOffScreen()
+void UPhasmidCullComponent::SetAutoUpdateCull(bool bNewEnabled)
+{
+}
+
+void UPhasmidCullComponent::SetActorEnabled(bool bNewEnabled)
+{
+}
+
+bool UPhasmidCullComponent::IsCulled()
 {
 	return false;
 }
@@ -56,27 +62,26 @@ bool UPhasmidCullComponent::IsActorCulled()
 	return false;
 }
 
-bool UPhasmidCullComponent::IsCulled()
+bool UPhasmidCullComponent::GetOffScreen()
 {
 	return false;
 }
 
-void UPhasmidCullComponent::SetActorEnabled(bool bNewEnabled)
+bool UPhasmidCullComponent::GetMeshOffScreen(UMeshComponent * MeshComponent)
+{
+	return false;
+}
+
+bool UPhasmidCullComponent::GetGameStateCullReady()
+{
+	return false;
+}
+
+void UPhasmidCullComponent::CullEventDelegate__DelegateSignature(AActor * Actor, bool bIsCulled)
 {
 }
 
-void UPhasmidCullComponent::SetAutoUpdateCull(bool bNewEnabled)
+void UPhasmidCullComponent::CheckCull()
 {
 }
 
-void UPhasmidCullComponent::SetCullDistance(float NewCullDistance)
-{
-}
-
-void UPhasmidCullComponent::SetGameStateCullReady(bool bReady)
-{
-}
-
-void UPhasmidCullComponent::UnbindFromCull(UObject * EventOwner)
-{
-}

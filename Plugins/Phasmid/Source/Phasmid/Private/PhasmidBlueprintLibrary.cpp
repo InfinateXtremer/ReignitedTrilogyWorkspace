@@ -2,30 +2,37 @@
 
 #include "PhasmidBlueprintLibrary.h"
 
-void UPhasmidBlueprintLibrary::SpawnProjectileActor(UObject * WorldContextObject, const FTransform & Transform, AActor * Owner, APawn * Instigator)
-{
-}
 
-void UPhasmidBlueprintLibrary::SpawnCollisionRegion(UObject * WorldContextObject, AActor * Owner, APawn * Instigator)
+APhasmidCollisionRegion * UPhasmidBlueprintLibrary::SpawnCollisionRegion(const UObject * WorldContextObject, AActor * Owner, APawn * Instigator, const FPhasmidCollisionStruct & CollisionData, bool bSpawnWithCollisionDisabled)
 {
+	return nullptr;
 }
 
 void UPhasmidBlueprintLibrary::SetCullComponentsEnabled(bool bEnabled)
 {
 }
 
-void UPhasmidBlueprintLibrary::ReleaseRegion()
+void UPhasmidBlueprintLibrary::ReleaseRegion(APhasmidCollisionRegion * Region)
 {
 }
 
-void UPhasmidBlueprintLibrary::ReleaseProjectile(AActor * Projectile)
+void UPhasmidBlueprintLibrary::ReleaseProjectile(APhasmidProjectileActor * Projectile)
 {
 }
 
-
-
-void UPhasmidBlueprintLibrary::GetTargetsInRadius(UObject * WorldContextObject, const FVector & Origin, float Radius)
+FGameplayTargetDataFilterHandle UPhasmidBlueprintLibrary::MakeTeamFilterHandle(FPhasmidTargetDataFilterByTeam Filter, AActor * FilterActor)
 {
+	return FGameplayTargetDataFilterHandle();
+}
+
+FGameplayTargetDataFilterHandle UPhasmidBlueprintLibrary::MakeCollisionTagFilterHandle(FPhasmidTargetDataFilterByCollisionTags Filter, AActor * FilterActor)
+{
+	return FGameplayTargetDataFilterHandle();
+}
+
+TArray<FHitResult> UPhasmidBlueprintLibrary::GetTargetsInRadius(const UObject * WorldContextObject, const FVector & Origin, float Radius, const TArray<class AActor*>& IgnoreActors, AActor * TargetingActor, TEnumAsByte<ECollisionChannel> TraceBlockChannel)
+{
+	return TArray<FHitResult>();
 }
 
 FString UPhasmidBlueprintLibrary::GetSourceStringFromLocalizedText(const FText & InText)
@@ -33,36 +40,60 @@ FString UPhasmidBlueprintLibrary::GetSourceStringFromLocalizedText(const FText &
 	return FString();
 }
 
-float UPhasmidBlueprintLibrary::GetServerWorldTime(UObject * WorldContextObject)
+float UPhasmidBlueprintLibrary::GetServerWorldTime(const UObject * WorldContextObject)
 {
 	return 0.0f;
 }
 
-void UPhasmidBlueprintLibrary::GetPlayerStart(UObject * WorldContextObject)
+APlayerStart * UPhasmidBlueprintLibrary::GetPlayerStart(UObject * WorldContextObject, FString PlayerStartName)
+{
+	return nullptr;
+}
+
+FGameplayTag UPhasmidBlueprintLibrary::GetDamagePreventedTag()
+{
+	return FGameplayTag();
+}
+
+FGameplayTag UPhasmidBlueprintLibrary::GetDamagePreventedByGroupTag()
+{
+	return FGameplayTag();
+}
+
+FGameplayTag UPhasmidBlueprintLibrary::GetDamagePreventByInvulnerabilityTag()
+{
+	return FGameplayTag();
+}
+
+void UPhasmidBlueprintLibrary::GenerateEffectSpecs(FPhasmidEffectApplicationContainer & Container, AActor * Source, float LevelOverride, int32 StackOverride)
 {
 }
 
+bool UPhasmidBlueprintLibrary::DamageWasPrevented(const FGameplayEventData & Payload, FGameplayTagContainer & PreventedTags)
+{
+	return false;
+}
 
-void UPhasmidBlueprintLibrary::GenerateEffectSpecs()
+TArray<FActiveGameplayEffectHandle> UPhasmidBlueprintLibrary::ApplyEffectApplicationContainerToTarget(FPhasmidEffectApplicationContainer & Container, AActor * Target)
+{
+	return TArray<FActiveGameplayEffectHandle>();
+}
+
+FActiveGameplayEffectHandle UPhasmidBlueprintLibrary::ApplyDamageGroupEffect(const UObject * WorldContextObject, float DamageMagnitude, TSubclassOf<class UGameplayEffect> DamageEffectClass, AActor * Instigator, AActor * DamageCauser, AActor * DamageTarget, FGameplayTagContainer DamageTags, FName DamageGroupName, const FHitResult & Hit)
+{
+	return FActiveGameplayEffectHandle();
+}
+
+FActiveGameplayEffectHandle UPhasmidBlueprintLibrary::ApplyDamageEffect(const UObject * WorldContextObject, float DamageMagnitude, TSubclassOf<class UGameplayEffect> DamageEffectClass, AActor * Instigator, AActor * DamageCauser, AActor * DamageTarget, FGameplayTagContainer DamageTags, const FHitResult & Hit)
+{
+	return FActiveGameplayEffectHandle();
+}
+
+void UPhasmidBlueprintLibrary::AddHitResult(FPhasmidEffectApplicationContainer & Container, FHitResult HitResult)
 {
 }
 
-void UPhasmidBlueprintLibrary::DamageWasPrevented(const FGameplayEventData & Payload)
+APhasmidProjectileActor * UPhasmidBlueprintLibrary::SpawnProjectileActor(const UObject * WorldContextObject, const FTransform & Transform, AActor * Owner, APawn * Instigator, const FPhasmidProjectileStruct & ProjectileData, bool bSpawnWithCollisionDisabled)
 {
-}
-
-void UPhasmidBlueprintLibrary::ApplyEffectApplicationContainerToTarget()
-{
-}
-
-void UPhasmidBlueprintLibrary::ApplyDamageGroupEffect(UObject * WorldContextObject)
-{
-}
-
-void UPhasmidBlueprintLibrary::ApplyDamageEffect(UObject * WorldContextObject)
-{
-}
-
-void UPhasmidBlueprintLibrary::AddHitResult()
-{
+	return nullptr;
 }

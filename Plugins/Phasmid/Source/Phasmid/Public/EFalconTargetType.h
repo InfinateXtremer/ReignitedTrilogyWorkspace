@@ -20,7 +20,7 @@ class PHASMID_API UFalconTargetType : public UUserDefinedEnum
 };
 
 UENUM()
-enum EFalconTargetType
+enum class EFalconTargetType
 {
 	Player,
 	Origin,
@@ -28,3 +28,4 @@ enum EFalconTargetType
 	Target,
 	Myself
 };
+

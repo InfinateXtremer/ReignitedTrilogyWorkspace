@@ -13,50 +13,6 @@ UFalconEnemyStateComponent::UFalconEnemyStateComponent()
 	// ...
 }
 
-
-bool UFalconEnemyStateComponent::AllLootCollected()
-{
-	return false;
-}
-
-void UFalconEnemyStateComponent::BP_AddActorToWatchList(AActor * Actor, FName NextStateName)
-{
-}
-
-void UFalconEnemyStateComponent::BP_AddActorToWatchListByIndex(AActor * Actor, uint8 Index)
-{
-}
-
-void UFalconEnemyStateComponent::BP_OnEnterState()
-{
-}
-
-void UFalconEnemyStateComponent::BP_OnExitState(UObject * NextState)
-{
-}
-
-void UFalconEnemyStateComponent::BP_SetTarget(UObject * Actor)
-{
-}
-
-void UFalconEnemyStateComponent::BP_SetWaypoints(ATargetPoint * Points)
-{
-}
-
-void UFalconEnemyStateComponent::BP_UpdateWanderParams(float TurnRate, float OuterRadius, float Delay)
-{
-}
-
-FName UFalconEnemyStateComponent::GetStateName()
-{
-	return FName();
-}
-
-bool UFalconEnemyStateComponent::WillSpawnCollectibleOfType(UClass *& Class)
-{
-	return false;
-}
-
 // Called when the game starts
 void UFalconEnemyStateComponent::BeginPlay()
 {
@@ -75,3 +31,45 @@ void UFalconEnemyStateComponent::TickComponent(float DeltaTime, ELevelTick TickT
 	// ...
 }
 
+bool UFalconEnemyStateComponent::WillSpawnCollectibleOfType(UClass * Class)
+{
+	return false;
+}
+
+FName UFalconEnemyStateComponent::GetStateName()
+{
+	return FName();
+}
+
+void UFalconEnemyStateComponent::BP_UpdateWanderParams(float Delay, float OuterRadius, float TurnRate)
+{
+}
+
+void UFalconEnemyStateComponent::BP_SetWaypoints(ATargetPoint * Points)
+{
+}
+
+void UFalconEnemyStateComponent::BP_SetTarget(AActor * Actor)
+{
+}
+
+void UFalconEnemyStateComponent::BP_OnExitState(UFalconEnemyStateComponent * NextState)
+{
+}
+
+void UFalconEnemyStateComponent::BP_OnEnterState()
+{
+}
+
+void UFalconEnemyStateComponent::BP_AddActorToWatchListByIndex(int32 Index, AActor * Actor)
+{
+}
+
+void UFalconEnemyStateComponent::BP_AddActorToWatchList(FName NextStateName, AActor * Actor)
+{
+}
+
+bool UFalconEnemyStateComponent::AllLootCollected()
+{
+	return false;
+}

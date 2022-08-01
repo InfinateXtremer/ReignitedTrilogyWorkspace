@@ -23,20 +23,18 @@ class PHASMID_API UFalconMaterialTransition : public UUserDefinedStruct
 
 
 USTRUCT(BlueprintType)
-struct FalconMaterialTransitionStruct : public FTableRowBase
+struct FFalconMaterialTransitionStruct
 {
 	GENERATED_USTRUCT_BODY()
 
 public:
 
-	//UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	//	TArray<FParticleStruct> progressionMap;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		bool bReverse;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		UObject* ParameterValueTimelineCurve;
+		class UCurveBase* ParameterValueTimelineCurve;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		FName ParameterName;

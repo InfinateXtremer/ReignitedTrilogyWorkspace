@@ -4,6 +4,11 @@
 
 #include "CoreMinimal.h"
 #include "Kismet/BlueprintFunctionLibrary.h"
+#include "Abilities/GameplayAbilityTypes.h"
+#include "Abilities/GameplayAbilityTargetDataFilter.h"
+#include "PhasmidGameplayStructs.h"
+#include "PhasmidProjectileStruct.h"
+#include "PhasmidProjectileActor.h"
 #include "PhasmidBlueprintLibrary.generated.h"
 
 /**
@@ -14,75 +19,48 @@ class PHASMID_API UPhasmidBlueprintLibrary : public UBlueprintFunctionLibrary
 {
 	GENERATED_BODY()
 
+public:
+
 	UFUNCTION(BlueprintCallable, BlueprintAuthorityOnly, Category = "Game|FalconDamage", meta = (WorldContext = "WorldContextObject"))
-	static void SpawnProjectileActor(class UObject* WorldContextObject, const struct FTransform& Transform, class AActor* Owner, class APawn* Instigator);
-	
+	class APhasmidCollisionRegion* SpawnCollisionRegion(const class UObject* WorldContextObject, class AActor* Owner, class APawn* Instigator, const FPhasmidCollisionStruct& CollisionData, bool bSpawnWithCollisionDisabled);
 	UFUNCTION(BlueprintCallable, BlueprintAuthorityOnly, Category = "Game|FalconDamage", meta = (WorldContext = "WorldContextObject"))
-	static void SpawnCollisionRegion(class UObject* WorldContextObject, class AActor* Owner, class APawn* Instigator);
-	
+	void SetCullComponentsEnabled(bool bEnabled);
 	UFUNCTION(BlueprintCallable, BlueprintAuthorityOnly, Category = "Game|FalconDamage", meta = (WorldContext = "WorldContextObject"))
-	static void SetCullComponentsEnabled(bool bEnabled);
-	
+	void ReleaseRegion(class APhasmidCollisionRegion* Region);
 	UFUNCTION(BlueprintCallable, BlueprintAuthorityOnly, Category = "Game|FalconDamage", meta = (WorldContext = "WorldContextObject"))
-	static void ReleaseRegion();
-	
+	void ReleaseProjectile(class APhasmidProjectileActor* Projectile);
 	UFUNCTION(BlueprintCallable, BlueprintAuthorityOnly, Category = "Game|FalconDamage", meta = (WorldContext = "WorldContextObject"))
-	static void ReleaseProjectile(class AActor* Projectile); //Needs to be replaced with APhasmidProjectileActor
-	
-	//UFUNCTION(BlueprintCallable, BlueprintAuthorityOnly, Category = "Game|FalconDamage", meta = (WorldContext = "WorldContextObject"))
-	//static void MakeTeamFilterHandle(const struct FPhasmidTargetDataFilterByTeam& Filter);
-	
-	//UFUNCTION(BlueprintCallable, BlueprintAuthorityOnly, Category = "Game|FalconDamage", meta = (WorldContext = "WorldContextObject"))
-	//static void MakeCollisionTagFilterHandle(const struct FPhasmidTargetDataFilterByCollisionTags& Filter);
-	
+	FGameplayTargetDataFilterHandle MakeTeamFilterHandle(FPhasmidTargetDataFilterByTeam Filter, class AActor* FilterActor);
 	UFUNCTION(BlueprintCallable, BlueprintAuthorityOnly, Category = "Game|FalconDamage", meta = (WorldContext = "WorldContextObject"))
-	static void GetTargetsInRadius(class UObject* WorldContextObject, const struct FVector& Origin, float Radius);
-	
+	FGameplayTargetDataFilterHandle MakeCollisionTagFilterHandle(FPhasmidTargetDataFilterByCollisionTags Filter, class AActor* FilterActor);
 	UFUNCTION(BlueprintCallable, BlueprintAuthorityOnly, Category = "Game|FalconDamage", meta = (WorldContext = "WorldContextObject"))
-	static FString GetSourceStringFromLocalizedText(const FText& InText);
-	
+	TArray<FHitResult> GetTargetsInRadius(const class UObject* WorldContextObject, const FVector& Origin, float Radius, const TArray<class AActor*>& IgnoreActors, class AActor* TargetingActor, TEnumAsByte<ECollisionChannel> TraceBlockChannel);
 	UFUNCTION(BlueprintCallable, BlueprintAuthorityOnly, Category = "Game|FalconDamage", meta = (WorldContext = "WorldContextObject"))
-	static float GetServerWorldTime(class UObject* WorldContextObject);
-	
+	FString GetSourceStringFromLocalizedText(const FText& InText);
 	UFUNCTION(BlueprintCallable, BlueprintAuthorityOnly, Category = "Game|FalconDamage", meta = (WorldContext = "WorldContextObject"))
-	static void GetPlayerStart(class UObject* WorldContextObject);
-	
-	//UFUNCTION(BlueprintCallable, BlueprintAuthorityOnly, Category = "Game|FalconDamage", meta = (WorldContext = "WorldContextObject"))
-	//static struct FGameplayTag GetDamagePreventedTag();
-	
-	//UFUNCTION(BlueprintCallable, BlueprintAuthorityOnly, Category = "Game|FalconDamage", meta = (WorldContext = "WorldContextObject"))
-	//static struct FGameplayTag GetDamagePreventedByGroupTag();
-	
-	//UFUNCTION(BlueprintCallable, BlueprintAuthorityOnly, Category = "Game|FalconDamage", meta = (WorldContext = "WorldContextObject"))
-	//static struct FGameplayTag GetDamagePreventByInvulnerabilityTag();
-	
+	float GetServerWorldTime(const class UObject* WorldContextObject);
 	UFUNCTION(BlueprintCallable, BlueprintAuthorityOnly, Category = "Game|FalconDamage", meta = (WorldContext = "WorldContextObject"))
-	static void GenerateEffectSpecs();
-	
+	class APlayerStart* GetPlayerStart(class UObject* WorldContextObject, FString PlayerStartName);
 	UFUNCTION(BlueprintCallable, BlueprintAuthorityOnly, Category = "Game|FalconDamage", meta = (WorldContext = "WorldContextObject"))
-	static void DamageWasPrevented(const struct FGameplayEventData& Payload);
-	
+	FGameplayTag GetDamagePreventedTag();
 	UFUNCTION(BlueprintCallable, BlueprintAuthorityOnly, Category = "Game|FalconDamage", meta = (WorldContext = "WorldContextObject"))
-	static void ApplyEffectApplicationContainerToTarget();
-	
+	FGameplayTag GetDamagePreventedByGroupTag();
 	UFUNCTION(BlueprintCallable, BlueprintAuthorityOnly, Category = "Game|FalconDamage", meta = (WorldContext = "WorldContextObject"))
-	static void ApplyDamageGroupEffect(class UObject* WorldContextObject);
-	
-	//Function Phasmid.PhasmidBlueprintLibrary.ApplyDamageEffect
-	//StructProperty Phasmid.PhasmidBlueprintLibrary.ApplyDamageEffect.ReturnValue
-	//StructProperty Phasmid.PhasmidBlueprintLibrary.ApplyDamageEffect.Hit
-	//StructProperty Phasmid.PhasmidBlueprintLibrary.ApplyDamageEffect.DamageTags
-	//ObjectProperty Phasmid.PhasmidBlueprintLibrary.ApplyDamageEffect.DamageTarget
-	//ObjectProperty Phasmid.PhasmidBlueprintLibrary.ApplyDamageEffect.DamageCauser
-	//ObjectProperty Phasmid.PhasmidBlueprintLibrary.ApplyDamageEffect.Instigator
-	//ClassProperty Phasmid.PhasmidBlueprintLibrary.ApplyDamageEffect.DamageEffectClass
-	//FloatProperty Phasmid.PhasmidBlueprintLibrary.ApplyDamageEffect.DamageMagnitude
-	//ObjectProperty Phasmid.PhasmidBlueprintLibrary.ApplyDamageEffect.WorldContextObject
+	FGameplayTag GetDamagePreventByInvulnerabilityTag();
 	UFUNCTION(BlueprintCallable, BlueprintAuthorityOnly, Category = "Game|FalconDamage", meta = (WorldContext = "WorldContextObject"))
-	static void ApplyDamageEffect(class UObject* WorldContextObject);
-	
+	void GenerateEffectSpecs(FPhasmidEffectApplicationContainer& Container, class AActor* Source, float LevelOverride, int32 StackOverride);
 	UFUNCTION(BlueprintCallable, BlueprintAuthorityOnly, Category = "Game|FalconDamage", meta = (WorldContext = "WorldContextObject"))
-	static void AddHitResult();
-	
-	
+	bool DamageWasPrevented(const FGameplayEventData& Payload, FGameplayTagContainer& PreventedTags);
+	UFUNCTION(BlueprintCallable, BlueprintAuthorityOnly, Category = "Game|FalconDamage", meta = (WorldContext = "WorldContextObject"))
+	TArray<FActiveGameplayEffectHandle> ApplyEffectApplicationContainerToTarget(FPhasmidEffectApplicationContainer& Container, class AActor* Target);
+	UFUNCTION(BlueprintCallable, BlueprintAuthorityOnly, Category = "Game|FalconDamage", meta = (WorldContext = "WorldContextObject"))
+	FActiveGameplayEffectHandle ApplyDamageGroupEffect(const class UObject* WorldContextObject, float DamageMagnitude, TSubclassOf<class UGameplayEffect> DamageEffectClass, class AActor* Instigator, class AActor* DamageCauser, class AActor* DamageTarget, FGameplayTagContainer DamageTags, FName DamageGroupName, const FHitResult& Hit);
+	UFUNCTION(BlueprintCallable, BlueprintAuthorityOnly, Category = "Game|FalconDamage", meta = (WorldContext = "WorldContextObject"))
+	FActiveGameplayEffectHandle ApplyDamageEffect(const class UObject* WorldContextObject, float DamageMagnitude, TSubclassOf<class UGameplayEffect> DamageEffectClass, class AActor* Instigator, class AActor* DamageCauser, class AActor* DamageTarget, FGameplayTagContainer DamageTags, const FHitResult& Hit);
+	UFUNCTION(BlueprintCallable, BlueprintAuthorityOnly, Category = "Game|FalconDamage", meta = (WorldContext = "WorldContextObject"))
+	void AddHitResult(FPhasmidEffectApplicationContainer& Container, FHitResult HitResult);
+
+	UFUNCTION(BlueprintCallable, BlueprintAuthorityOnly, Category = "Game|FalconDamage", meta = (WorldContext = "WorldContextObject"))
+		class APhasmidProjectileActor* SpawnProjectileActor(const class UObject* WorldContextObject, const FTransform& Transform, class AActor* Owner, class APawn* Instigator, const FPhasmidProjectileStruct& ProjectileData, bool bSpawnWithCollisionDisabled);
+
 };

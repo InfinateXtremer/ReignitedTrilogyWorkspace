@@ -5,7 +5,9 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 #include "AbilitySystemComponent.h"
+#include "PhasmidAbilitySystemComponent.h"
 #include "PhasmidBeamDamage.generated.h"
+
 
 UCLASS()
 class PHASMID_API APhasmidBeamDamage : public AActor
@@ -21,7 +23,7 @@ public:
 	UFUNCTION(BlueprintCallable)
 		bool IsDelayOver() const;
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)
-		UAbilitySystemComponent* AbilitySystemComponent;
+		UPhasmidAbilitySystemComponent* AbilitySystemComponent;
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)
 		bool bDebugDraw;
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)

@@ -85,6 +85,10 @@
 			"Enabled": true
 		},
 		{
+			"Name": "Wwise",
+			"Enabled": true
+		},
+		{
 			"Name": "OnlineSubsystemIOS",
 			"Enabled": false,
 			"SupportedTargetPlatforms": [

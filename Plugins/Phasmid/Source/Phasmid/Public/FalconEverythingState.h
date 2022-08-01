@@ -10,6 +10,14 @@
 #include "EFalconMovementMode.h"
 #include "Particles/Emitter.h"
 #include "GameplayTagContainer.h"
+#include "PhasmidCollisionStruct.h"
+#include "PhasmidProjectileStruct.h"
+#include "LaunchParams.h"
+#include "FalconStateEmitterStruct.h"
+#include "FalconEnemySpawnedCollectible.h"
+#include "FalconEverythingTrigger.h"
+#include "FalconMaterialTransitionStruct.h"
+#include "FalconSignalData.h"
 #include "FalconEverythingState.generated.h"
 
 /**
@@ -33,95 +41,65 @@ struct FFalconEverythingState
 
 public:
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		float ActorTickIntervalOverride;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		float WanderTurnRate;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		float WanderOuterRadius;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		float WanderDelay;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		FString Signal; //Unknown Struct
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		bool bKeepVelocityOnStateChange;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		bool bStartAtNearestWaypoint;
-
-
-
-	//UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	//	TArray<> MaterialParamaterCurves;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		bool Triggers	;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		bool SpawnCollectibles;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		bool bDisableAnimation;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		bool bDisableCollision;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		bool bDestroySelfOnExit;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		bool bResetGlobalTriggers;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		AEmitter* ExitStateEmitter; //Probably Wrong
-	
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		AEmitter* EnterStateEmitter; //Probably Wrong
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		UClass* SpawnActorClass;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		FGameplayTagContainer Immunities;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		UObject* Waypoints;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		UObject* Target;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		FGameplayTagContainer ProjectileSettings; //Maybe a gameplay tag container?
-	
-	//UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	//	TArray<struct> CollisionRegionSettings;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		TMap<int32, FString> DamageTypeLaunchParamsOverrides; //TMap is wrong
-	
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		TEnumAsByte<EFalconTargetType> FacingTarget;
-	
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		TEnumAsByte<EFalconFacingMode> FacingMode;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		TEnumAsByte<EFalconFacingMode> MovementTarget; //Wrong ENUM
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		TEnumAsByte<EFalconMovementMode> MovementMode; //Wrong ENUM
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		float MontageStartOffsetPercentage;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		UObject* Montage;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		FName stateName;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		class UAnimMontage* Montage;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		float MontageStartOffsetPercentage;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		EFalconMovementMode MovementMode;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		EFalconTargetType MovementTarget;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		EFalconFacingMode FacingMode;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		EFalconTargetType FacingTarget;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		TMap<FGameplayTag, FLaunchParams> DamageTypeLaunchParamsOverrides;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		TArray<FPhasmidCollisionStruct> CollisionRegionSettings;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		TArray<FPhasmidProjectileStruct> ProjectileSettings;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		class AActor* Target;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		class ATargetPoint* Waypoints;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		FGameplayTagContainer Immunities;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		TSubclassOf<class AActor> SpawnActorClass;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		FFalconStateEmitterStruct EnterStateEmitter;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		FFalconStateEmitterStruct ExitStateEmitter;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		uint8 bResetGlobalTriggers;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		uint8 bDestroySelfOnExit;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		uint8 bDisableCollision;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		uint8 bDisableAnimation;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		TArray<FFalconEnemySpawnedCollectible> SpawnCollectibles;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		TArray<FFalconEverythingTrigger> Triggers;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		TArray<FFalconMaterialTransitionStruct> MaterialParamaterCurves;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		uint8 bStartAtNearestWaypoint;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		uint8 bKeepVelocityOnStateChange;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		FFalconSignalData Signal;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		float WanderDelay;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		float WanderOuterRadius;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		float WanderTurnRate;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		float ActorTickIntervalOverride;
 };

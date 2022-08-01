@@ -9,6 +9,14 @@
 #include "FalconEnemyStateComponent.generated.h"
 
 
+DECLARE_DYNAMIC_MULTICAST_DELEGATE(FFalconEnemyStateComponentOnActorSpawned);
+DECLARE_DYNAMIC_MULTICAST_DELEGATE(FFalconEnemyStateComponentOnCollectibleSpawned);
+DECLARE_DYNAMIC_MULTICAST_DELEGATE(FFalconEnemyStateComponentOnEnterStateDelegate);
+DECLARE_DYNAMIC_MULTICAST_DELEGATE(FFalconEnemyStateComponentOnExitStateDelegate);
+DECLARE_DYNAMIC_MULTICAST_DELEGATE(FFalconEnemyStateComponentOnProjectileSpawned);
+
+
+
 UCLASS(Blueprintable, BlueprintType, ClassGroup = (Custom), meta = (BlueprintSpawnableComponent))
 class PHASMID_API UFalconEnemyStateComponent : public UActorComponent
 {
@@ -18,49 +26,41 @@ public:
 	// Sets default values for this component's properties
 	UFalconEnemyStateComponent();
 
-	UFUNCTION(BlueprintCallable)
-	static bool AllLootCollected();	
-	
-	UFUNCTION(BlueprintCallable)
-	static void BP_AddActorToWatchList(AActor* Actor, FName NextStateName);	
-	
-	UFUNCTION(BlueprintCallable)
-	static void BP_AddActorToWatchListByIndex(AActor* Actor, uint8 Index);	
-	
-	UFUNCTION(BlueprintCallable)
-	static void BP_OnEnterState();	
-	
-	UFUNCTION(BlueprintCallable)
-	static void BP_OnExitState(UObject* NextState);	
-	
-	UFUNCTION(BlueprintCallable)
-	static void BP_SetTarget(UObject* Actor);	
-	
-	UFUNCTION(BlueprintCallable)
-	static void BP_SetWaypoints(ATargetPoint* Points);
-	
-	UFUNCTION(BlueprintCallable)
-	static void BP_UpdateWanderParams(float TurnRate, float OuterRadius, float Delay);
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		FFalconEverythingState State;  //Struct uses FalconEverythingTrigger
 
 	UFUNCTION(BlueprintCallable)
-	static FName GetStateName();	
-	
+	bool WillSpawnCollectibleOfType(UClass* Class);
 	UFUNCTION(BlueprintCallable)
-	static bool WillSpawnCollectibleOfType(UClass*& Class);
-	
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		TArray<FFalconEverythingState> State;
-	                      
-	/*
-	MulticastDelegateProperty Phasmid.FalconEnemyStateComponent.OnProjectileSpawned
-	MulticastDelegateProperty Phasmid.FalconEnemyStateComponent.OnExitStateDelegate
-	MulticastDelegateProperty Phasmid.FalconEnemyStateComponent.OnEnterStateDelegate
-	MulticastDelegateProperty Phasmid.FalconEnemyStateComponent.OnCollectibleSpawned
-	MulticastDelegateProperty Phasmid.FalconEnemyStateComponent.OnActorSpawned
-	
-	
-	StructProperty State  //Struct uses FalconEverythingTrigger
-	*/
+	FName GetStateName();
+	UFUNCTION(BlueprintCallable)
+	void BP_UpdateWanderParams(float Delay, float OuterRadius, float TurnRate);
+	UFUNCTION(BlueprintCallable)
+	void BP_SetWaypoints(class ATargetPoint* Points);
+	UFUNCTION(BlueprintCallable)
+	void BP_SetTarget(class AActor* Actor);
+	UFUNCTION(BlueprintCallable)
+	void BP_OnExitState(class UFalconEnemyStateComponent* NextState);
+	UFUNCTION(BlueprintCallable)
+	void BP_OnEnterState();
+	UFUNCTION(BlueprintCallable)
+	void BP_AddActorToWatchListByIndex(int32 Index, class AActor* Actor);
+	UFUNCTION(BlueprintCallable)
+	void BP_AddActorToWatchList(FName NextStateName, class AActor* Actor);
+	UFUNCTION(BlueprintCallable)
+	bool AllLootCollected();
+
+	UPROPERTY(BlueprintAssignable)
+	FFalconEnemyStateComponentOnActorSpawned OnActorSpawned;
+	UPROPERTY(BlueprintAssignable)
+	FFalconEnemyStateComponentOnCollectibleSpawned OnCollectibleSpawned;
+	UPROPERTY(BlueprintAssignable)
+	FFalconEnemyStateComponentOnEnterStateDelegate OnEnterStateDelegate;
+	UPROPERTY(BlueprintAssignable)
+	FFalconEnemyStateComponentOnExitStateDelegate OnExitStateDelegate;
+	UPROPERTY(BlueprintAssignable)
+	FFalconEnemyStateComponentOnProjectileSpawned OnProjectileSpawned;
+
 
 protected:
 	// Called when the game starts

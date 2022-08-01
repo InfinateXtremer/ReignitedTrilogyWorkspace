@@ -10,7 +10,9 @@ public class Phasmid : ModuleRules
 		
 		PublicIncludePaths.AddRange(
 			new string[] {
-				"Phasmid/Public"
+				"Phasmid/Public",
+				"TfbWiseExtensions/Public",
+				"Wwise/Public"
 				// ... add public include paths required here ...
 			}
 			);
@@ -30,7 +32,9 @@ public class Phasmid : ModuleRules
 				"Core",
 				"GameplayAbilities", 
 				"GameplayTags", 
-				"GameplayTasks"
+				"GameplayTasks",
+				"TfbWiseExtensions",
+				"AkAudio"
 				// ... add other public dependencies that you statically link with here ...
 			}
 			);
