@@ -10,7 +10,7 @@
  * 
  */
 UCLASS()
-class FALCON_API UFalconGameState : public UUserDefinedEnum
+class FALCON_API UFalconGameStateEnum : public UUserDefinedEnum
 {
 	GENERATED_BODY()
 	
@@ -19,15 +19,14 @@ class FALCON_API UFalconGameState : public UUserDefinedEnum
 	
 };
 
-UENUM()
-enum EFalconGameState
-{
-	MainMenu,
-	LevelLoadingDirect,
-	LevelLoadingPortal,
-	InPlay,
-	PausedMenu,
-	InCutscene,
-	Respawning,
-	LevelUnloading
+UENUM(BlueprintType)
+enum EFalconGameState {
+	MainMenu = 0,
+	LevelLoadingDirect = 1,
+	LevelLoadingPortal = 2,
+	InPlay = 3,
+	PausedMenu = 4,
+	InCutscene = 5,
+	Respawning = 6,
+	LevelUnloading = 7,
 };

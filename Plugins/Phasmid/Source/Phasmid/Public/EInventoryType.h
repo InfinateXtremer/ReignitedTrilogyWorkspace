@@ -7,7 +7,7 @@
 #include "EInventoryType.generated.h"
 
 UCLASS()
-class FALCON_API UInventoryType : public UUserDefinedEnum
+class PHASMID_API UInventoryType : public UUserDefinedEnum
 {
 	GENERATED_BODY()
 

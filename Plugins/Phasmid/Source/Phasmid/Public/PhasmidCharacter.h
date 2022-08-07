@@ -46,7 +46,7 @@ public:
 	UPROPERTY(BlueprintAssignable)
 	FPhasmidCharacterOnInput OnInput;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	uint8 bForceSpawnAIController;
+	bool bForceSpawnAIController;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	FGameplayTagContainer InitialGameplayTags;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
