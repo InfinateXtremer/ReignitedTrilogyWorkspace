@@ -9,7 +9,7 @@
 /**
  * 
  */
-UCLASS()
+UCLASS(BlueprintType, Blueprintable, meta = (BlueprintSpawnableComponent))
 class TFBWISEEXTENSIONS_API UTfbAkComponent : public UAkComponent
 {
 	GENERATED_BODY()

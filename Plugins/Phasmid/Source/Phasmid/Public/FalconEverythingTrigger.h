@@ -31,13 +31,13 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	FName NextStateName;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	uint8 bChooseRandomNextState;
+	bool bChooseRandomNextState;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	TMap<FName, float> RandomNextState;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	int32 TriggerType;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	uint8 bLogicalAndTrigger;
+	bool bLogicalAndTrigger;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	float Time;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
@@ -53,30 +53,33 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	FGameplayTag WatchedActorTag;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	int bWatchSpawns;
+		bool bWatchSpawns;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	int bWatchCollectibles;
-	uint32 WatchListCompareValue;
+	bool bWatchCollectibles;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	int32 WatchListCompareValue;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	TWeakObjectPtr<class AActor> CollisionVolume;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	EFalconTargetType CollisionVolumeTarget;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	EFalconTargetType SightTarget;
-	uint32 HitPoints;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	int32 HitPoints;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	FGameplayTagContainer TriggerSignals;
-	uint32 SplinePointIndex;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	uint8 bReachedSplineIndex;
+	int32 SplinePointIndex;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	uint8 bConsumeSignals;
+	bool bReachedSplineIndex;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	uint8 bDontResetTrigger;
+		bool bConsumeSignals;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	uint8 bAdjustForActorTimeDilation;
+		bool bDontResetTrigger;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	uint8 bRestrictVerticalDistance;
+		bool bAdjustForActorTimeDilation;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		bool bRestrictVerticalDistance;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	float DistanceAboveGround;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)

@@ -90,12 +90,20 @@
 			"Enabled": true
 		},
 		{
+			"Name": "Phasmid",
+			"Enabled": true
+		},
+		{
 			"Name": "OnlineSubsystemIOS",
 			"Enabled": false,
 			"SupportedTargetPlatforms": [
 				"IOS",
 				"TVOS"
 			]
+		},
+		{
+			"Name": "TfbWiseExtensions",
+			"Enabled": true
 		}
 	]
 }

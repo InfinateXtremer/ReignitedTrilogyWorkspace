@@ -27,7 +27,7 @@ public:
 	UFalconEnemyStateComponent();
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		FFalconEverythingState State;  //Struct uses FalconEverythingTrigger
+	FFalconEverythingState State;  //Struct uses FalconEverythingTrigger
 
 	UFUNCTION(BlueprintCallable)
 	bool WillSpawnCollectibleOfType(UClass* Class);

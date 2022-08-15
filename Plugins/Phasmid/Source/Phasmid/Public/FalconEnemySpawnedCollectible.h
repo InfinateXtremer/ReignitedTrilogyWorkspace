@@ -34,6 +34,6 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	TWeakObjectPtr<class AActor> Collectible;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	uint8 bCollected;
+	bool bCollected;
 
 };

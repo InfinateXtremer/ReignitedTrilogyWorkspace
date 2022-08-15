@@ -28,7 +28,7 @@ public:
 		UGameplayAbilitySet* AbilitySet;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = GameplayTags)
-		TEnumAsByte<EPhasmidTeamId> TeamId;
+		EPhasmidTeamId TeamId;
 
 	//UFUNCTION(BlueprintCallable)
 	void SetTeamId(EPhasmidTeamId newTeamId);

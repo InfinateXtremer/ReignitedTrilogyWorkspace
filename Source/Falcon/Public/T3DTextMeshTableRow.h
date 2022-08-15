@@ -11,6 +11,17 @@
 /**
  * 
  */
+ 
+ UCLASS()
+class FALCON_API UStruct3DTextMeshTableRow : public UUserDefinedStruct
+{
+	GENERATED_BODY()
+	
+	
+	
+	
+};
+
 
 USTRUCT(BlueprintType)
 struct F3DTextMeshTableRow : public FTableRowBase

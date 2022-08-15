@@ -24,10 +24,8 @@ public:
 public:
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)
 		class UPointLightComponent* PointLightComp;
-
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)
 		class USpotLightComponent* SpotLight;
-
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)
 		class UCurveFloat* IntensityCurve;
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)

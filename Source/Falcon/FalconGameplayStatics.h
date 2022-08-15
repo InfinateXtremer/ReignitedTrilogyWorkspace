@@ -5,7 +5,7 @@
 #include "CoreMinimal.h"
 #include "Kismet/GameplayStatics.h"
 #include "ESkillPoint.h"
-#include "EInventoryType.h"
+#include "InventoryType.h"
 #include "Math/Color.h"
 #include "Fonts/SlateFontInfo.h"
 #include "PhasmidObjectSaveStruct.h"

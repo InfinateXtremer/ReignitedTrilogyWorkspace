@@ -8,4 +8,6 @@ RMDIR "%CD%\Plugins\GameplayCommon\Binaries" /S /Q
 RMDIR "%CD%\Plugins\GameplayCommon\Intermediate" /S /Q
 RMDIR "%CD%\Plugins\TfbWEEDS\Binaries" /S /Q
 RMDIR "%CD%\Plugins\TfbWEEDS\Intermediate" /S /Q
+RMDIR "%CD%\Plugins\TfbWiseExtensions\Binaries" /S /Q
+RMDIR "%CD%\Plugins\TfbWiseExtensions\Intermediate" /S /Q
 pause

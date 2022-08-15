@@ -75,13 +75,13 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		FFalconStateEmitterStruct ExitStateEmitter;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		uint8 bResetGlobalTriggers;
+		bool bResetGlobalTriggers;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		uint8 bDestroySelfOnExit;
+		bool bDestroySelfOnExit;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		uint8 bDisableCollision;
+		bool bDisableCollision;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		uint8 bDisableAnimation;
+		bool bDisableAnimation;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		TArray<FFalconEnemySpawnedCollectible> SpawnCollectibles;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
@@ -89,9 +89,9 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		TArray<FFalconMaterialTransitionStruct> MaterialParamaterCurves;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		uint8 bStartAtNearestWaypoint;
+		bool bStartAtNearestWaypoint;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		uint8 bKeepVelocityOnStateChange;
+		bool bKeepVelocityOnStateChange;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		FFalconSignalData Signal;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)

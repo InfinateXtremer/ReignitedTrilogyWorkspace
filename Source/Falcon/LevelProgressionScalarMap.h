@@ -4,7 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "Engine/UserDefinedStruct.h"
-#include "EInventoryType.h"
+#include "InventoryType.h"
 #include "Engine/DataTable.h"
 #include "LevelProgressionScalarMap.generated.h"
 
@@ -21,13 +21,13 @@ struct FLevelProgressionScalarMap : public FTableRowBase
 public:
 
 	FLevelProgressionScalarMap()
-		: EInventoryType()
+		: InventoryType()
 		, typeScalarMap()
 	{}
 
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	TEnumAsByte<EInventoryType> EInventoryType;
+	TEnumAsByte<EInventoryType> InventoryType;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		float typeScalarMap;
 	

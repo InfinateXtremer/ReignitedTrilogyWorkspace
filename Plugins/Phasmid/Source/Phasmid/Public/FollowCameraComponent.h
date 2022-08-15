@@ -84,7 +84,7 @@ public:
 		bool bStabilizeCameraOnSettingsChange;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		TEnumAsByte<enum EReenactCamInfo> ReenactCamInfo;
+		EReenactCamInfo ReenactCamInfo;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		bool bRecordCamInfo;

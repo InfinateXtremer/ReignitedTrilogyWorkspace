@@ -34,7 +34,9 @@ public class Phasmid : ModuleRules
 				"GameplayTags", 
 				"GameplayTasks",
 				"TfbWiseExtensions",
-				"AkAudio"
+				"AkAudio",
+				"InputCore",
+				"AIModule"
 				// ... add other public dependencies that you statically link with here ...
 			}
 			);
@@ -44,6 +46,7 @@ public class Phasmid : ModuleRules
 			new string[]
 			{
 				"CoreUObject",
+				"Core",
 				"Engine",
 				"Slate",
 				"SlateCore",
