@@ -8,7 +8,7 @@
 #include "PhasmidDamageInterface.generated.h"
 
 // This class does not need to be modified.
-UINTERFACE(MinimalAPI)
+UINTERFACE(MinimalAPI, Blueprintable)
 class UPhasmidDamageInterface : public UInterface
 {
 	GENERATED_BODY()

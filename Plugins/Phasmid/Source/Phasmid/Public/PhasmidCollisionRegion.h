@@ -67,10 +67,10 @@ public:
 	class AActor* RegionOwner;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	ECollisionRegionShape Shape;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	TSet<FPhasmidCollisionOverlapInfo> OverlappedActors;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	TSet<FPhasmidCollisionOverlapInfo> OverlapEndedActors;
+	//UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	//TSet<FPhasmidCollisionOverlapInfo> OverlappedActors;
+	//UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	//TSet<FPhasmidCollisionOverlapInfo> OverlapEndedActors;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	FPhasmidDamageGroup DamageGroup;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)

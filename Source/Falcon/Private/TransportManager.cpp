@@ -11,6 +11,11 @@ ATransportManager::ATransportManager()
 
 }
 
+TEnumAsByte<EManagerState> ATransportManager::WaitForAddToWorld()
+{
+	return TEnumAsByte<EManagerState>();
+}
+
 // Called when the game starts or when spawned
 void ATransportManager::BeginPlay()
 {
