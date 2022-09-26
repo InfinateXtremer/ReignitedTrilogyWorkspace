@@ -4,8 +4,12 @@
 
 #include "CoreMinimal.h"
 #include "PhasmidLightingManager.h"
-#include "LevelTransportRecord.h"
 #include "ManagerState.h"
+#include "MasterLevelDataTable.h"
+#include "FalconLoadEnums.h"
+#include "LevelRecordType.h"
+#include "LevelTransportType.h"
+#include "Engine/LatentActionManager.h"
 #include "GameFramework/Actor.h"
 #include "TransportManager.generated.h"
 
@@ -73,29 +77,52 @@ public:
 	UFUNCTION(BlueprintCallable, meta = (WorldContext = "WorldContextObject"))
 	TEnumAsByte<EManagerState> WaitForAddToWorld();
 
-	/*
-	void UnloadTransportLevelsExcept(FMasterLevelData SavedRecord, bool unloadActiveTransportLevel);
-	void UnloadTransportLevels(bool unloadActiveTransportLevel);
-	void TurnLightingManagerOn();
-	void TurnLightingManagerOff();
-	TEnumAsByte<EManagerState> TickUnloadingLevels();
-	TEnumAsByte<EManagerState> TickNotifyDelay();
-	TEnumAsByte<EManagerState> TickLoadingLevels();
-	TEnumAsByte<EManagerState> TickIdle();
-	void SubLevelUnloadCompleted();
-	void StartAtLevel(const class UObject* WorldContextObject, const FName& LevelPath, const TArray<FName> sublevelNames, bool isRestart, TEnumAsByte<EFalconLoadScreen::Type> loadScreenType, FString Checkpoint, FLatentActionInfo LatentInfo);
-	void ShowInventoryUI();
-	void SetIncomingLighting();
-	void SetActiveLevelVisibility(bool bIsVisible);
-	void QueueTransport(const class UObject* WorldContextObject, const FName& LevelPath, const TArray<FName> sublevelNames, TEnumAsByte<ELevelTransportType> transportType, TEnumAsByte<ELevelRecordType> recordType, bool bMakeVisibleAfterLoad, FString Checkpoint, FLatentActionInfo LatentInfo, bool completeLoad, class APortal* iSourcePortal, class APortal* iTargetPortal);
-	TEnumAsByte<EManagerState> Notify();
-	class ULevel* GetCurrentSublevelWithString(FString substring);
-	class AActor* FindPlayerStartActor(const class UObject* WorldContextObject, FString ActorName, FString LevelName);
-	class APortal* FindPlayerSpawnTransform(const class UObject* WorldContextObject, FString ActorName, FTransform& outSpawnTransform, FString LevelName);
-	void CallOnPlayerReadyS3();
-	void CallOnPlayerReady();
 
-	*/
+	UFUNCTION(BlueprintCallable, meta = (WorldContext = "WorldContextObject"))
+	void UnloadTransportLevelsExcept(FMasterLevelData SavedRecord, bool unloadActiveTransportLevel);
+	UFUNCTION(BlueprintCallable, meta = (WorldContext = "WorldContextObject"))
+	void UnloadTransportLevels(bool unloadActiveTransportLevel);
+	UFUNCTION(BlueprintCallable, meta = (WorldContext = "WorldContextObject"))
+	void TurnLightingManagerOn();
+	UFUNCTION(BlueprintCallable, meta = (WorldContext = "WorldContextObject"))
+	void TurnLightingManagerOff();
+	UFUNCTION(BlueprintCallable, meta = (WorldContext = "WorldContextObject"))
+	TEnumAsByte<EManagerState> TickUnloadingLevels();
+	UFUNCTION(BlueprintCallable, meta = (WorldContext = "WorldContextObject"))
+	TEnumAsByte<EManagerState> TickNotifyDelay();
+	UFUNCTION(BlueprintCallable, meta = (WorldContext = "WorldContextObject"))
+	TEnumAsByte<EManagerState> TickLoadingLevels();
+	UFUNCTION(BlueprintCallable, meta = (WorldContext = "WorldContextObject"))
+	TEnumAsByte<EManagerState> TickIdle();
+	UFUNCTION(BlueprintCallable, meta = (WorldContext = "WorldContextObject"))
+	void SubLevelUnloadCompleted();
+
+
+	UFUNCTION(BlueprintCallable, meta = (WorldContext = "WorldContextObject"))
+	void StartAtLevel(const class UObject* WorldContextObject, const FName& LevelPath, const TArray<FName> sublevelNames, bool isRestart, TEnumAsByte<EFalconLoadScreen::Type> loadScreenType, FString Checkpoint, FLatentActionInfo LatentInfo);
+	UFUNCTION(BlueprintCallable, meta = (WorldContext = "WorldContextObject"))
+	void ShowInventoryUI();
+	UFUNCTION(BlueprintCallable, meta = (WorldContext = "WorldContextObject"))
+	void SetIncomingLighting();
+	UFUNCTION(BlueprintCallable, meta = (WorldContext = "WorldContextObject"))
+	void SetActiveLevelVisibility(bool bIsVisible);
+
+	UFUNCTION(BlueprintCallable, meta = (WorldContext = "WorldContextObject"))
+	void QueueTransport(const class UObject* WorldContextObject, const FName& LevelPath, const TArray<FName> sublevelNames, TEnumAsByte<ELevelTransportType> transportType, TEnumAsByte<ELevelRecordType> recordType, bool bMakeVisibleAfterLoad, FString Checkpoint, FLatentActionInfo LatentInfo, bool completeLoad, class APortal* iSourcePortal, class APortal* iTargetPortal);
+	
+
+	UFUNCTION(BlueprintCallable, meta = (WorldContext = "WorldContextObject"))
+	TEnumAsByte<EManagerState> Notify();
+	UFUNCTION(BlueprintCallable, meta = (WorldContext = "WorldContextObject"))
+	class ULevel* GetCurrentSublevelWithString(FString substring);
+	UFUNCTION(BlueprintCallable, meta = (WorldContext = "WorldContextObject"))
+	class AActor* FindPlayerStartActor(const class UObject* WorldContextObject, FString ActorName, FString LevelName);
+	UFUNCTION(BlueprintCallable, meta = (WorldContext = "WorldContextObject"))
+	class APortal* FindPlayerSpawnTransform(const class UObject* WorldContextObject, FString ActorName, FTransform& outSpawnTransform, FString LevelName);
+	UFUNCTION(BlueprintCallable, meta = (WorldContext = "WorldContextObject"))
+	void CallOnPlayerReadyS3();
+	UFUNCTION(BlueprintCallable, meta = (WorldContext = "WorldContextObject"))
+	void CallOnPlayerReady();
 
 protected:
 	// Called when the game starts or when spawned

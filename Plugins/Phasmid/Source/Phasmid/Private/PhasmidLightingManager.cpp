@@ -11,6 +11,8 @@ APhasmidLightingManager::APhasmidLightingManager()
 
 }
 
+
+
 void APhasmidLightingManager::TransitionLightingManagers(float fadeTime, APhasmidLightingManager * OutgoingLightingManager, APhasmidLightingManager * IncomingLightingManager)
 {
 }

@@ -19,7 +19,7 @@ class FALCON_API ULevelTransportTypeENum : public UUserDefinedEnum
 	
 };
 
-UENUM(BlueprintType)
+UENUM()
 enum ELevelTransportType {
 	ELTT_LOAD_ONLY = 0,
 	ELTT_UNLOAD_CURRENT_LOAD_NEW = 1,
@@ -27,4 +27,3 @@ enum ELevelTransportType {
 	ELTT_DELAYED_START = 3,
 	ELTT_MAX = 4,
 };
-	
