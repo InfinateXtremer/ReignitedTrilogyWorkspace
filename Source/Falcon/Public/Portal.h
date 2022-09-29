@@ -21,15 +21,15 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	bool PreloadActive;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Meta = (ExposeOnSpawn = true))
 	FString PartnerPortalName;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Meta = (ExposeOnSpawn = true))
 	FString PortalText;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Meta = (ExposeOnSpawn = true))
 	FDataTableRowHandle PartnerPortalRow;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Meta = (ExposeOnSpawn = true))
 	class AMasterLightingManager* LightingManager;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Meta = (ExposeOnSpawn = true))
 	class UBoxComponent* TransitionTrigger;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	float HandlePlayerSpawnDelay;
@@ -41,7 +41,7 @@ public:
 	float AnimPlayRate;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	float SetLevelVisiblePercentage;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Meta = (ExposeOnSpawn = true))
 	class APortal* PartnerPortal;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	TArray<class AActor*> ChildActors;
@@ -49,11 +49,11 @@ public:
 	class ACharacter* PlayerChar;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	class APlayerController* PlayerController;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Meta = (ExposeOnSpawn = true))
 	bool EnableTransport;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	class ATransportManager* TransportManager;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Meta = (ExposeOnSpawn = true))
 	bool CollectiblesEnabled;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	FRotator RotationSave;
@@ -65,7 +65,7 @@ public:
 	bool ShowDownloadMessage;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	bool DemoMode;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Meta = (ExposeOnSpawn = true))
 	FString LevelName;
 	
 	UFUNCTION(BlueprintCallable, meta = (WorldContext = "WorldContextObject"))
