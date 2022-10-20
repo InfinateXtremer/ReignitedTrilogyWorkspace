@@ -7,7 +7,7 @@
 #include "GameFramework/Actor.h"
 #include "PhasmidLevelInventoryMonitor.generated.h"
 
-UCLASS()
+UCLASS(Blueprintable)
 class PHASMID_API APhasmidLevelInventoryMonitor : public AActor
 {
 	GENERATED_BODY()

@@ -25,8 +25,8 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	class AActor* SkySphere;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	int32 ShouldCapture;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	bool ShouldCapture;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Meta = (ExposeOnSpawn = true))
 	class USkyLightComponent* MasterSkyLight;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	class APhasmidLightingManager* CurrentLightingManager;

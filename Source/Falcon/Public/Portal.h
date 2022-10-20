@@ -6,6 +6,7 @@
 #include "PhasmidPlayerStart.h"
 #include "MasterLightingManager.h"
 #include "TransportManager.h"
+#include "Components/BoxComponent.h"
 #include "Engine/DataTable.h"
 #include "Portal.generated.h"
 
@@ -19,15 +20,18 @@ class FALCON_API APortal : public APhasmidPlayerStart
 	
 public:
 
+	APortal();
+
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	bool PreloadActive;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Meta = (ExposeOnSpawn = true))
 	FString PartnerPortalName;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Meta = (ExposeOnSpawn = true))
+	UPROPERTY(BlueprintReadWrite, Meta = (ExposeOnSpawn = false))
 	FString PortalText;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Meta = (ExposeOnSpawn = true))
 	FDataTableRowHandle PartnerPortalRow;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Meta = (ExposeOnSpawn = true))
+	//UPROPERTY(EditAnywhere, BlueprintReadWrite, Meta = (ExposeOnSpawn = true))
 	class AMasterLightingManager* LightingManager;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Meta = (ExposeOnSpawn = true))
 	class UBoxComponent* TransitionTrigger;
@@ -39,19 +43,19 @@ public:
 	bool prepatchready;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	float AnimPlayRate;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	UPROPERTY(BlueprintReadWrite)
 	float SetLevelVisiblePercentage;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Meta = (ExposeOnSpawn = true))
+	UPROPERTY(BlueprintReadWrite, Meta = (ExposeOnSpawn = true))
 	class APortal* PartnerPortal;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	UPROPERTY(BlueprintReadWrite)
 	TArray<class AActor*> ChildActors;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	UPROPERTY(BlueprintReadWrite)
 	class ACharacter* PlayerChar;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	UPROPERTY(BlueprintReadWrite)
 	class APlayerController* PlayerController;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Meta = (ExposeOnSpawn = true))
 	bool EnableTransport;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	UPROPERTY(BlueprintReadWrite)
 	class ATransportManager* TransportManager;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Meta = (ExposeOnSpawn = true))
 	bool CollectiblesEnabled;
@@ -59,13 +63,13 @@ public:
 	FRotator RotationSave;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	bool PreloadEnabled;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	UPROPERTY(BlueprintReadWrite)
 	bool ReadyToRemove;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	UPROPERTY(BlueprintReadWrite)
 	bool ShowDownloadMessage;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	UPROPERTY(BlueprintReadWrite)
 	bool DemoMode;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Meta = (ExposeOnSpawn = true))
+	UPROPERTY(BlueprintReadWrite, Meta = (ExposeOnSpawn = true))
 	FString LevelName;
 	
 	UFUNCTION(BlueprintCallable, meta = (WorldContext = "WorldContextObject"))

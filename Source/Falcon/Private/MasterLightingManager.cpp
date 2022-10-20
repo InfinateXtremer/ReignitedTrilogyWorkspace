@@ -1,10 +1,13 @@
 
 
 #include "MasterLightingManager.h"
+#include "Components/SkyLightComponent.h"
 
 void AMasterLightingManager::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+
+	MasterSkyLight = CreateDefaultSubobject<USkyLightComponent>(TEXT("MasterSkyLight"));
 }
 
 void AMasterLightingManager::SetLightingManager(const UObject * WorldContextObject, APhasmidLightingManager * OutgoingLightingManager, APhasmidLightingManager * IncomingLightingManager, bool Delay)

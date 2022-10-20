@@ -1,10 +1,15 @@
 
 
 #include "Portal.h"
+#include "Components/BoxComponent.h"
 
 
+APortal::APortal()
+{
+	PreloadActive = true;
 
-
+	TransitionTrigger = CreateDefaultSubobject<UBoxComponent>(TEXT("TransitionTrigger"));
+}
 
 void APortal::UnTriggerPreload()
 {
@@ -94,3 +99,4 @@ void APortal::BeginPlay()
 void APortal::AddCamLocationSlave(FTransform slaveLocation, float Duration)
 {
 }
+
