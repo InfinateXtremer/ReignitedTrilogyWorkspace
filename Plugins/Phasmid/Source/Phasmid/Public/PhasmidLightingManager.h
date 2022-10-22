@@ -16,7 +16,7 @@ public:
 	APhasmidLightingManager();
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	TArray<class UObject*> Lights;
+	TArray<class AActor*> Lights;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	FLinearColor LevelTransitionColor;
 
