@@ -3,6 +3,7 @@ Type:Static
 Guid:DE97EEBD-4006-4936-4A0B-FA8B7E54926B
 ParentGuid:00000000-0000-0000-0000-000000000000
 
+/GameplayCommon/LevelMechanics/HarmfulTerrain/BP_FallToDeath.BP_FallToDeath
 /GameplayCommon/LevelMechanics/HarmfulTerrain/BP_HarmfulTerrain.BP_HarmfulTerrain
 /LS102_StoneHill/Blueprints/LS102_Border.LS102_Border
 /LS324_BentleysOutpost/Blueprints/BP_LS324_Gong.BP_LS324_Gong
