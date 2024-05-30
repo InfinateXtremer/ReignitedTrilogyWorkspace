@@ -5,5 +5,6 @@ ParentGuid:00000000-0000-0000-0000-000000000000
 
 /GameplayCommon/LevelMechanics/HarmfulTerrain/BP_FallToDeath.BP_FallToDeath
 /GameplayCommon/LevelMechanics/HarmfulTerrain/BP_HarmfulTerrain.BP_HarmfulTerrain
+/GameplayCommon/LevelMechanics/Spyro_Swim/BP_SwimTriggerVolume.BP_SwimTriggerVolume
 /LS102_StoneHill/Blueprints/LS102_Border.LS102_Border
 /LS324_BentleysOutpost/Blueprints/BP_LS324_Gong.BP_LS324_Gong
