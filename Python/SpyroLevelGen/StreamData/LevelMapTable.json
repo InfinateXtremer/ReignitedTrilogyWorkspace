@@ -1,0 +1,189 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "LevelMapTable",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "UserDefinedStruct LevelInfoStruct",
+        "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/LevelInfoStruct.1"
+      }
+    },
+    "Rows": {
+      "/LS101_ArtisansHome/Maps/": {
+        "levelpath_2_612DE99541905B6834F840AA78A52B76": "/LS101_ArtisansHome/Maps/",
+        "homelevel_12_ED1E54FE4E3391AF6EC891B348C41102": "None",
+        "displayName_10_C5197E814C6E252831AEB18AA91091F8": "Artisans"
+      },
+      "/LS102_StoneHill/Maps/": {
+        "levelpath_2_612DE99541905B6834F840AA78A52B76": "/LS102_StoneHill/Maps/",
+        "homelevel_12_ED1E54FE4E3391AF6EC891B348C41102": "/LS101_ArtisansHome/Maps/",
+        "displayName_10_C5197E814C6E252831AEB18AA91091F8": "Stone Hill"
+      },
+      "/LS103_DarkHollow/Maps/": {
+        "levelpath_2_612DE99541905B6834F840AA78A52B76": "/LS103_DarkHollow/Maps/",
+        "homelevel_12_ED1E54FE4E3391AF6EC891B348C41102": "/LS101_ArtisansHome/Maps/",
+        "displayName_10_C5197E814C6E252831AEB18AA91091F8": "Dark Hollow"
+      },
+      "/LS104_Townsquare/Maps/": {
+        "levelpath_2_612DE99541905B6834F840AA78A52B76": "/LS104_Townsquare/Maps/",
+        "homelevel_12_ED1E54FE4E3391AF6EC891B348C41102": "/LS101_ArtisansHome/Maps/",
+        "displayName_10_C5197E814C6E252831AEB18AA91091F8": "Town Square"
+      },
+      "/LS105_Sunnyflight/Maps/": {
+        "levelpath_2_612DE99541905B6834F840AA78A52B76": "/LS105_Sunnyflight/Maps/",
+        "homelevel_12_ED1E54FE4E3391AF6EC891B348C41102": "/LS101_ArtisansHome/Maps/",
+        "displayName_10_C5197E814C6E252831AEB18AA91091F8": "Sunny Flight"
+      },
+      "/LS106_Toasty/Maps/": {
+        "levelpath_2_612DE99541905B6834F840AA78A52B76": "/LS106_Toasty/Maps/",
+        "homelevel_12_ED1E54FE4E3391AF6EC891B348C41102": "/LS101_ArtisansHome/Maps/",
+        "displayName_10_C5197E814C6E252831AEB18AA91091F8": "Toasty"
+      },
+      "/LS107_PeacekeeperHome/Maps/": {
+        "levelpath_2_612DE99541905B6834F840AA78A52B76": "/LS107_PeacekeeperHome/Maps/",
+        "homelevel_12_ED1E54FE4E3391AF6EC891B348C41102": "None",
+        "displayName_10_C5197E814C6E252831AEB18AA91091F8": "Peacekeepers"
+      },
+      "/LS108_DryCanyon/Maps/": {
+        "levelpath_2_612DE99541905B6834F840AA78A52B76": "/LS108_DryCanyon/Maps/",
+        "homelevel_12_ED1E54FE4E3391AF6EC891B348C41102": "/LS107_PeacekeeperHome/Maps/",
+        "displayName_10_C5197E814C6E252831AEB18AA91091F8": "Dry Canyon"
+      },
+      "/LS109_CliffTown/Maps/": {
+        "levelpath_2_612DE99541905B6834F840AA78A52B76": "/LS109_CliffTown/Maps/",
+        "homelevel_12_ED1E54FE4E3391AF6EC891B348C41102": "/LS107_PeacekeeperHome/Maps/",
+        "displayName_10_C5197E814C6E252831AEB18AA91091F8": "Cliff Town"
+      },
+      "/LS110_IceCavern/Maps/": {
+        "levelpath_2_612DE99541905B6834F840AA78A52B76": "/LS110_IceCavern/Maps/",
+        "homelevel_12_ED1E54FE4E3391AF6EC891B348C41102": "/LS107_PeacekeeperHome/Maps/",
+        "displayName_10_C5197E814C6E252831AEB18AA91091F8": "Ice Cavern"
+      },
+      "/LS111_NightFlight/Maps/": {
+        "levelpath_2_612DE99541905B6834F840AA78A52B76": "/LS111_NightFlight/Maps/",
+        "homelevel_12_ED1E54FE4E3391AF6EC891B348C41102": "/LS107_PeacekeeperHome/Maps/",
+        "displayName_10_C5197E814C6E252831AEB18AA91091F8": "Night Flight"
+      },
+      "/LS112_DrShemp/Maps/": {
+        "levelpath_2_612DE99541905B6834F840AA78A52B76": "/LS112_DrShemp/Maps/",
+        "homelevel_12_ED1E54FE4E3391AF6EC891B348C41102": "/LS107_PeacekeeperHome/Maps/",
+        "displayName_10_C5197E814C6E252831AEB18AA91091F8": "Doctor Shemp"
+      },
+      "/LS113_MagicHome/Maps/": {
+        "levelpath_2_612DE99541905B6834F840AA78A52B76": "/LS113_MagicHome/Maps/",
+        "homelevel_12_ED1E54FE4E3391AF6EC891B348C41102": "None",
+        "displayName_10_C5197E814C6E252831AEB18AA91091F8": "Magic Crafters"
+      },
+      "/LS114_AlpineRidge/Maps/": {
+        "levelpath_2_612DE99541905B6834F840AA78A52B76": "/LS114_AlpineRidge/Maps/",
+        "homelevel_12_ED1E54FE4E3391AF6EC891B348C41102": "/LS113_MagicHome/Maps/",
+        "displayName_10_C5197E814C6E252831AEB18AA91091F8": "Alpine Ridge"
+      },
+      "/LS115_HighCaves/Maps/": {
+        "levelpath_2_612DE99541905B6834F840AA78A52B76": "/LS115_HighCaves/Maps/",
+        "homelevel_12_ED1E54FE4E3391AF6EC891B348C41102": "/LS113_MagicHome/Maps/",
+        "displayName_10_C5197E814C6E252831AEB18AA91091F8": "High Caves"
+      },
+      "/LS116_WizardPeak/Maps/": {
+        "levelpath_2_612DE99541905B6834F840AA78A52B76": "/LS116_WizardPeak/Maps/",
+        "homelevel_12_ED1E54FE4E3391AF6EC891B348C41102": "/LS113_MagicHome/Maps/",
+        "displayName_10_C5197E814C6E252831AEB18AA91091F8": "Wizard Peak"
+      },
+      "/LS117_CrystalFlight/Maps/": {
+        "levelpath_2_612DE99541905B6834F840AA78A52B76": "/LS117_CrystalFlight/Maps/",
+        "homelevel_12_ED1E54FE4E3391AF6EC891B348C41102": "/LS113_MagicHome/Maps/",
+        "displayName_10_C5197E814C6E252831AEB18AA91091F8": "Crystal Flight"
+      },
+      "/LS118_Blowhard/Maps/": {
+        "levelpath_2_612DE99541905B6834F840AA78A52B76": "/LS118_Blowhard/Maps/",
+        "homelevel_12_ED1E54FE4E3391AF6EC891B348C41102": "/LS113_MagicHome/Maps/",
+        "displayName_10_C5197E814C6E252831AEB18AA91091F8": "Blowhard"
+      },
+      "/LS119_BeastHome/Maps/": {
+        "levelpath_2_612DE99541905B6834F840AA78A52B76": "/LS119_BeastHome/Maps/",
+        "homelevel_12_ED1E54FE4E3391AF6EC891B348C41102": "None",
+        "displayName_10_C5197E814C6E252831AEB18AA91091F8": "Beast Makers"
+      },
+      "/LS120_TerraceVillage/Maps/": {
+        "levelpath_2_612DE99541905B6834F840AA78A52B76": "/LS120_TerraceVillage/Maps/",
+        "homelevel_12_ED1E54FE4E3391AF6EC891B348C41102": "/LS119_BeastHome/Maps/",
+        "displayName_10_C5197E814C6E252831AEB18AA91091F8": "Terrace Village"
+      },
+      "/LS121_MistyBog/Maps/": {
+        "levelpath_2_612DE99541905B6834F840AA78A52B76": "/LS121_MistyBog/Maps/",
+        "homelevel_12_ED1E54FE4E3391AF6EC891B348C41102": "/LS119_BeastHome/Maps/",
+        "displayName_10_C5197E814C6E252831AEB18AA91091F8": "Misty Bog"
+      },
+      "/LS122_TreeTops/Maps/": {
+        "levelpath_2_612DE99541905B6834F840AA78A52B76": "/LS122_TreeTops/Maps/",
+        "homelevel_12_ED1E54FE4E3391AF6EC891B348C41102": "/LS119_BeastHome/Maps/",
+        "displayName_10_C5197E814C6E252831AEB18AA91091F8": "Tree Tops"
+      },
+      "/LS123_WildFlight/Maps/": {
+        "levelpath_2_612DE99541905B6834F840AA78A52B76": "/LS123_WildFlight/Maps/",
+        "homelevel_12_ED1E54FE4E3391AF6EC891B348C41102": "/LS119_BeastHome/Maps/",
+        "displayName_10_C5197E814C6E252831AEB18AA91091F8": "Wild Flight"
+      },
+      "/LS124_MetalHead/Maps/": {
+        "levelpath_2_612DE99541905B6834F840AA78A52B76": "/LS124_MetalHead/Maps/",
+        "homelevel_12_ED1E54FE4E3391AF6EC891B348C41102": "/LS119_BeastHome/Maps/",
+        "displayName_10_C5197E814C6E252831AEB18AA91091F8": "Metalhead"
+      },
+      "/LS125_DreamWeaverHome/Maps/": {
+        "levelpath_2_612DE99541905B6834F840AA78A52B76": "/LS125_DreamWeaverHome/Maps/",
+        "homelevel_12_ED1E54FE4E3391AF6EC891B348C41102": "None",
+        "displayName_10_C5197E814C6E252831AEB18AA91091F8": "Dream Weaver"
+      },
+      "/LS126_DarkPassage/Maps/": {
+        "levelpath_2_612DE99541905B6834F840AA78A52B76": "/LS126_DarkPassage/Maps/",
+        "homelevel_12_ED1E54FE4E3391AF6EC891B348C41102": "/LS125_DreamWeaverHome/Maps/",
+        "displayName_10_C5197E814C6E252831AEB18AA91091F8": "Dark Passage"
+      },
+      "/LS127_LoftyCastle/Maps/": {
+        "levelpath_2_612DE99541905B6834F840AA78A52B76": "/LS127_LoftyCastle/Maps/",
+        "homelevel_12_ED1E54FE4E3391AF6EC891B348C41102": "/LS125_DreamWeaverHome/Maps/",
+        "displayName_10_C5197E814C6E252831AEB18AA91091F8": "Lofty Castle"
+      },
+      "/LS128_HauntedTowers/Maps/": {
+        "levelpath_2_612DE99541905B6834F840AA78A52B76": "/LS128_HauntedTowers/Maps/",
+        "homelevel_12_ED1E54FE4E3391AF6EC891B348C41102": "/LS125_DreamWeaverHome/Maps/",
+        "displayName_10_C5197E814C6E252831AEB18AA91091F8": "Haunted Towers"
+      },
+      "/LS129_IcyFlight/Maps/": {
+        "levelpath_2_612DE99541905B6834F840AA78A52B76": "/LS129_IcyFlight/Maps/",
+        "homelevel_12_ED1E54FE4E3391AF6EC891B348C41102": "/LS125_DreamWeaverHome/Maps/",
+        "displayName_10_C5197E814C6E252831AEB18AA91091F8": "Icy Flight"
+      },
+      "/LS130_Jacques/Maps/": {
+        "levelpath_2_612DE99541905B6834F840AA78A52B76": "/LS130_Jacques/Maps/",
+        "homelevel_12_ED1E54FE4E3391AF6EC891B348C41102": "/LS125_DreamWeaverHome/Maps/",
+        "displayName_10_C5197E814C6E252831AEB18AA91091F8": "Jacques"
+      },
+      "/LS131_GnastyHome/Maps/": {
+        "levelpath_2_612DE99541905B6834F840AA78A52B76": "/LS131_GnastyHome/Maps/",
+        "homelevel_12_ED1E54FE4E3391AF6EC891B348C41102": "None",
+        "displayName_10_C5197E814C6E252831AEB18AA91091F8": "Gnasty's World"
+      },
+      "/LS132_GnorcCove/Maps/": {
+        "levelpath_2_612DE99541905B6834F840AA78A52B76": "/LS132_GnorcCove/Maps/",
+        "homelevel_12_ED1E54FE4E3391AF6EC891B348C41102": "/LS131_GnastyHome/Maps/",
+        "displayName_10_C5197E814C6E252831AEB18AA91091F8": "Gnorc Cove"
+      },
+      "/LS133_TwlightHarbour/Maps/": {
+        "levelpath_2_612DE99541905B6834F840AA78A52B76": "/LS133_TwlightHarbour/Maps/",
+        "homelevel_12_ED1E54FE4E3391AF6EC891B348C41102": "/LS131_GnastyHome/Maps/",
+        "displayName_10_C5197E814C6E252831AEB18AA91091F8": "Twilight Harbour"
+      },
+      "/LS134_GnastyGnorc/Maps/": {
+        "levelpath_2_612DE99541905B6834F840AA78A52B76": "/LS134_GnastyGnorc/Maps/",
+        "homelevel_12_ED1E54FE4E3391AF6EC891B348C41102": "/LS131_GnastyHome/Maps/",
+        "displayName_10_C5197E814C6E252831AEB18AA91091F8": "Gnasty Gnorc"
+      },
+      "/LS135_GnastyLoot/Maps/": {
+        "levelpath_2_612DE99541905B6834F840AA78A52B76": "/LS135_GnastyLoot/Maps/",
+        "homelevel_12_ED1E54FE4E3391AF6EC891B348C41102": "/LS131_GnastyHome/Maps/",
+        "displayName_10_C5197E814C6E252831AEB18AA91091F8": "Gnasty Loot"
+      }
+    }
+  }
+]

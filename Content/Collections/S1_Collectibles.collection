@@ -1,0 +1,10 @@
+FileVersion:2
+Type:Static
+Guid:D599EDFC-4713-D301-1ECC-82988A709DB1
+ParentGuid:DE97EEBD-4006-4936-4A0B-FA8B7E54926B
+
+/GameplayCommon/LevelMechanics/Loot/Loot_Spyro1/BP_S1_Gem_Blue.BP_S1_Gem_Blue
+/GameplayCommon/LevelMechanics/Loot/Loot_Spyro1/BP_S1_Gem_Green.BP_S1_Gem_Green
+/GameplayCommon/LevelMechanics/Loot/Loot_Spyro1/BP_S1_Gem_Purple.BP_S1_Gem_Purple
+/GameplayCommon/LevelMechanics/Loot/Loot_Spyro1/BP_S1_Gem_Red.BP_S1_Gem_Red
+/GameplayCommon/LevelMechanics/Loot/Loot_Spyro1/BP_S1_Gem_Yellow.BP_S1_Gem_Yellow

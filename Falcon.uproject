@@ -3,9 +3,70 @@
 	"EngineAssociation": "4.19",
 	"Category": "",
 	"Description": "",
+	"Modules": [
+		{
+			"Name": "Falcon",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Core",
+				"AIModule",
+				"Engine",
+				"CoreUObject",
+				"GameplayTasks",
+				"GameplayAbilities"
+			]
+		},
+		{
+			"Name": "ClothingSystemRuntime",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "GeometryCache",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
 	"Plugins": [
 		{
 			"Name": "GameplayAbilities",
+			"Enabled": true
+		},
+		{
+			"Name": "TfbContentBrowser",
+			"Enabled": true
+		},
+		{
+			"Name": "TfbAdjustLocation",
+			"Enabled": true
+		},
+		{
+			"Name": "Wwise",
+			"Enabled": true
+		},
+		{
+			"Name": "Phasmid",
+			"Enabled": true
+		},
+		{
+			"Name": "TfbEditorExtensions",
+			"Enabled": true
+		},
+		{
+			"Name": "TfbPluginTool",
+			"Enabled": true
+		},
+		{
+			"Name": "TfbWiseExtensions",
+			"Enabled": true
+		},
+		{
+			"Name": "UnrealEnginePython",
+			"Enabled": true
+		},
+		{
+			"Name": "TfbPlugin",
 			"Enabled": true
 		},
 		{
@@ -13,79 +74,48 @@
 			"Enabled": true
 		},
 		{
-			"Name": "AndroidDeviceProfileSelector",
-			"Enabled": false
+			"Name": "TfbWEEDS",
+			"Enabled": true
 		},
 		{
-			"Name": "AndroidMedia",
-			"Enabled": false
+			"Name": "OnlineSubsystem",
+			"Enabled": true
 		},
 		{
-			"Name": "AndroidMoviePlayer",
-			"Enabled": false
+			"Name": "MfMedia",
+			"Enabled": true
 		},
 		{
-			"Name": "OnlineSubsystemGooglePlay",
-			"Enabled": false,
-			"SupportedTargetPlatforms": [
-				"Android"
+			"Name": "OnlineSubsystemSteam",
+			"Enabled": true,
+			"WhitelistPlatforms": [
+				"Win32",
+				"Win64"
 			]
-		},
-		{
-			"Name": "AndroidPermission",
-			"Enabled": false
-		},
-		{
-			"Name": "GoogleCloudMessaging",
-			"Enabled": false
-		},
-		{
-			"Name": "AppleARKit",
-			"Enabled": false
-		},
-		{
-			"Name": "LocationServicesBPLibrary",
-			"Enabled": false
-		},
-		{
-			"Name": "ExampleDeviceProfileSelector",
-			"Enabled": false
-		},
-		{
-			"Name": "IOSDeviceProfileSelector",
-			"Enabled": false
-		},
-		{
-			"Name": "LinuxDeviceProfileSelector",
-			"Enabled": false
-		},
-		{
-			"Name": "ActorSequenceEditor",
-			"Enabled": true
-		},
-		{
-			"Name": "ProxyLODPlugin",
-			"Enabled": true
-		},
-		{
-			"Name": "PythonScriptPlugin",
-			"Enabled": true
 		},
 		{
 			"Name": "SteamController",
 			"Enabled": true
 		},
 		{
-			"Name": "OnlineSubsystemIOS",
-			"Enabled": false,
+			"Name": "WinDualShock",
+			"Enabled": true,
+			"WhitelistPlatforms": [
+				"Win32",
+				"Win64"
+			],
 			"SupportedTargetPlatforms": [
-				"IOS",
-				"TVOS"
+				"Win64"
 			]
 		},
 		{
 			"Name": "GLTFImporter",
 			"Enabled": true
 		}
+	],
+	"TargetPlatforms": [
+		"PS4",
+		"WindowsNoEditor",
+		"XboxOne"
 	]
 }

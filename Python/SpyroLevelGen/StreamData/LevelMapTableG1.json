@@ -1,0 +1,542 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "LevelMapTableG1",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct LevelMapStruct",
+        "ObjectPath": "/Script/Falcon"
+      }
+    },
+    "Rows": {
+      "/LS101_ArtisansHome/Maps/": {
+        "levelPath": "/LS101_ArtisansHome/Maps/",
+        "homeLevel": "None",
+        "displayName": "Artisans",
+        "bossLevel": false,
+        "flightLevel": false,
+        "excludeFromGameProgressionCompletion": false,
+        "excludeFromGameProgressionCompletionScalar": 0.0,
+        "progressionMap": {
+          "typeScalarMap": {
+            "EInventoryType::EIT_Treasure": 1.0,
+            "EInventoryType::EIT_Dragon": 25.0
+          }
+        }
+      },
+      "/LS102_StoneHill/Maps/": {
+        "levelPath": "/LS102_StoneHill/Maps/",
+        "homeLevel": "/LS101_ArtisansHome/Maps/",
+        "displayName": "Stone Hill",
+        "bossLevel": false,
+        "flightLevel": false,
+        "excludeFromGameProgressionCompletion": false,
+        "excludeFromGameProgressionCompletionScalar": 0.0,
+        "progressionMap": {
+          "typeScalarMap": {
+            "EInventoryType::EIT_Treasure": 1.0,
+            "EInventoryType::EIT_Dragon": 60.0,
+            "EInventoryType::EIT_Egg": 50.0
+          }
+        }
+      },
+      "/LS103_DarkHollow/Maps/": {
+        "levelPath": "/LS103_DarkHollow/Maps/",
+        "homeLevel": "/LS101_ArtisansHome/Maps/",
+        "displayName": "Dark Hollow",
+        "bossLevel": false,
+        "flightLevel": false,
+        "excludeFromGameProgressionCompletion": false,
+        "excludeFromGameProgressionCompletionScalar": 0.0,
+        "progressionMap": {
+          "typeScalarMap": {
+            "EInventoryType::EIT_Treasure": 3.0,
+            "EInventoryType::EIT_Dragon": 100.0
+          }
+        }
+      },
+      "/LS104_Townsquare/Maps/": {
+        "levelPath": "/LS104_Townsquare/Maps/",
+        "homeLevel": "/LS101_ArtisansHome/Maps/",
+        "displayName": "Town Square",
+        "bossLevel": false,
+        "flightLevel": false,
+        "excludeFromGameProgressionCompletion": false,
+        "excludeFromGameProgressionCompletionScalar": 0.0,
+        "progressionMap": {
+          "typeScalarMap": {
+            "EInventoryType::EIT_Treasure": 1.0,
+            "EInventoryType::EIT_Dragon": 60.0,
+            "EInventoryType::EIT_Egg": 50.0
+          }
+        }
+      },
+      "/LS105_Sunnyflight/Maps/": {
+        "levelPath": "/LS105_Sunnyflight/Maps/",
+        "homeLevel": "/LS101_ArtisansHome/Maps/",
+        "displayName": "Sunny Flight",
+        "bossLevel": false,
+        "flightLevel": true,
+        "excludeFromGameProgressionCompletion": false,
+        "excludeFromGameProgressionCompletionScalar": 0.0,
+        "progressionMap": {
+          "typeScalarMap": {
+            "EInventoryType::EIT_Treasure": 1.0
+          }
+        }
+      },
+      "/LS106_Toasty/Maps/": {
+        "levelPath": "/LS106_Toasty/Maps/",
+        "homeLevel": "/LS101_ArtisansHome/Maps/",
+        "displayName": "Toasty",
+        "bossLevel": true,
+        "flightLevel": false,
+        "excludeFromGameProgressionCompletion": false,
+        "excludeFromGameProgressionCompletionScalar": 0.0,
+        "progressionMap": {
+          "typeScalarMap": {
+            "EInventoryType::EIT_Treasure": 1.0,
+            "EInventoryType::EIT_Dragon": 100.0
+          }
+        }
+      },
+      "/LS107_PeacekeeperHome/Maps/": {
+        "levelPath": "/LS107_PeacekeeperHome/Maps/",
+        "homeLevel": "None",
+        "displayName": "Peacekeepers",
+        "bossLevel": false,
+        "flightLevel": false,
+        "excludeFromGameProgressionCompletion": false,
+        "excludeFromGameProgressionCompletionScalar": 0.0,
+        "progressionMap": {
+          "typeScalarMap": {
+            "EInventoryType::EIT_Treasure": 1.0,
+            "EInventoryType::EIT_Dragon": 85.0,
+            "EInventoryType::EIT_Egg": 50.0
+          }
+        }
+      },
+      "/LS108_DryCanyon/Maps/": {
+        "levelPath": "/LS108_DryCanyon/Maps/",
+        "homeLevel": "/LS107_PeacekeeperHome/Maps/",
+        "displayName": "Dry Canyon",
+        "bossLevel": false,
+        "flightLevel": false,
+        "excludeFromGameProgressionCompletion": false,
+        "excludeFromGameProgressionCompletionScalar": 0.0,
+        "progressionMap": {
+          "typeScalarMap": {
+            "EInventoryType::EIT_Treasure": 1.0,
+            "EInventoryType::EIT_Dragon": 125.0,
+            "EInventoryType::EIT_Egg": 100.0
+          }
+        }
+      },
+      "/LS109_CliffTown/Maps/": {
+        "levelPath": "/LS109_CliffTown/Maps/",
+        "homeLevel": "/LS107_PeacekeeperHome/Maps/",
+        "displayName": "Cliff Town",
+        "bossLevel": false,
+        "flightLevel": false,
+        "excludeFromGameProgressionCompletion": false,
+        "excludeFromGameProgressionCompletionScalar": 0.0,
+        "progressionMap": {
+          "typeScalarMap": {
+            "EInventoryType::EIT_Treasure": 3.0,
+            "EInventoryType::EIT_Dragon": 500.0,
+            "EInventoryType::EIT_Egg": 300.0
+          }
+        }
+      },
+      "/LS110_IceCavern/Maps/": {
+        "levelPath": "/LS110_IceCavern/Maps/",
+        "homeLevel": "/LS107_PeacekeeperHome/Maps/",
+        "displayName": "Ice Cavern",
+        "bossLevel": false,
+        "flightLevel": false,
+        "excludeFromGameProgressionCompletion": false,
+        "excludeFromGameProgressionCompletionScalar": 0.0,
+        "progressionMap": {
+          "typeScalarMap": {
+            "EInventoryType::EIT_Treasure": 125.0,
+            "EInventoryType::EIT_Dragon": 10000.0
+          }
+        }
+      },
+      "/LS111_NightFlight/Maps/": {
+        "levelPath": "/LS111_NightFlight/Maps/",
+        "homeLevel": "/LS107_PeacekeeperHome/Maps/",
+        "displayName": "Night Flight",
+        "bossLevel": false,
+        "flightLevel": true,
+        "excludeFromGameProgressionCompletion": false,
+        "excludeFromGameProgressionCompletionScalar": 0.0,
+        "progressionMap": {
+          "typeScalarMap": {
+            "EInventoryType::EIT_Treasure": 1.0
+          }
+        }
+      },
+      "/LS112_DrShemp/Maps/": {
+        "levelPath": "/LS112_DrShemp/Maps/",
+        "homeLevel": "/LS107_PeacekeeperHome/Maps/",
+        "displayName": "Doctor Shemp",
+        "bossLevel": true,
+        "flightLevel": false,
+        "excludeFromGameProgressionCompletion": false,
+        "excludeFromGameProgressionCompletionScalar": 0.0,
+        "progressionMap": {
+          "typeScalarMap": {
+            "EInventoryType::EIT_Treasure": 1.0,
+            "EInventoryType::EIT_Dragon": 300.0
+          }
+        }
+      },
+      "/LS113_MagicHome/Maps/": {
+        "levelPath": "/LS113_MagicHome/Maps/",
+        "homeLevel": "None",
+        "displayName": "Magic Crafters",
+        "bossLevel": false,
+        "flightLevel": false,
+        "excludeFromGameProgressionCompletion": false,
+        "excludeFromGameProgressionCompletionScalar": 0.0,
+        "progressionMap": {
+          "typeScalarMap": {
+            "EInventoryType::EIT_Treasure": 2.0,
+            "EInventoryType::EIT_Dragon": 250.0,
+            "EInventoryType::EIT_Egg": 75.0
+          }
+        }
+      },
+      "/LS114_AlpineRidge/Maps/": {
+        "levelPath": "/LS114_AlpineRidge/Maps/",
+        "homeLevel": "/LS113_MagicHome/Maps/",
+        "displayName": "Alpine Ridge",
+        "bossLevel": false,
+        "flightLevel": false,
+        "excludeFromGameProgressionCompletion": false,
+        "excludeFromGameProgressionCompletionScalar": 0.0,
+        "progressionMap": {
+          "typeScalarMap": {
+            "EInventoryType::EIT_Treasure": 8.0,
+            "EInventoryType::EIT_Dragon": 1250.0,
+            "EInventoryType::EIT_Egg": 1000.0
+          }
+        }
+      },
+      "/LS115_HighCaves/Maps/": {
+        "levelPath": "/LS115_HighCaves/Maps/",
+        "homeLevel": "/LS113_MagicHome/Maps/",
+        "displayName": "High Caves",
+        "bossLevel": false,
+        "flightLevel": false,
+        "excludeFromGameProgressionCompletion": false,
+        "excludeFromGameProgressionCompletionScalar": 0.0,
+        "progressionMap": {
+          "typeScalarMap": {
+            "EInventoryType::EIT_Treasure": 24.0,
+            "EInventoryType::EIT_Dragon": 5000.0,
+            "EInventoryType::EIT_Egg": 1500.0
+          }
+        }
+      },
+      "/LS116_WizardPeak/Maps/": {
+        "levelPath": "/LS116_WizardPeak/Maps/",
+        "homeLevel": "/LS113_MagicHome/Maps/",
+        "displayName": "Wizard Peak",
+        "bossLevel": false,
+        "flightLevel": false,
+        "excludeFromGameProgressionCompletion": false,
+        "excludeFromGameProgressionCompletionScalar": 0.0,
+        "progressionMap": {
+          "typeScalarMap": {
+            "EInventoryType::EIT_Treasure": 24.0,
+            "EInventoryType::EIT_Dragon": 5000.0,
+            "EInventoryType::EIT_Egg": 1500.0
+          }
+        }
+      },
+      "/LS117_CrystalFlight/Maps/": {
+        "levelPath": "/LS117_CrystalFlight/Maps/",
+        "homeLevel": "/LS113_MagicHome/Maps/",
+        "displayName": "Crystal Flight",
+        "bossLevel": false,
+        "flightLevel": true,
+        "excludeFromGameProgressionCompletion": false,
+        "excludeFromGameProgressionCompletionScalar": 0.0,
+        "progressionMap": {
+          "typeScalarMap": {
+            "EInventoryType::EIT_Treasure": 1.0
+          }
+        }
+      },
+      "/LS118_Blowhard/Maps/": {
+        "levelPath": "/LS118_Blowhard/Maps/",
+        "homeLevel": "/LS113_MagicHome/Maps/",
+        "displayName": "Blowhard",
+        "bossLevel": true,
+        "flightLevel": false,
+        "excludeFromGameProgressionCompletion": false,
+        "excludeFromGameProgressionCompletionScalar": 0.0,
+        "progressionMap": {
+          "typeScalarMap": {
+            "EInventoryType::EIT_Treasure": 1.0,
+            "EInventoryType::EIT_Dragon": 400.0
+          }
+        }
+      },
+      "/LS119_BeastHome/Maps/": {
+        "levelPath": "/LS119_BeastHome/Maps/",
+        "homeLevel": "None",
+        "displayName": "Beast Makers",
+        "bossLevel": false,
+        "flightLevel": false,
+        "excludeFromGameProgressionCompletion": false,
+        "excludeFromGameProgressionCompletionScalar": 0.0,
+        "progressionMap": {
+          "typeScalarMap": {
+            "EInventoryType::EIT_Treasure": 1.0,
+            "EInventoryType::EIT_Dragon": 150.0
+          }
+        }
+      },
+      "/LS120_TerraceVillage/Maps/": {
+        "levelPath": "/LS120_TerraceVillage/Maps/",
+        "homeLevel": "/LS119_BeastHome/Maps/",
+        "displayName": "Terrace Village",
+        "bossLevel": false,
+        "flightLevel": false,
+        "excludeFromGameProgressionCompletion": false,
+        "excludeFromGameProgressionCompletionScalar": 0.0,
+        "progressionMap": {
+          "typeScalarMap": {
+            "EInventoryType::EIT_Treasure": 1.0,
+            "EInventoryType::EIT_Dragon": 200.0
+          }
+        }
+      },
+      "/LS121_MistyBog/Maps/": {
+        "levelPath": "/LS121_MistyBog/Maps/",
+        "homeLevel": "/LS119_BeastHome/Maps/",
+        "displayName": "Misty Bog",
+        "bossLevel": false,
+        "flightLevel": false,
+        "excludeFromGameProgressionCompletion": false,
+        "excludeFromGameProgressionCompletionScalar": 0.0,
+        "progressionMap": {
+          "typeScalarMap": {
+            "EInventoryType::EIT_Treasure": 1.0,
+            "EInventoryType::EIT_Dragon": 125.0
+          }
+        }
+      },
+      "/LS122_TreeTops/Maps/": {
+        "levelPath": "/LS122_TreeTops/Maps/",
+        "homeLevel": "/LS119_BeastHome/Maps/",
+        "displayName": "Tree Tops",
+        "bossLevel": false,
+        "flightLevel": false,
+        "excludeFromGameProgressionCompletion": false,
+        "excludeFromGameProgressionCompletionScalar": 0.0,
+        "progressionMap": {
+          "typeScalarMap": {
+            "EInventoryType::EIT_Treasure": 3.0,
+            "EInventoryType::EIT_Dragon": 500.0
+          }
+        }
+      },
+      "/LS123_WildFlight/Maps/": {
+        "levelPath": "/LS123_WildFlight/Maps/",
+        "homeLevel": "/LS119_BeastHome/Maps/",
+        "displayName": "Wild Flight",
+        "bossLevel": false,
+        "flightLevel": true,
+        "excludeFromGameProgressionCompletion": false,
+        "excludeFromGameProgressionCompletionScalar": 0.0,
+        "progressionMap": {
+          "typeScalarMap": {
+            "EInventoryType::EIT_Treasure": 1.0
+          }
+        }
+      },
+      "/LS124_MetalHead/Maps/": {
+        "levelPath": "/LS124_MetalHead/Maps/",
+        "homeLevel": "/LS119_BeastHome/Maps/",
+        "displayName": "Metalhead",
+        "bossLevel": true,
+        "flightLevel": false,
+        "excludeFromGameProgressionCompletion": false,
+        "excludeFromGameProgressionCompletionScalar": 0.0,
+        "progressionMap": {
+          "typeScalarMap": {
+            "EInventoryType::EIT_Treasure": 1.0,
+            "EInventoryType::EIT_Dragon": 500.0
+          }
+        }
+      },
+      "/LS125_DreamWeaverHome/Maps/": {
+        "levelPath": "/LS125_DreamWeaverHome/Maps/",
+        "homeLevel": "None",
+        "displayName": "Dream Weaver",
+        "bossLevel": false,
+        "flightLevel": false,
+        "excludeFromGameProgressionCompletion": false,
+        "excludeFromGameProgressionCompletionScalar": 0.0,
+        "progressionMap": {
+          "typeScalarMap": {
+            "EInventoryType::EIT_Treasure": 1.0,
+            "EInventoryType::EIT_Dragon": 100.0
+          }
+        }
+      },
+      "/LS126_DarkPassage/Maps/": {
+        "levelPath": "/LS126_DarkPassage/Maps/",
+        "homeLevel": "/LS125_DreamWeaverHome/Maps/",
+        "displayName": "Dark Passage",
+        "bossLevel": false,
+        "flightLevel": false,
+        "excludeFromGameProgressionCompletion": false,
+        "excludeFromGameProgressionCompletionScalar": 0.0,
+        "progressionMap": {
+          "typeScalarMap": {
+            "EInventoryType::EIT_Treasure": 1.0,
+            "EInventoryType::EIT_Dragon": 100.0
+          }
+        }
+      },
+      "/LS127_LoftyCastle/Maps/": {
+        "levelPath": "/LS127_LoftyCastle/Maps/",
+        "homeLevel": "/LS125_DreamWeaverHome/Maps/",
+        "displayName": "Lofty Castle",
+        "bossLevel": false,
+        "flightLevel": false,
+        "excludeFromGameProgressionCompletion": false,
+        "excludeFromGameProgressionCompletionScalar": 0.0,
+        "progressionMap": {
+          "typeScalarMap": {
+            "EInventoryType::EIT_Treasure": 3.0,
+            "EInventoryType::EIT_Dragon": 400.0
+          }
+        }
+      },
+      "/LS128_HauntedTowers/Maps/": {
+        "levelPath": "/LS128_HauntedTowers/Maps/",
+        "homeLevel": "/LS125_DreamWeaverHome/Maps/",
+        "displayName": "Haunted Towers",
+        "bossLevel": false,
+        "flightLevel": false,
+        "excludeFromGameProgressionCompletion": false,
+        "excludeFromGameProgressionCompletionScalar": 0.0,
+        "progressionMap": {
+          "typeScalarMap": {
+            "EInventoryType::EIT_Treasure": 3.0,
+            "EInventoryType::EIT_Dragon": 500.0
+          }
+        }
+      },
+      "/LS129_IcyFlight/Maps/": {
+        "levelPath": "/LS129_IcyFlight/Maps/",
+        "homeLevel": "/LS125_DreamWeaverHome/Maps/",
+        "displayName": "Icy Flight",
+        "bossLevel": false,
+        "flightLevel": true,
+        "excludeFromGameProgressionCompletion": false,
+        "excludeFromGameProgressionCompletionScalar": 0.0,
+        "progressionMap": {
+          "typeScalarMap": {
+            "EInventoryType::EIT_Treasure": 1.0
+          }
+        }
+      },
+      "/LS130_Jacques/Maps/": {
+        "levelPath": "/LS130_Jacques/Maps/",
+        "homeLevel": "/LS125_DreamWeaverHome/Maps/",
+        "displayName": "Jacques",
+        "bossLevel": true,
+        "flightLevel": false,
+        "excludeFromGameProgressionCompletion": false,
+        "excludeFromGameProgressionCompletionScalar": 0.0,
+        "progressionMap": {
+          "typeScalarMap": {
+            "EInventoryType::EIT_Treasure": 1.0,
+            "EInventoryType::EIT_Dragon": 250.0
+          }
+        }
+      },
+      "/LS131_GnastyHome/Maps/": {
+        "levelPath": "/LS131_GnastyHome/Maps/",
+        "homeLevel": "None",
+        "displayName": "Gnasty's World",
+        "bossLevel": false,
+        "flightLevel": false,
+        "excludeFromGameProgressionCompletion": false,
+        "excludeFromGameProgressionCompletionScalar": 0.0,
+        "progressionMap": {
+          "typeScalarMap": {
+            "EInventoryType::EIT_Treasure": 1.0,
+            "EInventoryType::EIT_Dragon": 100.0
+          }
+        }
+      },
+      "/LS132_GnorcCove/Maps/": {
+        "levelPath": "/LS132_GnorcCove/Maps/",
+        "homeLevel": "/LS131_GnastyHome/Maps/",
+        "displayName": "Gnorc Cove",
+        "bossLevel": false,
+        "flightLevel": false,
+        "excludeFromGameProgressionCompletion": false,
+        "excludeFromGameProgressionCompletionScalar": 0.0,
+        "progressionMap": {
+          "typeScalarMap": {
+            "EInventoryType::EIT_Treasure": 1.0,
+            "EInventoryType::EIT_Dragon": 200.0
+          }
+        }
+      },
+      "/LS133_TwlightHarbour/Maps/": {
+        "levelPath": "/LS133_TwlightHarbour/Maps/",
+        "homeLevel": "/LS131_GnastyHome/Maps/",
+        "displayName": "Twilight Harbour",
+        "bossLevel": false,
+        "flightLevel": false,
+        "excludeFromGameProgressionCompletion": false,
+        "excludeFromGameProgressionCompletionScalar": 0.0,
+        "progressionMap": {
+          "typeScalarMap": {
+            "EInventoryType::EIT_Treasure": 1.0,
+            "EInventoryType::EIT_Dragon": 200.0
+          }
+        }
+      },
+      "/LS134_GnastyGnorc/Maps/": {
+        "levelPath": "/LS134_GnastyGnorc/Maps/",
+        "homeLevel": "/LS131_GnastyHome/Maps/",
+        "displayName": "Gnasty Gnorc",
+        "bossLevel": true,
+        "flightLevel": false,
+        "excludeFromGameProgressionCompletion": false,
+        "excludeFromGameProgressionCompletionScalar": 0.0,
+        "progressionMap": {
+          "typeScalarMap": {
+            "EInventoryType::EIT_Treasure": 1.0,
+            "EInventoryType::EIT_S1Boss": 500.0
+          }
+        }
+      },
+      "/LS135_GnastyLoot/Maps/": {
+        "levelPath": "/LS135_GnastyLoot/Maps/",
+        "homeLevel": "/LS131_GnastyHome/Maps/",
+        "displayName": "Gnasty Loot",
+        "bossLevel": false,
+        "flightLevel": false,
+        "excludeFromGameProgressionCompletion": true,
+        "excludeFromGameProgressionCompletionScalar": 0.2,
+        "progressionMap": {
+          "typeScalarMap": {
+            "EInventoryType::EIT_Treasure": 1.0
+          }
+        }
+      }
+    }
+  }
+]

@@ -3,14 +3,28 @@
 	"Version": 1,
 	"VersionName": "1.0",
 	"FriendlyName": "TfbWEEDS",
-	"Description": "",
+	"Description": "Grass System for TFB",
 	"Category": "Other",
-	"CreatedBy": "",
+	"CreatedBy": "Steve Mariotti",
 	"CreatedByURL": "",
 	"DocsURL": "",
 	"MarketplaceURL": "",
 	"SupportURL": "",
 	"CanContainContent": true,
 	"IsBetaVersion": false,
-	"Installed": false
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "TfbWEEDS",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "Phasmid",
+			"Enabled": true
+		}
+	]
 }

@@ -1,0 +1,459 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "LevelMapTableG2",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct LevelMapStruct",
+        "ObjectPath": "/Script/Falcon"
+      }
+    },
+    "Rows": {
+      "/LS201_SummerForest_Home/Maps/": {
+        "levelPath": "/LS201_SummerForest_Home/Maps/",
+        "homeLevel": "None",
+        "displayName": "Summer Forest",
+        "bossLevel": false,
+        "flightLevel": false,
+        "excludeFromGameProgressionCompletion": false,
+        "excludeFromGameProgressionCompletionScalar": 0.0,
+        "progressionMap": {
+          "typeScalarMap": {
+            "EInventoryType::EIT_Treasure": 1.0,
+            "EInventoryType::EIT_S2GreenOrb": 100.0
+          }
+        }
+      },
+      "/LS202_Glimmer/Maps/": {
+        "levelPath": "/LS202_Glimmer/Maps/",
+        "homeLevel": "/LS201_SummerForest_Home/Maps/",
+        "displayName": "Glimmer",
+        "bossLevel": false,
+        "flightLevel": false,
+        "excludeFromGameProgressionCompletion": false,
+        "excludeFromGameProgressionCompletionScalar": 0.0,
+        "progressionMap": {
+          "typeScalarMap": {
+            "EInventoryType::EIT_Treasure": 9.0,
+            "EInventoryType::EIT_S2GreenOrb": 1600.0,
+            "EInventoryType::EIT_Talisman": 3600.0
+          }
+        }
+      },
+      "/LS203_IdolSprings/Maps/": {
+        "levelPath": "/LS203_IdolSprings/Maps/",
+        "homeLevel": "/LS201_SummerForest_Home/Maps/",
+        "displayName": "Idol Springs",
+        "bossLevel": false,
+        "flightLevel": false,
+        "excludeFromGameProgressionCompletion": false,
+        "excludeFromGameProgressionCompletionScalar": 0.0,
+        "progressionMap": {
+          "typeScalarMap": {
+            "EInventoryType::EIT_Treasure": 3.0,
+            "EInventoryType::EIT_S2GreenOrb": 800.0,
+            "EInventoryType::EIT_Talisman": 1200.0
+          }
+        }
+      },
+      "/LS204_Colossus/Maps/": {
+        "levelPath": "/LS204_Colossus/Maps/",
+        "homeLevel": "/LS201_SummerForest_Home/Maps/",
+        "displayName": "Colossus",
+        "bossLevel": false,
+        "flightLevel": false,
+        "excludeFromGameProgressionCompletion": false,
+        "excludeFromGameProgressionCompletionScalar": 0.0,
+        "progressionMap": {
+          "typeScalarMap": {
+            "EInventoryType::EIT_Treasure": 9.0,
+            "EInventoryType::EIT_S2GreenOrb": 1600.0,
+            "EInventoryType::EIT_Talisman": 3600.0
+          }
+        }
+      },
+      "/LS205_Hurricos/Maps/": {
+        "levelPath": "/LS205_Hurricos/Maps/",
+        "homeLevel": "/LS201_SummerForest_Home/Maps/",
+        "displayName": "Hurricos",
+        "bossLevel": false,
+        "flightLevel": false,
+        "excludeFromGameProgressionCompletion": false,
+        "excludeFromGameProgressionCompletionScalar": 0.0,
+        "progressionMap": {
+          "typeScalarMap": {
+            "EInventoryType::EIT_Treasure": 9.0,
+            "EInventoryType::EIT_S2GreenOrb": 1600.0,
+            "EInventoryType::EIT_Talisman": 3600.0
+          }
+        }
+      },
+      "/LS206_SunnyBeach/Maps/": {
+        "levelPath": "/LS206_SunnyBeach/Maps/",
+        "homeLevel": "/LS201_SummerForest_Home/Maps/",
+        "displayName": "Sunny Beach",
+        "bossLevel": false,
+        "flightLevel": false,
+        "excludeFromGameProgressionCompletion": false,
+        "excludeFromGameProgressionCompletionScalar": 0.0,
+        "progressionMap": {
+          "typeScalarMap": {
+            "EInventoryType::EIT_Treasure": 9.0,
+            "EInventoryType::EIT_S2GreenOrb": 1600.0,
+            "EInventoryType::EIT_Talisman": 3600.0
+          }
+        }
+      },
+      "/LS207_AquariaTowers/Maps/": {
+        "levelPath": "/LS207_AquariaTowers/Maps/",
+        "homeLevel": "/LS201_SummerForest_Home/Maps/",
+        "displayName": "Aquaria Towers",
+        "bossLevel": false,
+        "flightLevel": false,
+        "excludeFromGameProgressionCompletion": false,
+        "excludeFromGameProgressionCompletionScalar": 0.0,
+        "progressionMap": {
+          "typeScalarMap": {
+            "EInventoryType::EIT_Treasure": 9.0,
+            "EInventoryType::EIT_S2GreenOrb": 1600.0,
+            "EInventoryType::EIT_Talisman": 3600.0
+          }
+        }
+      },
+      "/LS208_CrushsDungeon/Maps/": {
+        "levelPath": "/LS208_CrushsDungeon/Maps/",
+        "homeLevel": "/LS201_SummerForest_Home/Maps/",
+        "displayName": "Crush's Dungeon",
+        "bossLevel": true,
+        "flightLevel": false,
+        "excludeFromGameProgressionCompletion": false,
+        "excludeFromGameProgressionCompletionScalar": 0.0,
+        "progressionMap": {
+          "typeScalarMap": {
+            "EInventoryType::EIT_S2Boss": 1.0
+          }
+        }
+      },
+      "/LS209_OceanSpeedway/Maps/": {
+        "levelPath": "/LS209_OceanSpeedway/Maps/",
+        "homeLevel": "/LS201_SummerForest_Home/Maps/",
+        "displayName": "Ocean Speedway",
+        "bossLevel": false,
+        "flightLevel": true,
+        "excludeFromGameProgressionCompletion": false,
+        "excludeFromGameProgressionCompletionScalar": 0.0,
+        "progressionMap": {
+          "typeScalarMap": {
+            "EInventoryType::EIT_Treasure": 1.0,
+            "EInventoryType::EIT_S2GreenOrb": 400.0
+          }
+        }
+      },
+      "/LS210_AutumnPlains_Home/Maps/": {
+        "levelPath": "/LS210_AutumnPlains_Home/Maps/",
+        "homeLevel": "None",
+        "displayName": "Autumn Plains",
+        "bossLevel": false,
+        "flightLevel": false,
+        "excludeFromGameProgressionCompletion": false,
+        "excludeFromGameProgressionCompletionScalar": 0.0,
+        "progressionMap": {
+          "typeScalarMap": {
+            "EInventoryType::EIT_Treasure": 1.0,
+            "EInventoryType::EIT_S2GreenOrb": 400.0
+          }
+        }
+      },
+      "/LS211_CrystalGlacier/Maps/": {
+        "levelPath": "/LS211_CrystalGlacier/Maps/",
+        "homeLevel": "/LS210_AutumnPlains_Home/Maps/",
+        "displayName": "Crystal Glacier",
+        "bossLevel": false,
+        "flightLevel": false,
+        "excludeFromGameProgressionCompletion": false,
+        "excludeFromGameProgressionCompletionScalar": 0.0,
+        "progressionMap": {
+          "typeScalarMap": {
+            "EInventoryType::EIT_Treasure": 3.0,
+            "EInventoryType::EIT_S2GreenOrb": 800.0,
+            "EInventoryType::EIT_Talisman": 1200.0
+          }
+        }
+      },
+      "/LS212_SkelosBadlands/Maps/": {
+        "levelPath": "/LS212_SkelosBadlands/Maps/",
+        "homeLevel": "/LS210_AutumnPlains_Home/Maps/",
+        "displayName": "Skelos Badlands",
+        "bossLevel": false,
+        "flightLevel": false,
+        "excludeFromGameProgressionCompletion": false,
+        "excludeFromGameProgressionCompletionScalar": 0.0,
+        "progressionMap": {
+          "typeScalarMap": {
+            "EInventoryType::EIT_Treasure": 9.0,
+            "EInventoryType::EIT_S2GreenOrb": 1600.0,
+            "EInventoryType::EIT_Talisman": 3600.0
+          }
+        }
+      },
+      "/LS213_Zephyr/Maps/": {
+        "levelPath": "/LS213_Zephyr/Maps/",
+        "homeLevel": "/LS210_AutumnPlains_Home/Maps/",
+        "displayName": "Zephyr",
+        "bossLevel": false,
+        "flightLevel": false,
+        "excludeFromGameProgressionCompletion": false,
+        "excludeFromGameProgressionCompletionScalar": 0.0,
+        "progressionMap": {
+          "typeScalarMap": {
+            "EInventoryType::EIT_Treasure": 3.0,
+            "EInventoryType::EIT_S2GreenOrb": 400.0,
+            "EInventoryType::EIT_Talisman": 1200.0
+          }
+        }
+      },
+      "/LS214_BreezeHarbor/Maps/": {
+        "levelPath": "/LS214_BreezeHarbor/Maps/",
+        "homeLevel": "/LS210_AutumnPlains_Home/Maps/",
+        "displayName": "Breeze Harbor",
+        "bossLevel": false,
+        "flightLevel": false,
+        "excludeFromGameProgressionCompletion": false,
+        "excludeFromGameProgressionCompletionScalar": 0.0,
+        "progressionMap": {
+          "typeScalarMap": {
+            "EInventoryType::EIT_Treasure": 3.0,
+            "EInventoryType::EIT_S2GreenOrb": 800.0,
+            "EInventoryType::EIT_Talisman": 1200.0
+          }
+        }
+      },
+      "/LS215_Scorch/Maps/": {
+        "levelPath": "/LS215_Scorch/Maps/",
+        "homeLevel": "/LS210_AutumnPlains_Home/Maps/",
+        "displayName": "Scorch",
+        "bossLevel": false,
+        "flightLevel": false,
+        "excludeFromGameProgressionCompletion": false,
+        "excludeFromGameProgressionCompletionScalar": 0.0,
+        "progressionMap": {
+          "typeScalarMap": {
+            "EInventoryType::EIT_Treasure": 3.0,
+            "EInventoryType::EIT_S2GreenOrb": 800.0,
+            "EInventoryType::EIT_Talisman": 1200.0
+          }
+        }
+      },
+      "/LS216_FractureHills/Maps/": {
+        "levelPath": "/LS216_FractureHills/Maps/",
+        "homeLevel": "/LS210_AutumnPlains_Home/Maps/",
+        "displayName": "Fracture Hills",
+        "bossLevel": false,
+        "flightLevel": false,
+        "excludeFromGameProgressionCompletion": false,
+        "excludeFromGameProgressionCompletionScalar": 0.0,
+        "progressionMap": {
+          "typeScalarMap": {
+            "EInventoryType::EIT_Treasure": 9.0,
+            "EInventoryType::EIT_S2GreenOrb": 1600.0,
+            "EInventoryType::EIT_Talisman": 3600.0
+          }
+        }
+      },
+      "/LS217_MagmaCone/Maps/": {
+        "levelPath": "/LS217_MagmaCone/Maps/",
+        "homeLevel": "/LS210_AutumnPlains_Home/Maps/",
+        "displayName": "Magma Cone",
+        "bossLevel": false,
+        "flightLevel": false,
+        "excludeFromGameProgressionCompletion": false,
+        "excludeFromGameProgressionCompletionScalar": 0.0,
+        "progressionMap": {
+          "typeScalarMap": {
+            "EInventoryType::EIT_Treasure": 9.0,
+            "EInventoryType::EIT_S2GreenOrb": 1600.0,
+            "EInventoryType::EIT_Talisman": 3600.0
+          }
+        }
+      },
+      "/LS218_ShadyOasis/Maps/": {
+        "levelPath": "/LS218_ShadyOasis/Maps/",
+        "homeLevel": "/LS210_AutumnPlains_Home/Maps/",
+        "displayName": "Shady Oasis",
+        "bossLevel": false,
+        "flightLevel": false,
+        "excludeFromGameProgressionCompletion": false,
+        "excludeFromGameProgressionCompletionScalar": 0.0,
+        "progressionMap": {
+          "typeScalarMap": {
+            "EInventoryType::EIT_Treasure": 3.0,
+            "EInventoryType::EIT_S2GreenOrb": 800.0,
+            "EInventoryType::EIT_Talisman": 1200.0
+          }
+        }
+      },
+      "/LS219_GulpsOverlook/Maps/": {
+        "levelPath": "/LS219_GulpsOverlook/Maps/",
+        "homeLevel": "/LS210_AutumnPlains_Home/Maps/",
+        "displayName": "Gulp's Overlook",
+        "bossLevel": true,
+        "flightLevel": false,
+        "excludeFromGameProgressionCompletion": false,
+        "excludeFromGameProgressionCompletionScalar": 0.0,
+        "progressionMap": {
+          "typeScalarMap": {
+            "EInventoryType::EIT_S2Boss": 1.0
+          }
+        }
+      },
+      "/LS220_IcySpeedway/Maps/": {
+        "levelPath": "/LS220_IcySpeedway/Maps/",
+        "homeLevel": "/LS210_AutumnPlains_Home/Maps/",
+        "displayName": "Icy Speedway",
+        "bossLevel": false,
+        "flightLevel": true,
+        "excludeFromGameProgressionCompletion": false,
+        "excludeFromGameProgressionCompletionScalar": 0.0,
+        "progressionMap": {
+          "typeScalarMap": {
+            "EInventoryType::EIT_Treasure": 1.0,
+            "EInventoryType::EIT_S2GreenOrb": 400.0
+          }
+        }
+      },
+      "/LS221_MetroSpeedway/Maps/": {
+        "levelPath": "/LS221_MetroSpeedway/Maps/",
+        "homeLevel": "/LS210_AutumnPlains_Home/Maps/",
+        "displayName": "Metro Speedway",
+        "bossLevel": false,
+        "flightLevel": true,
+        "excludeFromGameProgressionCompletion": false,
+        "excludeFromGameProgressionCompletionScalar": 0.0,
+        "progressionMap": {
+          "typeScalarMap": {
+            "EInventoryType::EIT_Treasure": 1.0,
+            "EInventoryType::EIT_S2GreenOrb": 400.0
+          }
+        }
+      },
+      "/LS222_WinterTundra_Home/Maps/": {
+        "levelPath": "/LS222_WinterTundra_Home/Maps/",
+        "homeLevel": "None",
+        "displayName": "Winter Tundra",
+        "bossLevel": false,
+        "flightLevel": false,
+        "excludeFromGameProgressionCompletion": false,
+        "excludeFromGameProgressionCompletionScalar": 0.0,
+        "progressionMap": {
+          "typeScalarMap": {
+            "EInventoryType::EIT_Treasure": 1.0,
+            "EInventoryType::EIT_S2GreenOrb": 200.0
+          }
+        }
+      },
+      "/LS223_MysticMarsh/Maps/": {
+        "levelPath": "/LS223_MysticMarsh/Maps/",
+        "homeLevel": "/LS222_WinterTundra_Home/Maps/",
+        "displayName": "Mystic Marsh",
+        "bossLevel": false,
+        "flightLevel": false,
+        "excludeFromGameProgressionCompletion": false,
+        "excludeFromGameProgressionCompletionScalar": 0.0,
+        "progressionMap": {
+          "typeScalarMap": {
+            "EInventoryType::EIT_Treasure": 3.0,
+            "EInventoryType::EIT_S2GreenOrb": 400.0
+          }
+        }
+      },
+      "/LS224_CloudTemples/Maps/": {
+        "levelPath": "/LS224_CloudTemples/Maps/",
+        "homeLevel": "/LS222_WinterTundra_Home/Maps/",
+        "displayName": "Cloud Temples",
+        "bossLevel": false,
+        "flightLevel": false,
+        "excludeFromGameProgressionCompletion": false,
+        "excludeFromGameProgressionCompletionScalar": 0.0,
+        "progressionMap": {
+          "typeScalarMap": {
+            "EInventoryType::EIT_Treasure": 3.0,
+            "EInventoryType::EIT_S2GreenOrb": 400.0
+          }
+        }
+      },
+      "/LS225_Metropolis/Maps/": {
+        "levelPath": "/LS225_Metropolis/Maps/",
+        "homeLevel": "/LS222_WinterTundra_Home/Maps/",
+        "displayName": "Metropolis",
+        "bossLevel": false,
+        "flightLevel": false,
+        "excludeFromGameProgressionCompletion": false,
+        "excludeFromGameProgressionCompletionScalar": 0.0,
+        "progressionMap": {
+          "typeScalarMap": {
+            "EInventoryType::EIT_Treasure": 4.0,
+            "EInventoryType::EIT_S2GreenOrb": 400.0
+          }
+        }
+      },
+      "/LS226_RoboticaFarms/Maps/": {
+        "levelPath": "/LS226_RoboticaFarms/Maps/",
+        "homeLevel": "/LS222_WinterTundra_Home/Maps/",
+        "displayName": "Robotica Farms",
+        "bossLevel": false,
+        "flightLevel": false,
+        "excludeFromGameProgressionCompletion": false,
+        "excludeFromGameProgressionCompletionScalar": 0.0,
+        "progressionMap": {
+          "typeScalarMap": {
+            "EInventoryType::EIT_Treasure": 3.0,
+            "EInventoryType::EIT_S2GreenOrb": 500.0
+          }
+        }
+      },
+      "/LS227_RiptosArena/Maps/": {
+        "levelPath": "/LS227_RiptosArena/Maps/",
+        "homeLevel": "/LS222_WinterTundra_Home/Maps/",
+        "displayName": "Ripto's Arena",
+        "bossLevel": true,
+        "flightLevel": false,
+        "excludeFromGameProgressionCompletion": false,
+        "excludeFromGameProgressionCompletionScalar": 0.0,
+        "progressionMap": {
+          "typeScalarMap": {
+            "EInventoryType::EIT_S2Boss": 1.0
+          }
+        }
+      },
+      "/LS228_CanyonSpeedway/Maps/": {
+        "levelPath": "/LS228_CanyonSpeedway/Maps/",
+        "homeLevel": "/LS222_WinterTundra_Home/Maps/",
+        "displayName": "Canyon Speedway",
+        "bossLevel": false,
+        "flightLevel": true,
+        "excludeFromGameProgressionCompletion": false,
+        "excludeFromGameProgressionCompletionScalar": 0.0,
+        "progressionMap": {
+          "typeScalarMap": {
+            "EInventoryType::EIT_Treasure": 1.0,
+            "EInventoryType::EIT_S2GreenOrb": 400.0
+          }
+        }
+      },
+      "/LS229_DragonShores/Maps/": {
+        "levelPath": "/LS229_DragonShores/Maps/",
+        "homeLevel": "/LS222_WinterTundra_Home/Maps/",
+        "displayName": "Dragon Shores",
+        "bossLevel": false,
+        "flightLevel": false,
+        "excludeFromGameProgressionCompletion": true,
+        "excludeFromGameProgressionCompletionScalar": 0.0,
+        "progressionMap": {
+          "typeScalarMap": {
+            "EInventoryType::EIT_Treasure": 1.0
+          }
+        }
+      }
+    }
+  }
+]

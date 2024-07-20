@@ -1,0 +1,159 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "LevelMapTable2",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "UserDefinedStruct LevelInfoStruct",
+        "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/LevelInfoStruct.1"
+      }
+    },
+    "Rows": {
+      "/LS201_SummerForest_Home/Maps/": {
+        "levelpath_2_612DE99541905B6834F840AA78A52B76": "/LS201_SummerForest_Home/Maps/",
+        "homelevel_12_ED1E54FE4E3391AF6EC891B348C41102": "None",
+        "displayName_10_C5197E814C6E252831AEB18AA91091F8": "Summer Forest"
+      },
+      "/LS202_Glimmer/Maps/": {
+        "levelpath_2_612DE99541905B6834F840AA78A52B76": "/LS202_Glimmer/Maps/",
+        "homelevel_12_ED1E54FE4E3391AF6EC891B348C41102": "/LS201_SummerForest_Home/Maps/",
+        "displayName_10_C5197E814C6E252831AEB18AA91091F8": "Glimmer"
+      },
+      "/LS203_IdolSprings/Maps/": {
+        "levelpath_2_612DE99541905B6834F840AA78A52B76": "/LS203_IdolSprings/Maps/",
+        "homelevel_12_ED1E54FE4E3391AF6EC891B348C41102": "/LS201_SummerForest_Home/Maps/",
+        "displayName_10_C5197E814C6E252831AEB18AA91091F8": "Idol Springs"
+      },
+      "/LS204_Colossus/Maps/": {
+        "levelpath_2_612DE99541905B6834F840AA78A52B76": "/LS204_Colossus/Maps/",
+        "homelevel_12_ED1E54FE4E3391AF6EC891B348C41102": "/LS201_SummerForest_Home/Maps/",
+        "displayName_10_C5197E814C6E252831AEB18AA91091F8": "Colossus"
+      },
+      "/LS205_Hurricos/Maps/": {
+        "levelpath_2_612DE99541905B6834F840AA78A52B76": "/LS205_Hurricos/Maps/",
+        "homelevel_12_ED1E54FE4E3391AF6EC891B348C41102": "/LS201_SummerForest_Home/Maps/",
+        "displayName_10_C5197E814C6E252831AEB18AA91091F8": "Hurricos"
+      },
+      "/LS206_SunnyBeach/Maps/": {
+        "levelpath_2_612DE99541905B6834F840AA78A52B76": "/LS206_SunnyBeach/Maps/",
+        "homelevel_12_ED1E54FE4E3391AF6EC891B348C41102": "/LS201_SummerForest_Home/Maps/",
+        "displayName_10_C5197E814C6E252831AEB18AA91091F8": "Sunny Beach"
+      },
+      "/LS207_AquariaTowers/Maps/": {
+        "levelpath_2_612DE99541905B6834F840AA78A52B76": "/LS207_AquariaTowers/Maps/",
+        "homelevel_12_ED1E54FE4E3391AF6EC891B348C41102": "/LS201_SummerForest_Home/Maps/",
+        "displayName_10_C5197E814C6E252831AEB18AA91091F8": "Aquaria Towers"
+      },
+      "/LS208_CrushsDungeon/Maps/": {
+        "levelpath_2_612DE99541905B6834F840AA78A52B76": "/LS208_CrushsDungeon/Maps/",
+        "homelevel_12_ED1E54FE4E3391AF6EC891B348C41102": "/LS201_SummerForest_Home/Maps/",
+        "displayName_10_C5197E814C6E252831AEB18AA91091F8": "Crush's Dungeon"
+      },
+      "/LS209_OceanSpeedway/Maps/": {
+        "levelpath_2_612DE99541905B6834F840AA78A52B76": "/LS209_OceanSpeedway/Maps/",
+        "homelevel_12_ED1E54FE4E3391AF6EC891B348C41102": "/LS201_SummerForest_Home/Maps/",
+        "displayName_10_C5197E814C6E252831AEB18AA91091F8": "Ocean Speedway"
+      },
+      "/LS210_AutumnPlains_Home/Maps/": {
+        "levelpath_2_612DE99541905B6834F840AA78A52B76": "/LS210_AutumnPlains_Home/Maps/",
+        "homelevel_12_ED1E54FE4E3391AF6EC891B348C41102": "None",
+        "displayName_10_C5197E814C6E252831AEB18AA91091F8": "Autumn Plains"
+      },
+      "/LS211_CrystalGlacier/Maps/": {
+        "levelpath_2_612DE99541905B6834F840AA78A52B76": "/LS211_CrystalGlacier/Maps/",
+        "homelevel_12_ED1E54FE4E3391AF6EC891B348C41102": "/LS210_AutumnPlains_Home/Maps/",
+        "displayName_10_C5197E814C6E252831AEB18AA91091F8": "Crystal Glacier"
+      },
+      "/LS212_SkelosBadlands/Maps/": {
+        "levelpath_2_612DE99541905B6834F840AA78A52B76": "/LS212_SkelosBadlands/Maps/",
+        "homelevel_12_ED1E54FE4E3391AF6EC891B348C41102": "/LS210_AutumnPlains_Home/Maps/",
+        "displayName_10_C5197E814C6E252831AEB18AA91091F8": "Skelos Badlands"
+      },
+      "/LS213_Zephyr/Maps/": {
+        "levelpath_2_612DE99541905B6834F840AA78A52B76": "/LS213_Zephyr/Maps/",
+        "homelevel_12_ED1E54FE4E3391AF6EC891B348C41102": "/LS210_AutumnPlains_Home/Maps/",
+        "displayName_10_C5197E814C6E252831AEB18AA91091F8": "Zephyr"
+      },
+      "/LS214_BreezeHarbor/Maps/": {
+        "levelpath_2_612DE99541905B6834F840AA78A52B76": "/LS214_BreezeHarbor/Maps/",
+        "homelevel_12_ED1E54FE4E3391AF6EC891B348C41102": "/LS210_AutumnPlains_Home/Maps/",
+        "displayName_10_C5197E814C6E252831AEB18AA91091F8": "Breeze Harbor"
+      },
+      "/LS215_Scorch/Maps/": {
+        "levelpath_2_612DE99541905B6834F840AA78A52B76": "/LS215_Scorch/Maps/",
+        "homelevel_12_ED1E54FE4E3391AF6EC891B348C41102": "/LS210_AutumnPlains_Home/Maps/",
+        "displayName_10_C5197E814C6E252831AEB18AA91091F8": "Scorch"
+      },
+      "/LS216_FractureHills/Maps/": {
+        "levelpath_2_612DE99541905B6834F840AA78A52B76": "/LS216_FractureHills/Maps/",
+        "homelevel_12_ED1E54FE4E3391AF6EC891B348C41102": "/LS210_AutumnPlains_Home/Maps/",
+        "displayName_10_C5197E814C6E252831AEB18AA91091F8": "Fracture Hills"
+      },
+      "/LS217_MagmaCone/Maps/": {
+        "levelpath_2_612DE99541905B6834F840AA78A52B76": "/LS217_MagmaCone/Maps/",
+        "homelevel_12_ED1E54FE4E3391AF6EC891B348C41102": "/LS210_AutumnPlains_Home/Maps/",
+        "displayName_10_C5197E814C6E252831AEB18AA91091F8": "Magma Cone"
+      },
+      "/LS218_ShadyOasis/Maps/": {
+        "levelpath_2_612DE99541905B6834F840AA78A52B76": "/LS218_ShadyOasis/Maps/",
+        "homelevel_12_ED1E54FE4E3391AF6EC891B348C41102": "/LS210_AutumnPlains_Home/Maps/",
+        "displayName_10_C5197E814C6E252831AEB18AA91091F8": "Shady Oasis"
+      },
+      "/LS219_GulpsOverlook/Maps/": {
+        "levelpath_2_612DE99541905B6834F840AA78A52B76": "/LS219_GulpsOverlook/Maps/",
+        "homelevel_12_ED1E54FE4E3391AF6EC891B348C41102": "/LS210_AutumnPlains_Home/Maps/",
+        "displayName_10_C5197E814C6E252831AEB18AA91091F8": "Gulp's Overlook"
+      },
+      "/LS220_IcySpeedway/Maps/": {
+        "levelpath_2_612DE99541905B6834F840AA78A52B76": "/LS220_IcySpeedway/Maps/",
+        "homelevel_12_ED1E54FE4E3391AF6EC891B348C41102": "/LS210_AutumnPlains_Home/Maps/",
+        "displayName_10_C5197E814C6E252831AEB18AA91091F8": "Icy Speedway"
+      },
+      "/LS221_MetroSpeedway/Maps/": {
+        "levelpath_2_612DE99541905B6834F840AA78A52B76": "/LS221_MetroSpeedway/Maps/",
+        "homelevel_12_ED1E54FE4E3391AF6EC891B348C41102": "/LS210_AutumnPlains_Home/Maps/",
+        "displayName_10_C5197E814C6E252831AEB18AA91091F8": "Metro Speedway"
+      },
+      "/LS222_WinterTundra_Home/Maps/": {
+        "levelpath_2_612DE99541905B6834F840AA78A52B76": "/LS222_WinterTundra_Home/Maps/",
+        "homelevel_12_ED1E54FE4E3391AF6EC891B348C41102": "None",
+        "displayName_10_C5197E814C6E252831AEB18AA91091F8": "Winter Tundra"
+      },
+      "/LS223_MysticMarsh/Maps/": {
+        "levelpath_2_612DE99541905B6834F840AA78A52B76": "/LS223_MysticMarsh/Maps/",
+        "homelevel_12_ED1E54FE4E3391AF6EC891B348C41102": "/LS222_WinterTundra_Home/Maps/",
+        "displayName_10_C5197E814C6E252831AEB18AA91091F8": "Mystic Marsh"
+      },
+      "/LS224_CloudTemples/Maps/": {
+        "levelpath_2_612DE99541905B6834F840AA78A52B76": "/LS224_CloudTemples/Maps/",
+        "homelevel_12_ED1E54FE4E3391AF6EC891B348C41102": "/LS222_WinterTundra_Home/Maps/",
+        "displayName_10_C5197E814C6E252831AEB18AA91091F8": "Cloud Temples"
+      },
+      "/LS225_Metropolis/Maps/": {
+        "levelpath_2_612DE99541905B6834F840AA78A52B76": "/LS225_Metropolis/Maps/",
+        "homelevel_12_ED1E54FE4E3391AF6EC891B348C41102": "/LS222_WinterTundra_Home/Maps/",
+        "displayName_10_C5197E814C6E252831AEB18AA91091F8": "Metropolis"
+      },
+      "/LS226_RoboticaFarms/Maps/": {
+        "levelpath_2_612DE99541905B6834F840AA78A52B76": "/LS226_RoboticaFarms/Maps/",
+        "homelevel_12_ED1E54FE4E3391AF6EC891B348C41102": "/LS222_WinterTundra_Home/Maps/",
+        "displayName_10_C5197E814C6E252831AEB18AA91091F8": "Robotica Farms"
+      },
+      "/LS227_RiptosArena/Maps/": {
+        "levelpath_2_612DE99541905B6834F840AA78A52B76": "/LS227_RiptosArena/Maps/",
+        "homelevel_12_ED1E54FE4E3391AF6EC891B348C41102": "/LS222_WinterTundra_Home/Maps/",
+        "displayName_10_C5197E814C6E252831AEB18AA91091F8": "Ripto's Arena"
+      },
+      "/LS228_CanyonSpeedway/Maps/": {
+        "levelpath_2_612DE99541905B6834F840AA78A52B76": "/LS228_CanyonSpeedway/Maps/",
+        "homelevel_12_ED1E54FE4E3391AF6EC891B348C41102": "/LS222_WinterTundra_Home/Maps/",
+        "displayName_10_C5197E814C6E252831AEB18AA91091F8": "Canyon Speedway"
+      },
+      "/LS229_DragonShores/Maps/": {
+        "levelpath_2_612DE99541905B6834F840AA78A52B76": "/LS229_DragonShores/Maps/",
+        "homelevel_12_ED1E54FE4E3391AF6EC891B348C41102": "/LS222_WinterTundra_Home/Maps/",
+        "displayName_10_C5197E814C6E252831AEB18AA91091F8": "Dragon Shores"
+      }
+    }
+  }
+]

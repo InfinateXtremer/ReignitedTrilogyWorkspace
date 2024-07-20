@@ -1,0 +1,822 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "Spyro1_StreamData",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "UserDefinedStruct LevelStreamingData",
+        "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/Structures/LevelStreamingData.1"
+      }
+    },
+    "Rows": {
+      "LS101": {
+        "LevelMapPath_2_69C2D7CA46D0D0D7BD0E52B4E34569F0": "/LS101_ArtisansHome/Maps/",
+        "LevelMapNames_5_E26ADFBE45C1447D49600C8C05CAC47B": {
+          "ObjectName": "DataTable LL101",
+          "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/Spyro1/L101_Artisans/LL101.0"
+        },
+        "IsHomeworld_7_5DF73EB44D5A2591785ED1BE5CB7DE15": true
+      },
+      "LS102": {
+        "LevelMapPath_2_69C2D7CA46D0D0D7BD0E52B4E34569F0": "/LS102_StoneHill/Maps/",
+        "LevelMapNames_5_E26ADFBE45C1447D49600C8C05CAC47B": {
+          "ObjectName": "DataTable LL102",
+          "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/Spyro1/L101_Artisans/LL102.0"
+        },
+        "IsHomeworld_7_5DF73EB44D5A2591785ED1BE5CB7DE15": false
+      },
+      "LS103": {
+        "LevelMapPath_2_69C2D7CA46D0D0D7BD0E52B4E34569F0": "/LS103_DarkHollow/Maps/",
+        "LevelMapNames_5_E26ADFBE45C1447D49600C8C05CAC47B": {
+          "ObjectName": "DataTable LL103",
+          "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/Spyro1/L101_Artisans/LL103.0"
+        },
+        "IsHomeworld_7_5DF73EB44D5A2591785ED1BE5CB7DE15": false
+      },
+      "LS104": {
+        "LevelMapPath_2_69C2D7CA46D0D0D7BD0E52B4E34569F0": "/LS104_Townsquare/Maps/",
+        "LevelMapNames_5_E26ADFBE45C1447D49600C8C05CAC47B": {
+          "ObjectName": "DataTable LL104",
+          "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/Spyro1/L101_Artisans/LL104.0"
+        },
+        "IsHomeworld_7_5DF73EB44D5A2591785ED1BE5CB7DE15": false
+      },
+      "LS105": {
+        "LevelMapPath_2_69C2D7CA46D0D0D7BD0E52B4E34569F0": "/LS105_Sunnyflight/Maps/",
+        "LevelMapNames_5_E26ADFBE45C1447D49600C8C05CAC47B": {
+          "ObjectName": "DataTable LL105",
+          "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/Spyro1/L101_Artisans/LL105.0"
+        },
+        "IsHomeworld_7_5DF73EB44D5A2591785ED1BE5CB7DE15": false
+      },
+      "LS106": {
+        "LevelMapPath_2_69C2D7CA46D0D0D7BD0E52B4E34569F0": "/LS106_Toasty/Maps/",
+        "LevelMapNames_5_E26ADFBE45C1447D49600C8C05CAC47B": {
+          "ObjectName": "DataTable LL106",
+          "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/Spyro1/L101_Artisans/LL106.0"
+        },
+        "IsHomeworld_7_5DF73EB44D5A2591785ED1BE5CB7DE15": false
+      },
+      "LS107": {
+        "LevelMapPath_2_69C2D7CA46D0D0D7BD0E52B4E34569F0": "/LS107_PeacekeeperHome/Maps/",
+        "LevelMapNames_5_E26ADFBE45C1447D49600C8C05CAC47B": {
+          "ObjectName": "DataTable LL107",
+          "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/Spyro1/L107_Peacekeepers/LL107.0"
+        },
+        "IsHomeworld_7_5DF73EB44D5A2591785ED1BE5CB7DE15": true
+      },
+      "LS108": {
+        "LevelMapPath_2_69C2D7CA46D0D0D7BD0E52B4E34569F0": "/LS108_DryCanyon/Maps/",
+        "LevelMapNames_5_E26ADFBE45C1447D49600C8C05CAC47B": {
+          "ObjectName": "DataTable LL108",
+          "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/Spyro1/L107_Peacekeepers/LL108.0"
+        },
+        "IsHomeworld_7_5DF73EB44D5A2591785ED1BE5CB7DE15": false
+      },
+      "LS109": {
+        "LevelMapPath_2_69C2D7CA46D0D0D7BD0E52B4E34569F0": "/LS109_CliffTown/Maps/",
+        "LevelMapNames_5_E26ADFBE45C1447D49600C8C05CAC47B": {
+          "ObjectName": "DataTable LL109",
+          "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/Spyro1/L107_Peacekeepers/LL109.0"
+        },
+        "IsHomeworld_7_5DF73EB44D5A2591785ED1BE5CB7DE15": false
+      },
+      "LS110": {
+        "LevelMapPath_2_69C2D7CA46D0D0D7BD0E52B4E34569F0": "/LS110_IceCavern/Maps/",
+        "LevelMapNames_5_E26ADFBE45C1447D49600C8C05CAC47B": {
+          "ObjectName": "DataTable LL110",
+          "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/Spyro1/L107_Peacekeepers/LL110.0"
+        },
+        "IsHomeworld_7_5DF73EB44D5A2591785ED1BE5CB7DE15": false
+      },
+      "LS111": {
+        "LevelMapPath_2_69C2D7CA46D0D0D7BD0E52B4E34569F0": "/LS111_NightFlight/Maps/",
+        "LevelMapNames_5_E26ADFBE45C1447D49600C8C05CAC47B": {
+          "ObjectName": "DataTable LL111",
+          "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/Spyro1/L107_Peacekeepers/LL111.0"
+        },
+        "IsHomeworld_7_5DF73EB44D5A2591785ED1BE5CB7DE15": false
+      },
+      "LS112": {
+        "LevelMapPath_2_69C2D7CA46D0D0D7BD0E52B4E34569F0": "/LS112_DrShemp/Maps/",
+        "LevelMapNames_5_E26ADFBE45C1447D49600C8C05CAC47B": {
+          "ObjectName": "DataTable LL112",
+          "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/Spyro1/L107_Peacekeepers/LL112.0"
+        },
+        "IsHomeworld_7_5DF73EB44D5A2591785ED1BE5CB7DE15": false
+      },
+      "LS113": {
+        "LevelMapPath_2_69C2D7CA46D0D0D7BD0E52B4E34569F0": "/LS113_MagicHome/Maps/",
+        "LevelMapNames_5_E26ADFBE45C1447D49600C8C05CAC47B": {
+          "ObjectName": "DataTable LL113",
+          "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/Spyro1/L113_MagicHome/LL113.0"
+        },
+        "IsHomeworld_7_5DF73EB44D5A2591785ED1BE5CB7DE15": true
+      },
+      "LS114": {
+        "LevelMapPath_2_69C2D7CA46D0D0D7BD0E52B4E34569F0": "/LS114_AlpineRidge/Maps/",
+        "LevelMapNames_5_E26ADFBE45C1447D49600C8C05CAC47B": {
+          "ObjectName": "DataTable LL114",
+          "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/Spyro1/L113_MagicHome/LL114.0"
+        },
+        "IsHomeworld_7_5DF73EB44D5A2591785ED1BE5CB7DE15": false
+      },
+      "LS115": {
+        "LevelMapPath_2_69C2D7CA46D0D0D7BD0E52B4E34569F0": "/LS115_HighCaves/Maps/",
+        "LevelMapNames_5_E26ADFBE45C1447D49600C8C05CAC47B": {
+          "ObjectName": "DataTable LL115",
+          "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/Spyro1/L113_MagicHome/LL115.0"
+        },
+        "IsHomeworld_7_5DF73EB44D5A2591785ED1BE5CB7DE15": false
+      },
+      "LS116": {
+        "LevelMapPath_2_69C2D7CA46D0D0D7BD0E52B4E34569F0": "/LS116_WizardPeak/Maps/",
+        "LevelMapNames_5_E26ADFBE45C1447D49600C8C05CAC47B": {
+          "ObjectName": "DataTable LL116",
+          "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/Spyro1/L113_MagicHome/LL116.0"
+        },
+        "IsHomeworld_7_5DF73EB44D5A2591785ED1BE5CB7DE15": false
+      },
+      "LS117": {
+        "LevelMapPath_2_69C2D7CA46D0D0D7BD0E52B4E34569F0": "/LS117_CrystalFlight/Maps/",
+        "LevelMapNames_5_E26ADFBE45C1447D49600C8C05CAC47B": {
+          "ObjectName": "DataTable LL117",
+          "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/Spyro1/L113_MagicHome/LL117.0"
+        },
+        "IsHomeworld_7_5DF73EB44D5A2591785ED1BE5CB7DE15": false
+      },
+      "LS118": {
+        "LevelMapPath_2_69C2D7CA46D0D0D7BD0E52B4E34569F0": "/LS118_Blowhard/Maps/",
+        "LevelMapNames_5_E26ADFBE45C1447D49600C8C05CAC47B": {
+          "ObjectName": "DataTable LL118",
+          "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/Spyro1/L113_MagicHome/LL118.0"
+        },
+        "IsHomeworld_7_5DF73EB44D5A2591785ED1BE5CB7DE15": false
+      },
+      "LS119": {
+        "LevelMapPath_2_69C2D7CA46D0D0D7BD0E52B4E34569F0": "/LS119_BeastHome/Maps/",
+        "LevelMapNames_5_E26ADFBE45C1447D49600C8C05CAC47B": {
+          "ObjectName": "DataTable LL119",
+          "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/Spyro1/L119_BeastHome/LL119.0"
+        },
+        "IsHomeworld_7_5DF73EB44D5A2591785ED1BE5CB7DE15": true
+      },
+      "LS120": {
+        "LevelMapPath_2_69C2D7CA46D0D0D7BD0E52B4E34569F0": "/LS120_TerraceVillage/Maps/",
+        "LevelMapNames_5_E26ADFBE45C1447D49600C8C05CAC47B": {
+          "ObjectName": "DataTable LL120",
+          "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/Spyro1/L119_BeastHome/LL120.0"
+        },
+        "IsHomeworld_7_5DF73EB44D5A2591785ED1BE5CB7DE15": false
+      },
+      "LS121": {
+        "LevelMapPath_2_69C2D7CA46D0D0D7BD0E52B4E34569F0": "/LS121_MistyBog/Maps/",
+        "LevelMapNames_5_E26ADFBE45C1447D49600C8C05CAC47B": {
+          "ObjectName": "DataTable LL121",
+          "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/Spyro1/L119_BeastHome/LL121.0"
+        },
+        "IsHomeworld_7_5DF73EB44D5A2591785ED1BE5CB7DE15": false
+      },
+      "LS122": {
+        "LevelMapPath_2_69C2D7CA46D0D0D7BD0E52B4E34569F0": "/LS122_TreeTops/Maps/",
+        "LevelMapNames_5_E26ADFBE45C1447D49600C8C05CAC47B": {
+          "ObjectName": "DataTable LL122",
+          "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/Spyro1/L119_BeastHome/LL122.0"
+        },
+        "IsHomeworld_7_5DF73EB44D5A2591785ED1BE5CB7DE15": false
+      },
+      "LS123": {
+        "LevelMapPath_2_69C2D7CA46D0D0D7BD0E52B4E34569F0": "/LS123_WildFlight/Maps/",
+        "LevelMapNames_5_E26ADFBE45C1447D49600C8C05CAC47B": {
+          "ObjectName": "DataTable LL123",
+          "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/Spyro1/L119_BeastHome/LL123.0"
+        },
+        "IsHomeworld_7_5DF73EB44D5A2591785ED1BE5CB7DE15": false
+      },
+      "LS124": {
+        "LevelMapPath_2_69C2D7CA46D0D0D7BD0E52B4E34569F0": "/LS124_MetalHead/Maps/",
+        "LevelMapNames_5_E26ADFBE45C1447D49600C8C05CAC47B": {
+          "ObjectName": "DataTable LL124",
+          "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/Spyro1/L119_BeastHome/LL124.0"
+        },
+        "IsHomeworld_7_5DF73EB44D5A2591785ED1BE5CB7DE15": false
+      },
+      "LS125": {
+        "LevelMapPath_2_69C2D7CA46D0D0D7BD0E52B4E34569F0": "/LS125_DreamWeaverHome/Maps/",
+        "LevelMapNames_5_E26ADFBE45C1447D49600C8C05CAC47B": {
+          "ObjectName": "DataTable LL125",
+          "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/Spyro1/L125_DreamWeaverHome/LL125.0"
+        },
+        "IsHomeworld_7_5DF73EB44D5A2591785ED1BE5CB7DE15": true
+      },
+      "LS126": {
+        "LevelMapPath_2_69C2D7CA46D0D0D7BD0E52B4E34569F0": "/LS126_DarkPassage/Maps/",
+        "LevelMapNames_5_E26ADFBE45C1447D49600C8C05CAC47B": {
+          "ObjectName": "DataTable LL126",
+          "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/Spyro1/L125_DreamWeaverHome/LL126.0"
+        },
+        "IsHomeworld_7_5DF73EB44D5A2591785ED1BE5CB7DE15": false
+      },
+      "LS127": {
+        "LevelMapPath_2_69C2D7CA46D0D0D7BD0E52B4E34569F0": "/LS127_LoftyCastle/Maps/",
+        "LevelMapNames_5_E26ADFBE45C1447D49600C8C05CAC47B": {
+          "ObjectName": "DataTable LL127",
+          "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/Spyro1/L125_DreamWeaverHome/LL127.0"
+        },
+        "IsHomeworld_7_5DF73EB44D5A2591785ED1BE5CB7DE15": false
+      },
+      "LS128": {
+        "LevelMapPath_2_69C2D7CA46D0D0D7BD0E52B4E34569F0": "/LS128_HauntedTowers/Maps/",
+        "LevelMapNames_5_E26ADFBE45C1447D49600C8C05CAC47B": {
+          "ObjectName": "DataTable LL128",
+          "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/Spyro1/L125_DreamWeaverHome/LL128.0"
+        },
+        "IsHomeworld_7_5DF73EB44D5A2591785ED1BE5CB7DE15": false
+      },
+      "LS129": {
+        "LevelMapPath_2_69C2D7CA46D0D0D7BD0E52B4E34569F0": "/LS129_IcyFlight/Maps/",
+        "LevelMapNames_5_E26ADFBE45C1447D49600C8C05CAC47B": {
+          "ObjectName": "DataTable LL129",
+          "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/Spyro1/L125_DreamWeaverHome/LL129.0"
+        },
+        "IsHomeworld_7_5DF73EB44D5A2591785ED1BE5CB7DE15": false
+      },
+      "LS130": {
+        "LevelMapPath_2_69C2D7CA46D0D0D7BD0E52B4E34569F0": "/LS130_Jacques/Maps/",
+        "LevelMapNames_5_E26ADFBE45C1447D49600C8C05CAC47B": {
+          "ObjectName": "DataTable LL130",
+          "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/Spyro1/L125_DreamWeaverHome/LL130.0"
+        },
+        "IsHomeworld_7_5DF73EB44D5A2591785ED1BE5CB7DE15": false
+      },
+      "LS131": {
+        "LevelMapPath_2_69C2D7CA46D0D0D7BD0E52B4E34569F0": "/LS131_GnastyHome/Maps/",
+        "LevelMapNames_5_E26ADFBE45C1447D49600C8C05CAC47B": {
+          "ObjectName": "DataTable LL131",
+          "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/Spyro1/L131_GnastyHome/LL131.0"
+        },
+        "IsHomeworld_7_5DF73EB44D5A2591785ED1BE5CB7DE15": true
+      },
+      "LS132": {
+        "LevelMapPath_2_69C2D7CA46D0D0D7BD0E52B4E34569F0": "/LS132_GnorcCove/Maps/",
+        "LevelMapNames_5_E26ADFBE45C1447D49600C8C05CAC47B": {
+          "ObjectName": "DataTable LL132",
+          "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/Spyro1/L131_GnastyHome/LL132.0"
+        },
+        "IsHomeworld_7_5DF73EB44D5A2591785ED1BE5CB7DE15": false
+      },
+      "LS133": {
+        "LevelMapPath_2_69C2D7CA46D0D0D7BD0E52B4E34569F0": "/LS133_TwlightHarbour/Maps/",
+        "LevelMapNames_5_E26ADFBE45C1447D49600C8C05CAC47B": {
+          "ObjectName": "DataTable LL133",
+          "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/Spyro1/L131_GnastyHome/LL133.0"
+        },
+        "IsHomeworld_7_5DF73EB44D5A2591785ED1BE5CB7DE15": false
+      },
+      "LS134": {
+        "LevelMapPath_2_69C2D7CA46D0D0D7BD0E52B4E34569F0": "/LS134_GnastyGnorc/Maps/",
+        "LevelMapNames_5_E26ADFBE45C1447D49600C8C05CAC47B": {
+          "ObjectName": "DataTable LL134",
+          "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/Spyro1/L131_GnastyHome/LL134.0"
+        },
+        "IsHomeworld_7_5DF73EB44D5A2591785ED1BE5CB7DE15": false
+      },
+      "LS135": {
+        "LevelMapPath_2_69C2D7CA46D0D0D7BD0E52B4E34569F0": "/LS135_GnastyLoot/Maps/",
+        "LevelMapNames_5_E26ADFBE45C1447D49600C8C05CAC47B": {
+          "ObjectName": "DataTable LL135",
+          "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/Spyro1/L131_GnastyHome/LL135.0"
+        },
+        "IsHomeworld_7_5DF73EB44D5A2591785ED1BE5CB7DE15": false
+      },
+      "LS201": {
+        "LevelMapPath_2_69C2D7CA46D0D0D7BD0E52B4E34569F0": "/LS201_SummerForest_Home/Maps/",
+        "LevelMapNames_5_E26ADFBE45C1447D49600C8C05CAC47B": {
+          "ObjectName": "DataTable LL201",
+          "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/Spyro2/L201_SummerForest_Home/LL201.0"
+        },
+        "IsHomeworld_7_5DF73EB44D5A2591785ED1BE5CB7DE15": true
+      },
+      "LS202": {
+        "LevelMapPath_2_69C2D7CA46D0D0D7BD0E52B4E34569F0": "/LS202_Glimmer/Maps/",
+        "LevelMapNames_5_E26ADFBE45C1447D49600C8C05CAC47B": {
+          "ObjectName": "DataTable LL202",
+          "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/Spyro2/L201_SummerForest_Home/LL202.0"
+        },
+        "IsHomeworld_7_5DF73EB44D5A2591785ED1BE5CB7DE15": false
+      },
+      "LS203": {
+        "LevelMapPath_2_69C2D7CA46D0D0D7BD0E52B4E34569F0": "/LS203_IdolSprings/Maps/",
+        "LevelMapNames_5_E26ADFBE45C1447D49600C8C05CAC47B": {
+          "ObjectName": "DataTable LL203",
+          "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/Spyro2/L201_SummerForest_Home/LL203.0"
+        },
+        "IsHomeworld_7_5DF73EB44D5A2591785ED1BE5CB7DE15": false
+      },
+      "LS204": {
+        "LevelMapPath_2_69C2D7CA46D0D0D7BD0E52B4E34569F0": "/LS204_Colossus/Maps/",
+        "LevelMapNames_5_E26ADFBE45C1447D49600C8C05CAC47B": {
+          "ObjectName": "DataTable LL204",
+          "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/Spyro2/L201_SummerForest_Home/LL204.0"
+        },
+        "IsHomeworld_7_5DF73EB44D5A2591785ED1BE5CB7DE15": false
+      },
+      "LS205": {
+        "LevelMapPath_2_69C2D7CA46D0D0D7BD0E52B4E34569F0": "/LS205_Hurricos/Maps/",
+        "LevelMapNames_5_E26ADFBE45C1447D49600C8C05CAC47B": {
+          "ObjectName": "DataTable LL205",
+          "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/Spyro2/L201_SummerForest_Home/LL205.0"
+        },
+        "IsHomeworld_7_5DF73EB44D5A2591785ED1BE5CB7DE15": false
+      },
+      "LS206": {
+        "LevelMapPath_2_69C2D7CA46D0D0D7BD0E52B4E34569F0": "/LS206_SunnyBeach/Maps/",
+        "LevelMapNames_5_E26ADFBE45C1447D49600C8C05CAC47B": {
+          "ObjectName": "DataTable LL206",
+          "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/Spyro2/L201_SummerForest_Home/LL206.0"
+        },
+        "IsHomeworld_7_5DF73EB44D5A2591785ED1BE5CB7DE15": false
+      },
+      "LS207": {
+        "LevelMapPath_2_69C2D7CA46D0D0D7BD0E52B4E34569F0": "/LS207_AquariaTowers/Maps/",
+        "LevelMapNames_5_E26ADFBE45C1447D49600C8C05CAC47B": {
+          "ObjectName": "DataTable LL207",
+          "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/Spyro2/L201_SummerForest_Home/LL207.0"
+        },
+        "IsHomeworld_7_5DF73EB44D5A2591785ED1BE5CB7DE15": false
+      },
+      "LS208": {
+        "LevelMapPath_2_69C2D7CA46D0D0D7BD0E52B4E34569F0": "/LS208_CrushsDungeon/Maps/",
+        "LevelMapNames_5_E26ADFBE45C1447D49600C8C05CAC47B": {
+          "ObjectName": "DataTable LL208",
+          "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/Spyro2/L201_SummerForest_Home/LL208.0"
+        },
+        "IsHomeworld_7_5DF73EB44D5A2591785ED1BE5CB7DE15": false
+      },
+      "LS209": {
+        "LevelMapPath_2_69C2D7CA46D0D0D7BD0E52B4E34569F0": "/LS209_OceanSpeedway/Maps/",
+        "LevelMapNames_5_E26ADFBE45C1447D49600C8C05CAC47B": {
+          "ObjectName": "DataTable LL209",
+          "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/Spyro2/L201_SummerForest_Home/LL209.0"
+        },
+        "IsHomeworld_7_5DF73EB44D5A2591785ED1BE5CB7DE15": false
+      },
+      "LS210": {
+        "LevelMapPath_2_69C2D7CA46D0D0D7BD0E52B4E34569F0": "/LS210_AutumnPlains_Home/Maps/",
+        "LevelMapNames_5_E26ADFBE45C1447D49600C8C05CAC47B": {
+          "ObjectName": "DataTable LL210",
+          "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/Spyro2/L210_AutumnPlains_Home/LL210.0"
+        },
+        "IsHomeworld_7_5DF73EB44D5A2591785ED1BE5CB7DE15": true
+      },
+      "LS211": {
+        "LevelMapPath_2_69C2D7CA46D0D0D7BD0E52B4E34569F0": "/LS211_CrystalGlacier/Maps/",
+        "LevelMapNames_5_E26ADFBE45C1447D49600C8C05CAC47B": {
+          "ObjectName": "DataTable LL211",
+          "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/Spyro2/L210_AutumnPlains_Home/LL211.0"
+        },
+        "IsHomeworld_7_5DF73EB44D5A2591785ED1BE5CB7DE15": false
+      },
+      "LS212": {
+        "LevelMapPath_2_69C2D7CA46D0D0D7BD0E52B4E34569F0": "/LS212_SkelosBadlands/Maps/",
+        "LevelMapNames_5_E26ADFBE45C1447D49600C8C05CAC47B": {
+          "ObjectName": "DataTable LL212",
+          "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/Spyro2/L210_AutumnPlains_Home/LL212.0"
+        },
+        "IsHomeworld_7_5DF73EB44D5A2591785ED1BE5CB7DE15": false
+      },
+      "LS213": {
+        "LevelMapPath_2_69C2D7CA46D0D0D7BD0E52B4E34569F0": "/LS213_Zephyr/Maps/",
+        "LevelMapNames_5_E26ADFBE45C1447D49600C8C05CAC47B": {
+          "ObjectName": "DataTable LL213",
+          "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/Spyro2/L210_AutumnPlains_Home/LL213.0"
+        },
+        "IsHomeworld_7_5DF73EB44D5A2591785ED1BE5CB7DE15": false
+      },
+      "LS214": {
+        "LevelMapPath_2_69C2D7CA46D0D0D7BD0E52B4E34569F0": "/LS214_BreezeHarbor/Maps/",
+        "LevelMapNames_5_E26ADFBE45C1447D49600C8C05CAC47B": {
+          "ObjectName": "DataTable LL214",
+          "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/Spyro2/L210_AutumnPlains_Home/LL214.0"
+        },
+        "IsHomeworld_7_5DF73EB44D5A2591785ED1BE5CB7DE15": false
+      },
+      "LS215": {
+        "LevelMapPath_2_69C2D7CA46D0D0D7BD0E52B4E34569F0": "/LS215_Scorch/Maps/",
+        "LevelMapNames_5_E26ADFBE45C1447D49600C8C05CAC47B": {
+          "ObjectName": "DataTable LL215",
+          "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/Spyro2/L210_AutumnPlains_Home/LL215.0"
+        },
+        "IsHomeworld_7_5DF73EB44D5A2591785ED1BE5CB7DE15": false
+      },
+      "LS216": {
+        "LevelMapPath_2_69C2D7CA46D0D0D7BD0E52B4E34569F0": "/LS216_FractureHills/Maps/",
+        "LevelMapNames_5_E26ADFBE45C1447D49600C8C05CAC47B": {
+          "ObjectName": "DataTable LL216",
+          "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/Spyro2/L210_AutumnPlains_Home/LL216.0"
+        },
+        "IsHomeworld_7_5DF73EB44D5A2591785ED1BE5CB7DE15": false
+      },
+      "LS217": {
+        "LevelMapPath_2_69C2D7CA46D0D0D7BD0E52B4E34569F0": "/LS217_MagmaCone/Maps/",
+        "LevelMapNames_5_E26ADFBE45C1447D49600C8C05CAC47B": {
+          "ObjectName": "DataTable LL217",
+          "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/Spyro2/L210_AutumnPlains_Home/LL217.0"
+        },
+        "IsHomeworld_7_5DF73EB44D5A2591785ED1BE5CB7DE15": false
+      },
+      "LS218": {
+        "LevelMapPath_2_69C2D7CA46D0D0D7BD0E52B4E34569F0": "/LS218_ShadyOasis/Maps/",
+        "LevelMapNames_5_E26ADFBE45C1447D49600C8C05CAC47B": {
+          "ObjectName": "DataTable LL218",
+          "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/Spyro2/L210_AutumnPlains_Home/LL218.0"
+        },
+        "IsHomeworld_7_5DF73EB44D5A2591785ED1BE5CB7DE15": false
+      },
+      "LS219": {
+        "LevelMapPath_2_69C2D7CA46D0D0D7BD0E52B4E34569F0": "/LS219_GulpsOverlook/Maps/",
+        "LevelMapNames_5_E26ADFBE45C1447D49600C8C05CAC47B": {
+          "ObjectName": "DataTable LL219",
+          "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/Spyro2/L210_AutumnPlains_Home/LL219.0"
+        },
+        "IsHomeworld_7_5DF73EB44D5A2591785ED1BE5CB7DE15": false
+      },
+      "LS220": {
+        "LevelMapPath_2_69C2D7CA46D0D0D7BD0E52B4E34569F0": "/LS220_IcySpeedway/Maps/",
+        "LevelMapNames_5_E26ADFBE45C1447D49600C8C05CAC47B": {
+          "ObjectName": "DataTable LL220",
+          "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/Spyro2/L210_AutumnPlains_Home/LL220.0"
+        },
+        "IsHomeworld_7_5DF73EB44D5A2591785ED1BE5CB7DE15": false
+      },
+      "LS221": {
+        "LevelMapPath_2_69C2D7CA46D0D0D7BD0E52B4E34569F0": "/LS221_MetroSpeedway/Maps/",
+        "LevelMapNames_5_E26ADFBE45C1447D49600C8C05CAC47B": {
+          "ObjectName": "DataTable LL221",
+          "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/Spyro2/L210_AutumnPlains_Home/LL221.0"
+        },
+        "IsHomeworld_7_5DF73EB44D5A2591785ED1BE5CB7DE15": false
+      },
+      "LS222": {
+        "LevelMapPath_2_69C2D7CA46D0D0D7BD0E52B4E34569F0": "/LS222_WinterTundra_Home/Maps/",
+        "LevelMapNames_5_E26ADFBE45C1447D49600C8C05CAC47B": {
+          "ObjectName": "DataTable LL222",
+          "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/Spyro2/L222_WinterTundra_Home/LL222.0"
+        },
+        "IsHomeworld_7_5DF73EB44D5A2591785ED1BE5CB7DE15": true
+      },
+      "LS223": {
+        "LevelMapPath_2_69C2D7CA46D0D0D7BD0E52B4E34569F0": "/LS223_MysticMarsh/Maps/",
+        "LevelMapNames_5_E26ADFBE45C1447D49600C8C05CAC47B": {
+          "ObjectName": "DataTable LL223",
+          "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/Spyro2/L222_WinterTundra_Home/LL223.0"
+        },
+        "IsHomeworld_7_5DF73EB44D5A2591785ED1BE5CB7DE15": false
+      },
+      "LS224": {
+        "LevelMapPath_2_69C2D7CA46D0D0D7BD0E52B4E34569F0": "/LS224_CloudTemples/Maps/",
+        "LevelMapNames_5_E26ADFBE45C1447D49600C8C05CAC47B": {
+          "ObjectName": "DataTable LL224",
+          "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/Spyro2/L222_WinterTundra_Home/LL224.0"
+        },
+        "IsHomeworld_7_5DF73EB44D5A2591785ED1BE5CB7DE15": false
+      },
+      "LS225": {
+        "LevelMapPath_2_69C2D7CA46D0D0D7BD0E52B4E34569F0": "/LS225_Metropolis/Maps/",
+        "LevelMapNames_5_E26ADFBE45C1447D49600C8C05CAC47B": {
+          "ObjectName": "DataTable LL225",
+          "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/Spyro2/L222_WinterTundra_Home/LL225.0"
+        },
+        "IsHomeworld_7_5DF73EB44D5A2591785ED1BE5CB7DE15": false
+      },
+      "LS226": {
+        "LevelMapPath_2_69C2D7CA46D0D0D7BD0E52B4E34569F0": "/LS226_RoboticaFarms/Maps/",
+        "LevelMapNames_5_E26ADFBE45C1447D49600C8C05CAC47B": {
+          "ObjectName": "DataTable LL226",
+          "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/Spyro2/L222_WinterTundra_Home/LL226.0"
+        },
+        "IsHomeworld_7_5DF73EB44D5A2591785ED1BE5CB7DE15": false
+      },
+      "LS227": {
+        "LevelMapPath_2_69C2D7CA46D0D0D7BD0E52B4E34569F0": "/LS227_RiptosArena/Maps/",
+        "LevelMapNames_5_E26ADFBE45C1447D49600C8C05CAC47B": {
+          "ObjectName": "DataTable LL227",
+          "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/Spyro2/L222_WinterTundra_Home/LL227.0"
+        },
+        "IsHomeworld_7_5DF73EB44D5A2591785ED1BE5CB7DE15": false
+      },
+      "LS228": {
+        "LevelMapPath_2_69C2D7CA46D0D0D7BD0E52B4E34569F0": "/LS228_CanyonSpeedway/Maps/",
+        "LevelMapNames_5_E26ADFBE45C1447D49600C8C05CAC47B": {
+          "ObjectName": "DataTable LL228",
+          "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/Spyro2/L222_WinterTundra_Home/LL228.0"
+        },
+        "IsHomeworld_7_5DF73EB44D5A2591785ED1BE5CB7DE15": false
+      },
+      "LS229": {
+        "LevelMapPath_2_69C2D7CA46D0D0D7BD0E52B4E34569F0": "/LS229_DragonShores/Maps/",
+        "LevelMapNames_5_E26ADFBE45C1447D49600C8C05CAC47B": {
+          "ObjectName": "DataTable LL229",
+          "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/Spyro2/L222_WinterTundra_Home/LL229.0"
+        },
+        "IsHomeworld_7_5DF73EB44D5A2591785ED1BE5CB7DE15": false
+      },
+      "LS301": {
+        "LevelMapPath_2_69C2D7CA46D0D0D7BD0E52B4E34569F0": "/LS301_SunriseSpring_Home/Maps/",
+        "LevelMapNames_5_E26ADFBE45C1447D49600C8C05CAC47B": {
+          "ObjectName": "DataTable LL301",
+          "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/Spyro3/L301_SunriseSpring/LL301.0"
+        },
+        "IsHomeworld_7_5DF73EB44D5A2591785ED1BE5CB7DE15": true
+      },
+      "LS302": {
+        "LevelMapPath_2_69C2D7CA46D0D0D7BD0E52B4E34569F0": "/LS302_SunnyVilla/Maps/",
+        "LevelMapNames_5_E26ADFBE45C1447D49600C8C05CAC47B": {
+          "ObjectName": "DataTable LL302",
+          "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/Spyro3/L301_SunriseSpring/LL302.0"
+        },
+        "IsHomeworld_7_5DF73EB44D5A2591785ED1BE5CB7DE15": false
+      },
+      "LS303": {
+        "LevelMapPath_2_69C2D7CA46D0D0D7BD0E52B4E34569F0": "/LS303_CloudSpires/Maps/",
+        "LevelMapNames_5_E26ADFBE45C1447D49600C8C05CAC47B": {
+          "ObjectName": "DataTable LL303",
+          "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/Spyro3/L301_SunriseSpring/LL303.0"
+        },
+        "IsHomeworld_7_5DF73EB44D5A2591785ED1BE5CB7DE15": false
+      },
+      "LS304": {
+        "LevelMapPath_2_69C2D7CA46D0D0D7BD0E52B4E34569F0": "/LS304_MoltenCrater/Maps/",
+        "LevelMapNames_5_E26ADFBE45C1447D49600C8C05CAC47B": {
+          "ObjectName": "DataTable LL304",
+          "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/Spyro3/L301_SunriseSpring/LL304.0"
+        },
+        "IsHomeworld_7_5DF73EB44D5A2591785ED1BE5CB7DE15": false
+      },
+      "LS305": {
+        "LevelMapPath_2_69C2D7CA46D0D0D7BD0E52B4E34569F0": "/LS305_SeashellShore/Maps/",
+        "LevelMapNames_5_E26ADFBE45C1447D49600C8C05CAC47B": {
+          "ObjectName": "DataTable LL305",
+          "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/Spyro3/L301_SunriseSpring/LL305.0"
+        },
+        "IsHomeworld_7_5DF73EB44D5A2591785ED1BE5CB7DE15": false
+      },
+      "LS306": {
+        "LevelMapPath_2_69C2D7CA46D0D0D7BD0E52B4E34569F0": "/LS306_SheilasAlp/Maps/",
+        "LevelMapNames_5_E26ADFBE45C1447D49600C8C05CAC47B": {
+          "ObjectName": "DataTable LL306",
+          "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/Spyro3/L301_SunriseSpring/LL306.0"
+        },
+        "IsHomeworld_7_5DF73EB44D5A2591785ED1BE5CB7DE15": false
+      },
+      "LS307": {
+        "LevelMapPath_2_69C2D7CA46D0D0D7BD0E52B4E34569F0": "/LS307_MushroomSpeedway/Maps/",
+        "LevelMapNames_5_E26ADFBE45C1447D49600C8C05CAC47B": {
+          "ObjectName": "DataTable LL307",
+          "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/Spyro3/L301_SunriseSpring/LL307.0"
+        },
+        "IsHomeworld_7_5DF73EB44D5A2591785ED1BE5CB7DE15": false
+      },
+      "LS308": {
+        "LevelMapPath_2_69C2D7CA46D0D0D7BD0E52B4E34569F0": "/LS308_BuzzsDungeon/Maps/",
+        "LevelMapNames_5_E26ADFBE45C1447D49600C8C05CAC47B": {
+          "ObjectName": "DataTable LL308",
+          "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/Spyro3/L301_SunriseSpring/LL308.0"
+        },
+        "IsHomeworld_7_5DF73EB44D5A2591785ED1BE5CB7DE15": false
+      },
+      "LS309": {
+        "LevelMapPath_2_69C2D7CA46D0D0D7BD0E52B4E34569F0": "/LS309_CrawdadFarm/Maps/",
+        "LevelMapNames_5_E26ADFBE45C1447D49600C8C05CAC47B": {
+          "ObjectName": "DataTable LL309",
+          "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/Spyro3/L301_SunriseSpring/LL309.0"
+        },
+        "IsHomeworld_7_5DF73EB44D5A2591785ED1BE5CB7DE15": false
+      },
+      "LS310": {
+        "LevelMapPath_2_69C2D7CA46D0D0D7BD0E52B4E34569F0": "/LS310_MiddayGardens_Home/Maps/",
+        "LevelMapNames_5_E26ADFBE45C1447D49600C8C05CAC47B": {
+          "ObjectName": "DataTable LL310",
+          "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/Spyro3/L310_MiddayGardens/LL310.0"
+        },
+        "IsHomeworld_7_5DF73EB44D5A2591785ED1BE5CB7DE15": true
+      },
+      "LS311": {
+        "LevelMapPath_2_69C2D7CA46D0D0D7BD0E52B4E34569F0": "/LS311_IcyPeak/Maps/",
+        "LevelMapNames_5_E26ADFBE45C1447D49600C8C05CAC47B": {
+          "ObjectName": "DataTable LL311",
+          "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/Spyro3/L310_MiddayGardens/LL311.0"
+        },
+        "IsHomeworld_7_5DF73EB44D5A2591785ED1BE5CB7DE15": false
+      },
+      "LS312": {
+        "LevelMapPath_2_69C2D7CA46D0D0D7BD0E52B4E34569F0": "/LS312_EnchantedTowers/Maps/",
+        "LevelMapNames_5_E26ADFBE45C1447D49600C8C05CAC47B": {
+          "ObjectName": "DataTable LL312",
+          "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/Spyro3/L310_MiddayGardens/LL312.0"
+        },
+        "IsHomeworld_7_5DF73EB44D5A2591785ED1BE5CB7DE15": false
+      },
+      "LS313": {
+        "LevelMapPath_2_69C2D7CA46D0D0D7BD0E52B4E34569F0": "/LS313_SpookySwamp/Maps/",
+        "LevelMapNames_5_E26ADFBE45C1447D49600C8C05CAC47B": {
+          "ObjectName": "DataTable LL313",
+          "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/Spyro3/L310_MiddayGardens/LL313.0"
+        },
+        "IsHomeworld_7_5DF73EB44D5A2591785ED1BE5CB7DE15": false
+      },
+      "LS314": {
+        "LevelMapPath_2_69C2D7CA46D0D0D7BD0E52B4E34569F0": "/LS314_BambooTerrace/Maps/",
+        "LevelMapNames_5_E26ADFBE45C1447D49600C8C05CAC47B": {
+          "ObjectName": "DataTable LL314",
+          "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/Spyro3/L310_MiddayGardens/LL314.0"
+        },
+        "IsHomeworld_7_5DF73EB44D5A2591785ED1BE5CB7DE15": false
+      },
+      "LS315": {
+        "LevelMapPath_2_69C2D7CA46D0D0D7BD0E52B4E34569F0": "/LS315_SgtByrdBase/Maps/",
+        "LevelMapNames_5_E26ADFBE45C1447D49600C8C05CAC47B": {
+          "ObjectName": "DataTable LL315",
+          "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/Spyro3/L310_MiddayGardens/LL315.0"
+        },
+        "IsHomeworld_7_5DF73EB44D5A2591785ED1BE5CB7DE15": false
+      },
+      "LS316": {
+        "LevelMapPath_2_69C2D7CA46D0D0D7BD0E52B4E34569F0": "/LS316_CountrySpeedway/Maps/",
+        "LevelMapNames_5_E26ADFBE45C1447D49600C8C05CAC47B": {
+          "ObjectName": "DataTable LL316",
+          "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/Spyro3/L310_MiddayGardens/LL316.0"
+        },
+        "IsHomeworld_7_5DF73EB44D5A2591785ED1BE5CB7DE15": false
+      },
+      "LS317": {
+        "LevelMapPath_2_69C2D7CA46D0D0D7BD0E52B4E34569F0": "/LS317_SpikesArena/Maps/",
+        "LevelMapNames_5_E26ADFBE45C1447D49600C8C05CAC47B": {
+          "ObjectName": "DataTable LL317",
+          "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/Spyro3/L310_MiddayGardens/LL317.0"
+        },
+        "IsHomeworld_7_5DF73EB44D5A2591785ED1BE5CB7DE15": false
+      },
+      "LS318": {
+        "LevelMapPath_2_69C2D7CA46D0D0D7BD0E52B4E34569F0": "/LS318_SpiderTown/Maps/",
+        "LevelMapNames_5_E26ADFBE45C1447D49600C8C05CAC47B": {
+          "ObjectName": "DataTable LL318",
+          "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/Spyro3/L310_MiddayGardens/LL318.0"
+        },
+        "IsHomeworld_7_5DF73EB44D5A2591785ED1BE5CB7DE15": false
+      },
+      "LS319": {
+        "LevelMapPath_2_69C2D7CA46D0D0D7BD0E52B4E34569F0": "/LS319_EveningLake_Home/Maps/",
+        "LevelMapNames_5_E26ADFBE45C1447D49600C8C05CAC47B": {
+          "ObjectName": "DataTable LL319",
+          "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/Spyro3/L319_EveningLake/LL319.0"
+        },
+        "IsHomeworld_7_5DF73EB44D5A2591785ED1BE5CB7DE15": true
+      },
+      "LS320": {
+        "LevelMapPath_2_69C2D7CA46D0D0D7BD0E52B4E34569F0": "/LS320_LostFleet/Maps/",
+        "LevelMapNames_5_E26ADFBE45C1447D49600C8C05CAC47B": {
+          "ObjectName": "DataTable LL320",
+          "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/Spyro3/L319_EveningLake/LL320.0"
+        },
+        "IsHomeworld_7_5DF73EB44D5A2591785ED1BE5CB7DE15": false
+      },
+      "LS321": {
+        "LevelMapPath_2_69C2D7CA46D0D0D7BD0E52B4E34569F0": "/LS321_FrozenAltars/Maps/",
+        "LevelMapNames_5_E26ADFBE45C1447D49600C8C05CAC47B": {
+          "ObjectName": "DataTable LL321",
+          "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/Spyro3/L319_EveningLake/LL321.0"
+        },
+        "IsHomeworld_7_5DF73EB44D5A2591785ED1BE5CB7DE15": false
+      },
+      "LS322": {
+        "LevelMapPath_2_69C2D7CA46D0D0D7BD0E52B4E34569F0": "/LS322_FireworksFactory/Maps/",
+        "LevelMapNames_5_E26ADFBE45C1447D49600C8C05CAC47B": {
+          "ObjectName": "DataTable LL322",
+          "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/Spyro3/L319_EveningLake/LL322.0"
+        },
+        "IsHomeworld_7_5DF73EB44D5A2591785ED1BE5CB7DE15": false
+      },
+      "LS323": {
+        "LevelMapPath_2_69C2D7CA46D0D0D7BD0E52B4E34569F0": "/LS323_CharmedRidge/Maps/",
+        "LevelMapNames_5_E26ADFBE45C1447D49600C8C05CAC47B": {
+          "ObjectName": "DataTable LL323",
+          "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/Spyro3/L319_EveningLake/LL323.0"
+        },
+        "IsHomeworld_7_5DF73EB44D5A2591785ED1BE5CB7DE15": false
+      },
+      "LS324": {
+        "LevelMapPath_2_69C2D7CA46D0D0D7BD0E52B4E34569F0": "/LS324_BentleysOutpost/Maps/",
+        "LevelMapNames_5_E26ADFBE45C1447D49600C8C05CAC47B": {
+          "ObjectName": "DataTable LL324",
+          "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/Spyro3/L319_EveningLake/LL324.0"
+        },
+        "IsHomeworld_7_5DF73EB44D5A2591785ED1BE5CB7DE15": false
+      },
+      "LS325": {
+        "LevelMapPath_2_69C2D7CA46D0D0D7BD0E52B4E34569F0": "/LS325_HoneySpeedway/Maps/",
+        "LevelMapNames_5_E26ADFBE45C1447D49600C8C05CAC47B": {
+          "ObjectName": "DataTable LL325",
+          "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/Spyro3/L319_EveningLake/LL325.0"
+        },
+        "IsHomeworld_7_5DF73EB44D5A2591785ED1BE5CB7DE15": false
+      },
+      "LS326": {
+        "LevelMapPath_2_69C2D7CA46D0D0D7BD0E52B4E34569F0": "/LS326_ScorchsPit/Maps/",
+        "LevelMapNames_5_E26ADFBE45C1447D49600C8C05CAC47B": {
+          "ObjectName": "DataTable LL326",
+          "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/Spyro3/L319_EveningLake/LL326.0"
+        },
+        "IsHomeworld_7_5DF73EB44D5A2591785ED1BE5CB7DE15": false
+      },
+      "LS327": {
+        "LevelMapPath_2_69C2D7CA46D0D0D7BD0E52B4E34569F0": "/LS327_StarfishReef/Maps/",
+        "LevelMapNames_5_E26ADFBE45C1447D49600C8C05CAC47B": {
+          "ObjectName": "DataTable LL327",
+          "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/Spyro3/L319_EveningLake/LL327.0"
+        },
+        "IsHomeworld_7_5DF73EB44D5A2591785ED1BE5CB7DE15": false
+      },
+      "LS328": {
+        "LevelMapPath_2_69C2D7CA46D0D0D7BD0E52B4E34569F0": "/LS328_MidnightMountain_Home/Maps/",
+        "LevelMapNames_5_E26ADFBE45C1447D49600C8C05CAC47B": {
+          "ObjectName": "DataTable LL328",
+          "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/Spyro3/L328_MidnightMountain/LL328.0"
+        },
+        "IsHomeworld_7_5DF73EB44D5A2591785ED1BE5CB7DE15": true
+      },
+      "LS329": {
+        "LevelMapPath_2_69C2D7CA46D0D0D7BD0E52B4E34569F0": "/LS329_CrystalIslands/Maps/",
+        "LevelMapNames_5_E26ADFBE45C1447D49600C8C05CAC47B": {
+          "ObjectName": "DataTable LL329",
+          "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/Spyro3/L328_MidnightMountain/LL329.0"
+        },
+        "IsHomeworld_7_5DF73EB44D5A2591785ED1BE5CB7DE15": false
+      },
+      "LS330": {
+        "LevelMapPath_2_69C2D7CA46D0D0D7BD0E52B4E34569F0": "/LS330_DesertRuins/Maps/",
+        "LevelMapNames_5_E26ADFBE45C1447D49600C8C05CAC47B": {
+          "ObjectName": "DataTable LL330",
+          "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/Spyro3/L328_MidnightMountain/LL330.0"
+        },
+        "IsHomeworld_7_5DF73EB44D5A2591785ED1BE5CB7DE15": false
+      },
+      "LS331": {
+        "LevelMapPath_2_69C2D7CA46D0D0D7BD0E52B4E34569F0": "/LS331_HauntedTomb/Maps/",
+        "LevelMapNames_5_E26ADFBE45C1447D49600C8C05CAC47B": {
+          "ObjectName": "DataTable LL331",
+          "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/Spyro3/L328_MidnightMountain/LL331.0"
+        },
+        "IsHomeworld_7_5DF73EB44D5A2591785ED1BE5CB7DE15": false
+      },
+      "LS332": {
+        "LevelMapPath_2_69C2D7CA46D0D0D7BD0E52B4E34569F0": "/LS332_DinoMines/Maps/",
+        "LevelMapNames_5_E26ADFBE45C1447D49600C8C05CAC47B": {
+          "ObjectName": "DataTable LL332",
+          "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/Spyro3/L328_MidnightMountain/LL332.0"
+        },
+        "IsHomeworld_7_5DF73EB44D5A2591785ED1BE5CB7DE15": false
+      },
+      "LS333": {
+        "LevelMapPath_2_69C2D7CA46D0D0D7BD0E52B4E34569F0": "/LS333_Agent9sLab/Maps/",
+        "LevelMapNames_5_E26ADFBE45C1447D49600C8C05CAC47B": {
+          "ObjectName": "DataTable LL333",
+          "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/Spyro3/L328_MidnightMountain/LL333.0"
+        },
+        "IsHomeworld_7_5DF73EB44D5A2591785ED1BE5CB7DE15": false
+      },
+      "LS334": {
+        "LevelMapPath_2_69C2D7CA46D0D0D7BD0E52B4E34569F0": "/LS334_HarborSpeedway/Maps/",
+        "LevelMapNames_5_E26ADFBE45C1447D49600C8C05CAC47B": {
+          "ObjectName": "DataTable LL334",
+          "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/Spyro3/L328_MidnightMountain/LL334.0"
+        },
+        "IsHomeworld_7_5DF73EB44D5A2591785ED1BE5CB7DE15": false
+      },
+      "LS335": {
+        "LevelMapPath_2_69C2D7CA46D0D0D7BD0E52B4E34569F0": "/LS335_SorceressLair/Maps/",
+        "LevelMapNames_5_E26ADFBE45C1447D49600C8C05CAC47B": {
+          "ObjectName": "DataTable LL335",
+          "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/Spyro3/L328_MidnightMountain/LL335.0"
+        },
+        "IsHomeworld_7_5DF73EB44D5A2591785ED1BE5CB7DE15": false
+      },
+      "LS336": {
+        "LevelMapPath_2_69C2D7CA46D0D0D7BD0E52B4E34569F0": "/LS336_BugbotFactory/Maps/",
+        "LevelMapNames_5_E26ADFBE45C1447D49600C8C05CAC47B": {
+          "ObjectName": "DataTable LL336",
+          "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/Spyro3/L328_MidnightMountain/LL336.0"
+        },
+        "IsHomeworld_7_5DF73EB44D5A2591785ED1BE5CB7DE15": false
+      },
+      "LS337": {
+        "LevelMapPath_2_69C2D7CA46D0D0D7BD0E52B4E34569F0": "/LS337_SuperBonusRound/Maps/",
+        "LevelMapNames_5_E26ADFBE45C1447D49600C8C05CAC47B": {
+          "ObjectName": "DataTable LL337",
+          "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/Spyro3/L328_MidnightMountain/LL337.0"
+        },
+        "IsHomeworld_7_5DF73EB44D5A2591785ED1BE5CB7DE15": false
+      }
+    }
+  }
+]

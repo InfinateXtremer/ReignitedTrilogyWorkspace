@@ -1,0 +1,7 @@
+FileVersion:2
+Type:Static
+Guid:8E2CB733-4974-8EF9-309E-79B9579D5E5F
+ParentGuid:774EBFEB-4C00-9B59-F901-989F01EF86CB
+
+/GameplayCommon/LevelMechanics/Common/Actors/ManagedDirectionalLight.ManagedDirectionalLight
+/Script/Falcon.ManagedExponentialHeightFog

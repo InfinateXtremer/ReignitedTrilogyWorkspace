@@ -1,0 +1,199 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "LevelMapTable3",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "UserDefinedStruct LevelInfoStruct",
+        "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelPaths/LevelInfoStruct.1"
+      }
+    },
+    "Rows": {
+      "/LS301_SunriseSpring_Home/Maps/": {
+        "levelpath_2_612DE99541905B6834F840AA78A52B76": "/LS301_SunriseSpring_Home/Maps/",
+        "homelevel_12_ED1E54FE4E3391AF6EC891B348C41102": "None",
+        "displayName_10_C5197E814C6E252831AEB18AA91091F8": "Sunrise Spring"
+      },
+      "/LS302_SunnyVilla/Maps/": {
+        "levelpath_2_612DE99541905B6834F840AA78A52B76": "/LS302_SunnyVilla/Maps/",
+        "homelevel_12_ED1E54FE4E3391AF6EC891B348C41102": "/LS301_SunriseSpring_Home/Maps/",
+        "displayName_10_C5197E814C6E252831AEB18AA91091F8": "Sunny Villa"
+      },
+      "/LS303_CloudSpires/Maps/": {
+        "levelpath_2_612DE99541905B6834F840AA78A52B76": "/LS303_CloudSpires/Maps/",
+        "homelevel_12_ED1E54FE4E3391AF6EC891B348C41102": "/LS301_SunriseSpring_Home/Maps/",
+        "displayName_10_C5197E814C6E252831AEB18AA91091F8": "Cloud Spires"
+      },
+      "/LS304_MoltenCrater/Maps/": {
+        "levelpath_2_612DE99541905B6834F840AA78A52B76": "/LS304_MoltenCrater/Maps/",
+        "homelevel_12_ED1E54FE4E3391AF6EC891B348C41102": "/LS301_SunriseSpring_Home/Maps/",
+        "displayName_10_C5197E814C6E252831AEB18AA91091F8": "Molten Crater"
+      },
+      "/LS305_SeashellShore/Maps/": {
+        "levelpath_2_612DE99541905B6834F840AA78A52B76": "/LS305_SeashellShore/Maps/",
+        "homelevel_12_ED1E54FE4E3391AF6EC891B348C41102": "/LS301_SunriseSpring_Home/Maps/",
+        "displayName_10_C5197E814C6E252831AEB18AA91091F8": "Seashell Shore"
+      },
+      "/LS306_SheilasAlp/Maps/": {
+        "levelpath_2_612DE99541905B6834F840AA78A52B76": "/LS306_SheilasAlp/Maps/",
+        "homelevel_12_ED1E54FE4E3391AF6EC891B348C41102": "/LS301_SunriseSpring_Home/Maps/",
+        "displayName_10_C5197E814C6E252831AEB18AA91091F8": "Sheila's Alp"
+      },
+      "/LS307_MushroomSpeedway/Maps/": {
+        "levelpath_2_612DE99541905B6834F840AA78A52B76": "/LS307_MushroomSpeedway/Maps/",
+        "homelevel_12_ED1E54FE4E3391AF6EC891B348C41102": "/LS301_SunriseSpring_Home/Maps/",
+        "displayName_10_C5197E814C6E252831AEB18AA91091F8": "Mushroom Speedway"
+      },
+      "/LS308_BuzzsDungeon/Maps/": {
+        "levelpath_2_612DE99541905B6834F840AA78A52B76": "/LS308_BuzzsDungeon/Maps/",
+        "homelevel_12_ED1E54FE4E3391AF6EC891B348C41102": "/LS301_SunriseSpring_Home/Maps/",
+        "displayName_10_C5197E814C6E252831AEB18AA91091F8": "Buzz's Dungeon"
+      },
+      "/LS309_CrawdadFarm/Maps/": {
+        "levelpath_2_612DE99541905B6834F840AA78A52B76": "/LS309_CrawdadFarm/Maps/",
+        "homelevel_12_ED1E54FE4E3391AF6EC891B348C41102": "/LS301_SunriseSpring_Home/Maps/",
+        "displayName_10_C5197E814C6E252831AEB18AA91091F8": "Crawdad Farm"
+      },
+      "/LS310_MiddayGardens_Home/Maps/": {
+        "levelpath_2_612DE99541905B6834F840AA78A52B76": "/LS310_MiddayGardens_Home/Maps/",
+        "homelevel_12_ED1E54FE4E3391AF6EC891B348C41102": "None",
+        "displayName_10_C5197E814C6E252831AEB18AA91091F8": "Midday Gardens"
+      },
+      "/LS311_IcyPeak/Maps/": {
+        "levelpath_2_612DE99541905B6834F840AA78A52B76": "/LS311_IcyPeak/Maps/",
+        "homelevel_12_ED1E54FE4E3391AF6EC891B348C41102": "/LS310_MiddayGardens_Home/Maps/",
+        "displayName_10_C5197E814C6E252831AEB18AA91091F8": "Icy Peak"
+      },
+      "/LS312_EnchantedTowers/Maps/": {
+        "levelpath_2_612DE99541905B6834F840AA78A52B76": "/LS312_EnchantedTowers/Maps/",
+        "homelevel_12_ED1E54FE4E3391AF6EC891B348C41102": "/LS310_MiddayGardens_Home/Maps/",
+        "displayName_10_C5197E814C6E252831AEB18AA91091F8": "Enchanted Towers"
+      },
+      "/LS313_SpookySwamp/Maps/": {
+        "levelpath_2_612DE99541905B6834F840AA78A52B76": "/LS313_SpookySwamp/Maps/",
+        "homelevel_12_ED1E54FE4E3391AF6EC891B348C41102": "/LS310_MiddayGardens_Home/Maps/",
+        "displayName_10_C5197E814C6E252831AEB18AA91091F8": "Spooky Swamp"
+      },
+      "/LS314_BambooTerrace/Maps/": {
+        "levelpath_2_612DE99541905B6834F840AA78A52B76": "/LS314_BambooTerrace/Maps/",
+        "homelevel_12_ED1E54FE4E3391AF6EC891B348C41102": "/LS310_MiddayGardens_Home/Maps/",
+        "displayName_10_C5197E814C6E252831AEB18AA91091F8": "Bamboo Terrace"
+      },
+      "/LS315_SgtByrdBase/Maps/": {
+        "levelpath_2_612DE99541905B6834F840AA78A52B76": "/LS315_SgtByrdBase/Maps/",
+        "homelevel_12_ED1E54FE4E3391AF6EC891B348C41102": "/LS310_MiddayGardens_Home/Maps/",
+        "displayName_10_C5197E814C6E252831AEB18AA91091F8": "Sgt. Byrd Base"
+      },
+      "/LS316_CountrySpeedway/Maps/": {
+        "levelpath_2_612DE99541905B6834F840AA78A52B76": "/LS316_CountrySpeedway/Maps/",
+        "homelevel_12_ED1E54FE4E3391AF6EC891B348C41102": "/LS310_MiddayGardens_Home/Maps/",
+        "displayName_10_C5197E814C6E252831AEB18AA91091F8": "Country Speedway"
+      },
+      "/LS317_SpikesArena/Maps/": {
+        "levelpath_2_612DE99541905B6834F840AA78A52B76": "/LS317_SpikesArena/Maps/",
+        "homelevel_12_ED1E54FE4E3391AF6EC891B348C41102": "/LS310_MiddayGardens_Home/Maps/",
+        "displayName_10_C5197E814C6E252831AEB18AA91091F8": "Spike's Arena"
+      },
+      "/LS318_SpiderTown/Maps/": {
+        "levelpath_2_612DE99541905B6834F840AA78A52B76": "/LS318_SpiderTown/Maps/",
+        "homelevel_12_ED1E54FE4E3391AF6EC891B348C41102": "/LS310_MiddayGardens_Home/Maps/",
+        "displayName_10_C5197E814C6E252831AEB18AA91091F8": "Spider Town"
+      },
+      "/LS319_EveningLake_Home/Maps/": {
+        "levelpath_2_612DE99541905B6834F840AA78A52B76": "/LS319_EveningLake_Home/Maps/",
+        "homelevel_12_ED1E54FE4E3391AF6EC891B348C41102": "None",
+        "displayName_10_C5197E814C6E252831AEB18AA91091F8": "Evening Lake"
+      },
+      "/LS320_LostFleet/Maps/": {
+        "levelpath_2_612DE99541905B6834F840AA78A52B76": "/LS320_LostFleet/Maps/",
+        "homelevel_12_ED1E54FE4E3391AF6EC891B348C41102": "/LS319_EveningLake_Home/Maps/",
+        "displayName_10_C5197E814C6E252831AEB18AA91091F8": "Lost Fleet"
+      },
+      "/LS321_FrozenAltars/Maps/": {
+        "levelpath_2_612DE99541905B6834F840AA78A52B76": "/LS321_FrozenAltars/Maps/",
+        "homelevel_12_ED1E54FE4E3391AF6EC891B348C41102": "/LS319_EveningLake_Home/Maps/",
+        "displayName_10_C5197E814C6E252831AEB18AA91091F8": "Frozen Altars"
+      },
+      "/LS322_FireworksFactory/Maps/": {
+        "levelpath_2_612DE99541905B6834F840AA78A52B76": "/LS322_FireworksFactory/Maps/",
+        "homelevel_12_ED1E54FE4E3391AF6EC891B348C41102": "/LS319_EveningLake_Home/Maps/",
+        "displayName_10_C5197E814C6E252831AEB18AA91091F8": "Fireworks Factory"
+      },
+      "/LS323_CharmedRidge/Maps/": {
+        "levelpath_2_612DE99541905B6834F840AA78A52B76": "/LS323_CharmedRidge/Maps/",
+        "homelevel_12_ED1E54FE4E3391AF6EC891B348C41102": "/LS319_EveningLake_Home/Maps/",
+        "displayName_10_C5197E814C6E252831AEB18AA91091F8": "Charmed Ridge"
+      },
+      "/LS324_BentleysOutpost/Maps/": {
+        "levelpath_2_612DE99541905B6834F840AA78A52B76": "/LS324_BentleysOutpost/Maps/",
+        "homelevel_12_ED1E54FE4E3391AF6EC891B348C41102": "/LS319_EveningLake_Home/Maps/",
+        "displayName_10_C5197E814C6E252831AEB18AA91091F8": "Bentley's Outpost"
+      },
+      "/LS325_HoneySpeedway/Maps/": {
+        "levelpath_2_612DE99541905B6834F840AA78A52B76": "/LS325_HoneySpeedway/Maps/",
+        "homelevel_12_ED1E54FE4E3391AF6EC891B348C41102": "/LS319_EveningLake_Home/Maps/",
+        "displayName_10_C5197E814C6E252831AEB18AA91091F8": "Honey Speedway"
+      },
+      "/LS326_ScorchsPit/Maps/": {
+        "levelpath_2_612DE99541905B6834F840AA78A52B76": "/LS326_ScorchsPit/Maps/",
+        "homelevel_12_ED1E54FE4E3391AF6EC891B348C41102": "/LS319_EveningLake_Home/Maps/",
+        "displayName_10_C5197E814C6E252831AEB18AA91091F8": "Scorch's Pit"
+      },
+      "/LS327_StarfishReef/Maps/": {
+        "levelpath_2_612DE99541905B6834F840AA78A52B76": "/LS327_StarfishReef/Maps/",
+        "homelevel_12_ED1E54FE4E3391AF6EC891B348C41102": "/LS319_EveningLake_Home/Maps/",
+        "displayName_10_C5197E814C6E252831AEB18AA91091F8": "Starfish Reef"
+      },
+      "/LS328_MidnightMountain_Home/Maps/": {
+        "levelpath_2_612DE99541905B6834F840AA78A52B76": "/LS328_MidnightMountain_Home/Maps/",
+        "homelevel_12_ED1E54FE4E3391AF6EC891B348C41102": "None",
+        "displayName_10_C5197E814C6E252831AEB18AA91091F8": "Midnight Mountain"
+      },
+      "/LS329_CrystalIslands/Maps/": {
+        "levelpath_2_612DE99541905B6834F840AA78A52B76": "/LS329_CrystalIslands/Maps/",
+        "homelevel_12_ED1E54FE4E3391AF6EC891B348C41102": "/LS328_MidnightMountain_Home/Maps/",
+        "displayName_10_C5197E814C6E252831AEB18AA91091F8": "Crystal Islands"
+      },
+      "/LS330_DesertRuins/Maps/": {
+        "levelpath_2_612DE99541905B6834F840AA78A52B76": "/LS330_DesertRuins/Maps/",
+        "homelevel_12_ED1E54FE4E3391AF6EC891B348C41102": "/LS328_MidnightMountain_Home/Maps/",
+        "displayName_10_C5197E814C6E252831AEB18AA91091F8": "Desert Ruins"
+      },
+      "/LS331_HauntedTomb/Maps/": {
+        "levelpath_2_612DE99541905B6834F840AA78A52B76": "/LS331_HauntedTomb/Maps/",
+        "homelevel_12_ED1E54FE4E3391AF6EC891B348C41102": "/LS328_MidnightMountain_Home/Maps/",
+        "displayName_10_C5197E814C6E252831AEB18AA91091F8": "Haunted Tomb"
+      },
+      "/LS332_DinoMines/Maps/": {
+        "levelpath_2_612DE99541905B6834F840AA78A52B76": "/LS332_DinoMines/Maps/",
+        "homelevel_12_ED1E54FE4E3391AF6EC891B348C41102": "/LS328_MidnightMountain_Home/Maps/",
+        "displayName_10_C5197E814C6E252831AEB18AA91091F8": "Dino Mines"
+      },
+      "/LS333_Agent9sLab/Maps/": {
+        "levelpath_2_612DE99541905B6834F840AA78A52B76": "/LS333_Agent9sLab/Maps/",
+        "homelevel_12_ED1E54FE4E3391AF6EC891B348C41102": "/LS328_MidnightMountain_Home/Maps/",
+        "displayName_10_C5197E814C6E252831AEB18AA91091F8": "Agent 9's Lab"
+      },
+      "/LS334_HarborSpeedway/Maps/": {
+        "levelpath_2_612DE99541905B6834F840AA78A52B76": "/LS334_HarborSpeedway/Maps/",
+        "homelevel_12_ED1E54FE4E3391AF6EC891B348C41102": "/LS328_MidnightMountain_Home/Maps/",
+        "displayName_10_C5197E814C6E252831AEB18AA91091F8": "Harbor Speedway"
+      },
+      "/LS335_SorceressLair/Maps/": {
+        "levelpath_2_612DE99541905B6834F840AA78A52B76": "/LS335_SorceressLair/Maps/",
+        "homelevel_12_ED1E54FE4E3391AF6EC891B348C41102": "/LS328_MidnightMountain_Home/Maps/",
+        "displayName_10_C5197E814C6E252831AEB18AA91091F8": "Sorceress Lair"
+      },
+      "/LS336_BugbotFactory/Maps/": {
+        "levelpath_2_612DE99541905B6834F840AA78A52B76": "/LS336_BugbotFactory/Maps/",
+        "homelevel_12_ED1E54FE4E3391AF6EC891B348C41102": "/LS328_MidnightMountain_Home/Maps/",
+        "displayName_10_C5197E814C6E252831AEB18AA91091F8": "Bugbot Factory"
+      },
+      "/LS337_SuperBonusRound/Maps/": {
+        "levelpath_2_612DE99541905B6834F840AA78A52B76": "/LS337_SuperBonusRound/Maps/",
+        "homelevel_12_ED1E54FE4E3391AF6EC891B348C41102": "/LS328_MidnightMountain_Home/Maps/",
+        "displayName_10_C5197E814C6E252831AEB18AA91091F8": "Super Bonus Round"
+      }
+    }
+  }
+]

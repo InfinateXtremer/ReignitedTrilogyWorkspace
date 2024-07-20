@@ -1,0 +1,38 @@
+---,levelpath,homelevel,displayName
+/LS301_SunriseSpring_Home/Maps/,/LS301_SunriseSpring_Home/Maps/,None,Sunrise Spring
+/LS302_SunnyVilla/Maps/,/LS302_SunnyVilla/Maps/,/LS301_SunriseSpring_Home/Maps/,Sunny Villa
+/LS303_CloudSpires/Maps/,/LS303_CloudSpires/Maps/,/LS301_SunriseSpring_Home/Maps/,Cloud Spires
+/LS304_MoltenCrater/Maps/,/LS304_MoltenCrater/Maps/,/LS301_SunriseSpring_Home/Maps/,Molten Crater
+/LS305_SeashellShore/Maps/,/LS305_SeashellShore/Maps/,/LS301_SunriseSpring_Home/Maps/,Seashell Shore
+/LS306_SheilasAlp/Maps/,/LS306_SheilasAlp/Maps/,/LS301_SunriseSpring_Home/Maps/,Sheila's Alp
+/LS307_MushroomSpeedway/Maps/,/LS307_MushroomSpeedway/Maps/,/LS301_SunriseSpring_Home/Maps/,Mushroom Speedway
+/LS308_BuzzsDungeon/Maps/,/LS308_BuzzsDungeon/Maps/,/LS301_SunriseSpring_Home/Maps/,Buzz's Dungeon
+/LS309_CrawdadFarm/Maps/,/LS309_CrawdadFarm/Maps/,/LS301_SunriseSpring_Home/Maps/,Crawdad Farm
+/LS310_MiddayGardens_Home/Maps/,/LS310_MiddayGardens_Home/Maps/,None,Midday Gardens
+/LS311_IcyPeak/Maps/,/LS311_IcyPeak/Maps/,/LS310_MiddayGardens_Home/Maps/,Icy Peak
+/LS312_EnchantedTowers/Maps/,/LS312_EnchantedTowers/Maps/,/LS310_MiddayGardens_Home/Maps/,Enchanted Towers
+/LS313_SpookySwamp/Maps/,/LS313_SpookySwamp/Maps/,/LS310_MiddayGardens_Home/Maps/,Spooky Swamp
+/LS314_BambooTerrace/Maps/,/LS314_BambooTerrace/Maps/,/LS310_MiddayGardens_Home/Maps/,Bamboo Terrace
+/LS315_SgtByrdBase/Maps/,/LS315_SgtByrdBase/Maps/,/LS310_MiddayGardens_Home/Maps/,Sgt. Byrd Base
+/LS316_CountrySpeedway/Maps/,/LS316_CountrySpeedway/Maps/,/LS310_MiddayGardens_Home/Maps/,Country Speedway
+/LS317_SpikesArena/Maps/,/LS317_SpikesArena/Maps/,/LS310_MiddayGardens_Home/Maps/,Spike's Arena
+/LS318_SpiderTown/Maps/,/LS318_SpiderTown/Maps/,/LS310_MiddayGardens_Home/Maps/,Spider Town
+/LS319_EveningLake_Home/Maps/,/LS319_EveningLake_Home/Maps/,None,Evening Lake
+/LS320_LostFleet/Maps/,/LS320_LostFleet/Maps/,/LS319_EveningLake_Home/Maps/,Lost Fleet
+/LS321_FrozenAltars/Maps/,/LS321_FrozenAltars/Maps/,/LS319_EveningLake_Home/Maps/,Frozen Altars
+/LS322_FireworksFactory/Maps/,/LS322_FireworksFactory/Maps/,/LS319_EveningLake_Home/Maps/,Fireworks Factory
+/LS323_CharmedRidge/Maps/,/LS323_CharmedRidge/Maps/,/LS319_EveningLake_Home/Maps/,Charmed Ridge
+/LS324_BentleysOutpost/Maps/,/LS324_BentleysOutpost/Maps/,/LS319_EveningLake_Home/Maps/,Bentley's Outpost
+/LS325_HoneySpeedway/Maps/,/LS325_HoneySpeedway/Maps/,/LS319_EveningLake_Home/Maps/,Honey Speedway
+/LS326_ScorchsPit/Maps/,/LS326_ScorchsPit/Maps/,/LS319_EveningLake_Home/Maps/,Scorch's Pit
+/LS327_StarfishReef/Maps/,/LS327_StarfishReef/Maps/,/LS319_EveningLake_Home/Maps/,Starfish Reef
+/LS328_MidnightMountain_Home/Maps/,/LS328_MidnightMountain_Home/Maps/,None,Midnight Mountain
+/LS329_CrystalIslands/Maps/,/LS329_CrystalIslands/Maps/,/LS328_MidnightMountain_Home/Maps/,Crystal Islands
+/LS330_DesertRuins/Maps/,/LS330_DesertRuins/Maps/,/LS328_MidnightMountain_Home/Maps/,Desert Ruins
+/LS331_HauntedTomb/Maps/,/LS331_HauntedTomb/Maps/,/LS328_MidnightMountain_Home/Maps/,Haunted Tomb
+/LS332_DinoMines/Maps/,/LS332_DinoMines/Maps/,/LS328_MidnightMountain_Home/Maps/,Dino Mines
+/LS333_Agent9sLab/Maps/,/LS333_Agent9sLab/Maps/,/LS328_MidnightMountain_Home/Maps/,Agent 9's Lab
+/LS334_HarborSpeedway/Maps/,/LS334_HarborSpeedway/Maps/,/LS328_MidnightMountain_Home/Maps/,Harbor Speedway
+/LS335_SorceressLair/Maps/,/LS335_SorceressLair/Maps/,/LS328_MidnightMountain_Home/Maps/,Sorceress Lair
+/LS336_BugbotFactory/Maps/,/LS336_BugbotFactory/Maps/,/LS328_MidnightMountain_Home/Maps/,Bugbot Factory
+/LS337_SuperBonusRound/Maps/,/LS337_SuperBonusRound/Maps/,/LS328_MidnightMountain_Home/Maps/,Super Bonus Round

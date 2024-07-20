@@ -1,0 +1,10 @@
+FileVersion:2
+Type:Static
+Guid:9DB36C08-449B-64CE-2454-5ABF524C14A0
+ParentGuid:DE97EEBD-4006-4936-4A0B-FA8B7E54926B
+
+/GameplayCommon/LevelMechanics/Loot/Loot_Spyro2/BP_S2_Gem_Green.BP_S2_Gem_Green
+/GameplayCommon/LevelMechanics/Loot/Loot_Spyro2/BP_S2_Gem_Magenta.BP_S2_Gem_Magenta
+/GameplayCommon/LevelMechanics/Loot/Loot_Spyro2/BP_S2_Gem_Purple.BP_S2_Gem_Purple
+/GameplayCommon/LevelMechanics/Loot/Loot_Spyro2/BP_S2_Gem_Red.BP_S2_Gem_Red
+/GameplayCommon/LevelMechanics/Loot/Loot_Spyro2/BP_S2_Gem_Yellow.BP_S2_Gem_Yellow

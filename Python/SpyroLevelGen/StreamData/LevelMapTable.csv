@@ -1,0 +1,36 @@
+---,levelpath,homelevel,displayName
+/LS101_ArtisansHome/Maps/,/LS101_ArtisansHome/Maps/,None,Artisans
+/LS102_StoneHill/Maps/,/LS102_StoneHill/Maps/,/LS101_ArtisansHome/Maps/,Stone Hill
+/LS103_DarkHollow/Maps/,/LS103_DarkHollow/Maps/,/LS101_ArtisansHome/Maps/,Dark Hollow
+/LS104_Townsquare/Maps/,/LS104_Townsquare/Maps/,/LS101_ArtisansHome/Maps/,Town Square
+/LS105_Sunnyflight/Maps/,/LS105_Sunnyflight/Maps/,/LS101_ArtisansHome/Maps/,Sunny Flight
+/LS106_Toasty/Maps/,/LS106_Toasty/Maps/,/LS101_ArtisansHome/Maps/,Toasty
+/LS107_PeacekeeperHome/Maps/,/LS107_PeacekeeperHome/Maps/,None,Peacekeepers
+/LS108_DryCanyon/Maps/,/LS108_DryCanyon/Maps/,/LS107_PeacekeeperHome/Maps/,Dry Canyon
+/LS109_CliffTown/Maps/,/LS109_CliffTown/Maps/,/LS107_PeacekeeperHome/Maps/,Cliff Town
+/LS110_IceCavern/Maps/,/LS110_IceCavern/Maps/,/LS107_PeacekeeperHome/Maps/,Ice Cavern
+/LS111_NightFlight/Maps/,/LS111_NightFlight/Maps/,/LS107_PeacekeeperHome/Maps/,Night Flight
+/LS112_DrShemp/Maps/,/LS112_DrShemp/Maps/,/LS107_PeacekeeperHome/Maps/,Doctor Shemp
+/LS113_MagicHome/Maps/,/LS113_MagicHome/Maps/,None,Magic Crafters
+/LS114_AlpineRidge/Maps/,/LS114_AlpineRidge/Maps/,/LS113_MagicHome/Maps/,Alpine Ridge
+/LS115_HighCaves/Maps/,/LS115_HighCaves/Maps/,/LS113_MagicHome/Maps/,High Caves
+/LS116_WizardPeak/Maps/,/LS116_WizardPeak/Maps/,/LS113_MagicHome/Maps/,Wizard Peak
+/LS117_CrystalFlight/Maps/,/LS117_CrystalFlight/Maps/,/LS113_MagicHome/Maps/,Crystal Flight
+/LS118_Blowhard/Maps/,/LS118_Blowhard/Maps/,/LS113_MagicHome/Maps/,Blowhard
+/LS119_BeastHome/Maps/,/LS119_BeastHome/Maps/,None,Beast Makers
+/LS120_TerraceVillage/Maps/,/LS120_TerraceVillage/Maps/,/LS119_BeastHome/Maps/,Terrace Village
+/LS121_MistyBog/Maps/,/LS121_MistyBog/Maps/,/LS119_BeastHome/Maps/,Misty Bog
+/LS122_TreeTops/Maps/,/LS122_TreeTops/Maps/,/LS119_BeastHome/Maps/,Tree Tops
+/LS123_WildFlight/Maps/,/LS123_WildFlight/Maps/,/LS119_BeastHome/Maps/,Wild Flight
+/LS124_MetalHead/Maps/,/LS124_MetalHead/Maps/,/LS119_BeastHome/Maps/,Metalhead
+/LS125_DreamWeaverHome/Maps/,/LS125_DreamWeaverHome/Maps/,None,Dream Weaver
+/LS126_DarkPassage/Maps/,/LS126_DarkPassage/Maps/,/LS125_DreamWeaverHome/Maps/,Dark Passage
+/LS127_LoftyCastle/Maps/,/LS127_LoftyCastle/Maps/,/LS125_DreamWeaverHome/Maps/,Lofty Castle
+/LS128_HauntedTowers/Maps/,/LS128_HauntedTowers/Maps/,/LS125_DreamWeaverHome/Maps/,Haunted Towers
+/LS129_IcyFlight/Maps/,/LS129_IcyFlight/Maps/,/LS125_DreamWeaverHome/Maps/,Icy Flight
+/LS130_Jacques/Maps/,/LS130_Jacques/Maps/,/LS125_DreamWeaverHome/Maps/,Jacques
+/LS131_GnastyHome/Maps/,/LS131_GnastyHome/Maps/,None,Gnasty's World
+/LS132_GnorcCove/Maps/,/LS132_GnorcCove/Maps/,/LS131_GnastyHome/Maps/,Gnorc Cove
+/LS133_TwlightHarbour/Maps/,/LS133_TwlightHarbour/Maps/,/LS131_GnastyHome/Maps/,Twilight Harbour
+/LS134_GnastyGnorc/Maps/,/LS134_GnastyGnorc/Maps/,/LS131_GnastyHome/Maps/,Gnasty Gnorc
+/LS135_GnastyLoot/Maps/,/LS135_GnastyLoot/Maps/,/LS131_GnastyHome/Maps/,Gnasty Loot

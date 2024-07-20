@@ -1,0 +1,45 @@
+#pragma once
+#include "CoreMinimal.h"
+#include "EPhasmidAction.generated.h"
+
+UENUM(BlueprintType)
+enum class EPhasmidAction : uint8 {
+    None,
+    Move_Left,
+    Move_Right,
+    Move_Forward,
+    Move_Backward,
+    Point_To_Treasure,
+    Guidebook,
+    Pause,
+    Camera_Move,
+    Jump,
+    Fire_Attack,
+    Charge,
+    Look,
+    UI_Confirm,
+    UI_Back,
+    UI_Left,
+    UI_Right,
+    UI_Up,
+    UI_Down,
+    UI_FaceButtonLeft,
+    UI_FaceButtonTop,
+    UI_DeleteBinding,
+    UI_SelectButton,
+    UI_SaveBindings,
+    UI_Previous,
+    UI_Next,
+    Side_Roll_Left,
+    Side_Roll_Right,
+    Center_Camera,
+    Rotate_Camera_Left,
+    Rotate_Camera_Right,
+    SkipCutscenes,
+    LeftRightMovement,
+    UpDownMovement,
+    DPadMovement,
+    Movement,
+    System,
+};
+

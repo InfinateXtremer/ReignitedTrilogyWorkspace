@@ -1,0 +1,567 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "LevelMapTableG3",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "ScriptStruct LevelMapStruct",
+        "ObjectPath": "/Script/Falcon"
+      }
+    },
+    "Rows": {
+      "/LS301_SunriseSpring_Home/Maps/": {
+        "levelPath": "/LS301_SunriseSpring_Home/Maps/",
+        "homeLevel": "None",
+        "displayName": "Sunrise Spring",
+        "bossLevel": false,
+        "flightLevel": false,
+        "excludeFromGameProgressionCompletion": false,
+        "excludeFromGameProgressionCompletionScalar": 0.0,
+        "progressionMap": {
+          "typeScalarMap": {
+            "EInventoryType::EIT_S3Egg": 400.0,
+            "EInventoryType::EIT_Treasure": 5.0
+          }
+        }
+      },
+      "/LS302_SunnyVilla/Maps/": {
+        "levelPath": "/LS302_SunnyVilla/Maps/",
+        "homeLevel": "/LS301_SunriseSpring_Home/Maps/",
+        "displayName": "Sunny Villa",
+        "bossLevel": false,
+        "flightLevel": false,
+        "excludeFromGameProgressionCompletion": false,
+        "excludeFromGameProgressionCompletionScalar": 0.0,
+        "progressionMap": {
+          "typeScalarMap": {
+            "EInventoryType::EIT_S3Egg": 400.0,
+            "EInventoryType::EIT_Treasure": 6.0
+          }
+        }
+      },
+      "/LS303_CloudSpires/Maps/": {
+        "levelPath": "/LS303_CloudSpires/Maps/",
+        "homeLevel": "/LS301_SunriseSpring_Home/Maps/",
+        "displayName": "Cloud Spires",
+        "bossLevel": false,
+        "flightLevel": false,
+        "excludeFromGameProgressionCompletion": false,
+        "excludeFromGameProgressionCompletionScalar": 0.0,
+        "progressionMap": {
+          "typeScalarMap": {
+            "EInventoryType::EIT_S3Egg": 400.0,
+            "EInventoryType::EIT_Treasure": 6.0
+          }
+        }
+      },
+      "/LS304_MoltenCrater/Maps/": {
+        "levelPath": "/LS304_MoltenCrater/Maps/",
+        "homeLevel": "/LS301_SunriseSpring_Home/Maps/",
+        "displayName": "Molten Crater",
+        "bossLevel": false,
+        "flightLevel": false,
+        "excludeFromGameProgressionCompletion": false,
+        "excludeFromGameProgressionCompletionScalar": 0.0,
+        "progressionMap": {
+          "typeScalarMap": {
+            "EInventoryType::EIT_S3Egg": 400.0,
+            "EInventoryType::EIT_Treasure": 6.0
+          }
+        }
+      },
+      "/LS305_SeashellShore/Maps/": {
+        "levelPath": "/LS305_SeashellShore/Maps/",
+        "homeLevel": "/LS301_SunriseSpring_Home/Maps/",
+        "displayName": "Seashell Shore",
+        "bossLevel": false,
+        "flightLevel": false,
+        "excludeFromGameProgressionCompletion": false,
+        "excludeFromGameProgressionCompletionScalar": 0.0,
+        "progressionMap": {
+          "typeScalarMap": {
+            "EInventoryType::EIT_S3Egg": 400.0,
+            "EInventoryType::EIT_Treasure": 6.0
+          }
+        }
+      },
+      "/LS306_SheilasAlp/Maps/": {
+        "levelPath": "/LS306_SheilasAlp/Maps/",
+        "homeLevel": "/LS301_SunriseSpring_Home/Maps/",
+        "displayName": "Sheila's Alp",
+        "bossLevel": false,
+        "flightLevel": false,
+        "excludeFromGameProgressionCompletion": false,
+        "excludeFromGameProgressionCompletionScalar": 0.0,
+        "progressionMap": {
+          "typeScalarMap": {
+            "EInventoryType::EIT_S3Egg": 400.0,
+            "EInventoryType::EIT_Treasure": 3.0
+          }
+        }
+      },
+      "/LS307_MushroomSpeedway/Maps/": {
+        "levelPath": "/LS307_MushroomSpeedway/Maps/",
+        "homeLevel": "/LS301_SunriseSpring_Home/Maps/",
+        "displayName": "Mushroom Speedway",
+        "bossLevel": false,
+        "flightLevel": true,
+        "excludeFromGameProgressionCompletion": false,
+        "excludeFromGameProgressionCompletionScalar": 0.0,
+        "progressionMap": {
+          "typeScalarMap": {
+            "EInventoryType::EIT_Treasure": 3.0,
+            "EInventoryType::EIT_S3Egg": 400.0
+          }
+        }
+      },
+      "/LS308_BuzzsDungeon/Maps/": {
+        "levelPath": "/LS308_BuzzsDungeon/Maps/",
+        "homeLevel": "/LS301_SunriseSpring_Home/Maps/",
+        "displayName": "Buzz's Dungeon",
+        "bossLevel": false,
+        "flightLevel": false,
+        "excludeFromGameProgressionCompletion": false,
+        "excludeFromGameProgressionCompletionScalar": 0.0,
+        "progressionMap": {
+          "typeScalarMap": {
+            "EInventoryType::EIT_S3Egg": 1.0,
+            "EInventoryType::EIT_Treasure": 1.0
+          }
+        }
+      },
+      "/LS309_CrawdadFarm/Maps/": {
+        "levelPath": "/LS309_CrawdadFarm/Maps/",
+        "homeLevel": "/LS301_SunriseSpring_Home/Maps/",
+        "displayName": "Crawdad Farm",
+        "bossLevel": false,
+        "flightLevel": false,
+        "excludeFromGameProgressionCompletion": false,
+        "excludeFromGameProgressionCompletionScalar": 0.0,
+        "progressionMap": {
+          "typeScalarMap": {
+            "EInventoryType::EIT_S3Egg": 200.0,
+            "EInventoryType::EIT_Treasure": 1.0
+          }
+        }
+      },
+      "/LS310_MiddayGardens_Home/Maps/": {
+        "levelPath": "/LS310_MiddayGardens_Home/Maps/",
+        "homeLevel": "None",
+        "displayName": "Midday Gardens",
+        "bossLevel": false,
+        "flightLevel": false,
+        "excludeFromGameProgressionCompletion": false,
+        "excludeFromGameProgressionCompletionScalar": 0.0,
+        "progressionMap": {
+          "typeScalarMap": {
+            "EInventoryType::EIT_S3Egg": 400.0,
+            "EInventoryType::EIT_Treasure": 5.0
+          }
+        }
+      },
+      "/LS311_IcyPeak/Maps/": {
+        "levelPath": "/LS311_IcyPeak/Maps/",
+        "homeLevel": "/LS310_MiddayGardens_Home/Maps/",
+        "displayName": "Icy Peak",
+        "bossLevel": false,
+        "flightLevel": false,
+        "excludeFromGameProgressionCompletion": false,
+        "excludeFromGameProgressionCompletionScalar": 0.0,
+        "progressionMap": {
+          "typeScalarMap": {
+            "EInventoryType::EIT_S3Egg": 400.0,
+            "EInventoryType::EIT_Treasure": 6.0
+          }
+        }
+      },
+      "/LS312_EnchantedTowers/Maps/": {
+        "levelPath": "/LS312_EnchantedTowers/Maps/",
+        "homeLevel": "/LS310_MiddayGardens_Home/Maps/",
+        "displayName": "Enchanted Towers",
+        "bossLevel": false,
+        "flightLevel": false,
+        "excludeFromGameProgressionCompletion": false,
+        "excludeFromGameProgressionCompletionScalar": 0.0,
+        "progressionMap": {
+          "typeScalarMap": {
+            "EInventoryType::EIT_S3Egg": 400.0,
+            "EInventoryType::EIT_Treasure": 6.0
+          }
+        }
+      },
+      "/LS313_SpookySwamp/Maps/": {
+        "levelPath": "/LS313_SpookySwamp/Maps/",
+        "homeLevel": "/LS310_MiddayGardens_Home/Maps/",
+        "displayName": "Spooky Swamp",
+        "bossLevel": false,
+        "flightLevel": false,
+        "excludeFromGameProgressionCompletion": false,
+        "excludeFromGameProgressionCompletionScalar": 0.0,
+        "progressionMap": {
+          "typeScalarMap": {
+            "EInventoryType::EIT_S3Egg": 400.0,
+            "EInventoryType::EIT_Treasure": 6.0
+          }
+        }
+      },
+      "/LS314_BambooTerrace/Maps/": {
+        "levelPath": "/LS314_BambooTerrace/Maps/",
+        "homeLevel": "/LS310_MiddayGardens_Home/Maps/",
+        "displayName": "Bamboo Terrace",
+        "bossLevel": false,
+        "flightLevel": false,
+        "excludeFromGameProgressionCompletion": false,
+        "excludeFromGameProgressionCompletionScalar": 0.0,
+        "progressionMap": {
+          "typeScalarMap": {
+            "EInventoryType::EIT_S3Egg": 400.0,
+            "EInventoryType::EIT_Treasure": 6.0
+          }
+        }
+      },
+      "/LS315_SgtByrdBase/Maps/": {
+        "levelPath": "/LS315_SgtByrdBase/Maps/",
+        "homeLevel": "/LS310_MiddayGardens_Home/Maps/",
+        "displayName": "Sgt. Byrd Base",
+        "bossLevel": false,
+        "flightLevel": false,
+        "excludeFromGameProgressionCompletion": false,
+        "excludeFromGameProgressionCompletionScalar": 0.0,
+        "progressionMap": {
+          "typeScalarMap": {
+            "EInventoryType::EIT_S3Egg": 500.0,
+            "EInventoryType::EIT_Treasure": 3.0
+          }
+        }
+      },
+      "/LS316_CountrySpeedway/Maps/": {
+        "levelPath": "/LS316_CountrySpeedway/Maps/",
+        "homeLevel": "/LS310_MiddayGardens_Home/Maps/",
+        "displayName": "Country Speedway",
+        "bossLevel": false,
+        "flightLevel": true,
+        "excludeFromGameProgressionCompletion": false,
+        "excludeFromGameProgressionCompletionScalar": 0.0,
+        "progressionMap": {
+          "typeScalarMap": {
+            "EInventoryType::EIT_S3Egg": 400.0,
+            "EInventoryType::EIT_Treasure": 3.0
+          }
+        }
+      },
+      "/LS317_SpikesArena/Maps/": {
+        "levelPath": "/LS317_SpikesArena/Maps/",
+        "homeLevel": "/LS310_MiddayGardens_Home/Maps/",
+        "displayName": "Spike's Arena",
+        "bossLevel": false,
+        "flightLevel": false,
+        "excludeFromGameProgressionCompletion": false,
+        "excludeFromGameProgressionCompletionScalar": 0.0,
+        "progressionMap": {
+          "typeScalarMap": {
+            "EInventoryType::EIT_S3Egg": 1.0
+          }
+        }
+      },
+      "/LS318_SpiderTown/Maps/": {
+        "levelPath": "/LS318_SpiderTown/Maps/",
+        "homeLevel": "/LS310_MiddayGardens_Home/Maps/",
+        "displayName": "Spider Town",
+        "bossLevel": false,
+        "flightLevel": false,
+        "excludeFromGameProgressionCompletion": false,
+        "excludeFromGameProgressionCompletionScalar": 0.0,
+        "progressionMap": {
+          "typeScalarMap": {
+            "EInventoryType::EIT_S3Egg": 200.0,
+            "EInventoryType::EIT_Treasure": 1.0
+          }
+        }
+      },
+      "/LS319_EveningLake_Home/Maps/": {
+        "levelPath": "/LS319_EveningLake_Home/Maps/",
+        "homeLevel": "None",
+        "displayName": "Evening Lake",
+        "bossLevel": false,
+        "flightLevel": false,
+        "excludeFromGameProgressionCompletion": false,
+        "excludeFromGameProgressionCompletionScalar": 0.0,
+        "progressionMap": {
+          "typeScalarMap": {
+            "EInventoryType::EIT_S3Egg": 400.0,
+            "EInventoryType::EIT_Treasure": 5.0
+          }
+        }
+      },
+      "/LS320_LostFleet/Maps/": {
+        "levelPath": "/LS320_LostFleet/Maps/",
+        "homeLevel": "/LS319_EveningLake_Home/Maps/",
+        "displayName": "Lost Fleet",
+        "bossLevel": false,
+        "flightLevel": false,
+        "excludeFromGameProgressionCompletion": false,
+        "excludeFromGameProgressionCompletionScalar": 0.0,
+        "progressionMap": {
+          "typeScalarMap": {
+            "EInventoryType::EIT_S3Egg": 400.0,
+            "EInventoryType::EIT_Treasure": 6.0
+          }
+        }
+      },
+      "/LS321_FrozenAltars/Maps/": {
+        "levelPath": "/LS321_FrozenAltars/Maps/",
+        "homeLevel": "/LS319_EveningLake_Home/Maps/",
+        "displayName": "Frozen Altars",
+        "bossLevel": false,
+        "flightLevel": false,
+        "excludeFromGameProgressionCompletion": false,
+        "excludeFromGameProgressionCompletionScalar": 0.0,
+        "progressionMap": {
+          "typeScalarMap": {
+            "EInventoryType::EIT_S3Egg": 400.0,
+            "EInventoryType::EIT_Treasure": 6.0
+          }
+        }
+      },
+      "/LS322_FireworksFactory/Maps/": {
+        "levelPath": "/LS322_FireworksFactory/Maps/",
+        "homeLevel": "/LS319_EveningLake_Home/Maps/",
+        "displayName": "Fireworks Factory",
+        "bossLevel": false,
+        "flightLevel": false,
+        "excludeFromGameProgressionCompletion": false,
+        "excludeFromGameProgressionCompletionScalar": 0.0,
+        "progressionMap": {
+          "typeScalarMap": {
+            "EInventoryType::EIT_S3Egg": 400.0,
+            "EInventoryType::EIT_Treasure": 6.0
+          }
+        }
+      },
+      "/LS323_CharmedRidge/Maps/": {
+        "levelPath": "/LS323_CharmedRidge/Maps/",
+        "homeLevel": "/LS319_EveningLake_Home/Maps/",
+        "displayName": "Charmed Ridge",
+        "bossLevel": false,
+        "flightLevel": false,
+        "excludeFromGameProgressionCompletion": false,
+        "excludeFromGameProgressionCompletionScalar": 0.0,
+        "progressionMap": {
+          "typeScalarMap": {
+            "EInventoryType::EIT_S3Egg": 400.0,
+            "EInventoryType::EIT_Treasure": 6.0
+          }
+        }
+      },
+      "/LS324_BentleysOutpost/Maps/": {
+        "levelPath": "/LS324_BentleysOutpost/Maps/",
+        "homeLevel": "/LS319_EveningLake_Home/Maps/",
+        "displayName": "Bentley's Outpost",
+        "bossLevel": false,
+        "flightLevel": false,
+        "excludeFromGameProgressionCompletion": false,
+        "excludeFromGameProgressionCompletionScalar": 0.0,
+        "progressionMap": {
+          "typeScalarMap": {
+            "EInventoryType::EIT_S3Egg": 600.0,
+            "EInventoryType::EIT_Treasure": 3.0
+          }
+        }
+      },
+      "/LS325_HoneySpeedway/Maps/": {
+        "levelPath": "/LS325_HoneySpeedway/Maps/",
+        "homeLevel": "/LS319_EveningLake_Home/Maps/",
+        "displayName": "Honey Speedway",
+        "bossLevel": false,
+        "flightLevel": true,
+        "excludeFromGameProgressionCompletion": false,
+        "excludeFromGameProgressionCompletionScalar": 0.0,
+        "progressionMap": {
+          "typeScalarMap": {
+            "EInventoryType::EIT_S3Egg": 400.0,
+            "EInventoryType::EIT_Treasure": 3.0
+          }
+        }
+      },
+      "/LS326_ScorchsPit/Maps/": {
+        "levelPath": "/LS326_ScorchsPit/Maps/",
+        "homeLevel": "/LS319_EveningLake_Home/Maps/",
+        "displayName": "Scorch's Pit",
+        "bossLevel": false,
+        "flightLevel": false,
+        "excludeFromGameProgressionCompletion": false,
+        "excludeFromGameProgressionCompletionScalar": 0.0,
+        "progressionMap": {
+          "typeScalarMap": {
+            "EInventoryType::EIT_S3Egg": 1.0
+          }
+        }
+      },
+      "/LS327_StarfishReef/Maps/": {
+        "levelPath": "/LS327_StarfishReef/Maps/",
+        "homeLevel": "/LS319_EveningLake_Home/Maps/",
+        "displayName": "Starfish Reef",
+        "bossLevel": false,
+        "flightLevel": false,
+        "excludeFromGameProgressionCompletion": false,
+        "excludeFromGameProgressionCompletionScalar": 0.0,
+        "progressionMap": {
+          "typeScalarMap": {
+            "EInventoryType::EIT_S3Egg": 200.0,
+            "EInventoryType::EIT_Treasure": 1.0
+          }
+        }
+      },
+      "/LS328_MidnightMountain_Home/Maps/": {
+        "levelPath": "/LS328_MidnightMountain_Home/Maps/",
+        "homeLevel": "None",
+        "displayName": "Midnight Mountain",
+        "bossLevel": false,
+        "flightLevel": false,
+        "excludeFromGameProgressionCompletion": false,
+        "excludeFromGameProgressionCompletionScalar": 0.0,
+        "progressionMap": {
+          "typeScalarMap": {
+            "EInventoryType::EIT_S3Egg": 880.0,
+            "EInventoryType::EIT_Treasure": 9.0,
+            "EInventoryType::EIT_S3BonusEgg": 880.0
+          }
+        }
+      },
+      "/LS329_CrystalIslands/Maps/": {
+        "levelPath": "/LS329_CrystalIslands/Maps/",
+        "homeLevel": "/LS328_MidnightMountain_Home/Maps/",
+        "displayName": "Crystal Islands",
+        "bossLevel": false,
+        "flightLevel": false,
+        "excludeFromGameProgressionCompletion": false,
+        "excludeFromGameProgressionCompletionScalar": 0.0,
+        "progressionMap": {
+          "typeScalarMap": {
+            "EInventoryType::EIT_S3Egg": 400.0,
+            "EInventoryType::EIT_Treasure": 6.0
+          }
+        }
+      },
+      "/LS330_DesertRuins/Maps/": {
+        "levelPath": "/LS330_DesertRuins/Maps/",
+        "homeLevel": "/LS328_MidnightMountain_Home/Maps/",
+        "displayName": "Desert Ruins",
+        "bossLevel": false,
+        "flightLevel": false,
+        "excludeFromGameProgressionCompletion": false,
+        "excludeFromGameProgressionCompletionScalar": 0.0,
+        "progressionMap": {
+          "typeScalarMap": {
+            "EInventoryType::EIT_S3Egg": 400.0,
+            "EInventoryType::EIT_Treasure": 6.0
+          }
+        }
+      },
+      "/LS331_HauntedTomb/Maps/": {
+        "levelPath": "/LS331_HauntedTomb/Maps/",
+        "homeLevel": "/LS328_MidnightMountain_Home/Maps/",
+        "displayName": "Haunted Tomb",
+        "bossLevel": false,
+        "flightLevel": false,
+        "excludeFromGameProgressionCompletion": false,
+        "excludeFromGameProgressionCompletionScalar": 0.0,
+        "progressionMap": {
+          "typeScalarMap": {
+            "EInventoryType::EIT_S3Egg": 400.0,
+            "EInventoryType::EIT_Treasure": 6.0
+          }
+        }
+      },
+      "/LS332_DinoMines/Maps/": {
+        "levelPath": "/LS332_DinoMines/Maps/",
+        "homeLevel": "/LS328_MidnightMountain_Home/Maps/",
+        "displayName": "Dino Mines",
+        "bossLevel": false,
+        "flightLevel": false,
+        "excludeFromGameProgressionCompletion": false,
+        "excludeFromGameProgressionCompletionScalar": 0.0,
+        "progressionMap": {
+          "typeScalarMap": {
+            "EInventoryType::EIT_S3Egg": 400.0,
+            "EInventoryType::EIT_Treasure": 6.0
+          }
+        }
+      },
+      "/LS333_Agent9sLab/Maps/": {
+        "levelPath": "/LS333_Agent9sLab/Maps/",
+        "homeLevel": "/LS328_MidnightMountain_Home/Maps/",
+        "displayName": "Agent 9's Lab",
+        "bossLevel": false,
+        "flightLevel": false,
+        "excludeFromGameProgressionCompletion": false,
+        "excludeFromGameProgressionCompletionScalar": 0.0,
+        "progressionMap": {
+          "typeScalarMap": {
+            "EInventoryType::EIT_S3Egg": 700.0,
+            "EInventoryType::EIT_Treasure": 3.0
+          }
+        }
+      },
+      "/LS334_HarborSpeedway/Maps/": {
+        "levelPath": "/LS334_HarborSpeedway/Maps/",
+        "homeLevel": "/LS328_MidnightMountain_Home/Maps/",
+        "displayName": "Harbor Speedway",
+        "bossLevel": false,
+        "flightLevel": true,
+        "excludeFromGameProgressionCompletion": false,
+        "excludeFromGameProgressionCompletionScalar": 0.0,
+        "progressionMap": {
+          "typeScalarMap": {
+            "EInventoryType::EIT_S3Egg": 400.0,
+            "EInventoryType::EIT_Treasure": 3.0
+          }
+        }
+      },
+      "/LS335_SorceressLair/Maps/": {
+        "levelPath": "/LS335_SorceressLair/Maps/",
+        "homeLevel": "/LS328_MidnightMountain_Home/Maps/",
+        "displayName": "Sorceress Lair",
+        "bossLevel": false,
+        "flightLevel": false,
+        "excludeFromGameProgressionCompletion": false,
+        "excludeFromGameProgressionCompletionScalar": 0.0,
+        "progressionMap": {
+          "typeScalarMap": {
+            "EInventoryType::EIT_S3Egg": 1.0
+          }
+        }
+      },
+      "/LS336_BugbotFactory/Maps/": {
+        "levelPath": "/LS336_BugbotFactory/Maps/",
+        "homeLevel": "/LS328_MidnightMountain_Home/Maps/",
+        "displayName": "Bugbot Factory",
+        "bossLevel": false,
+        "flightLevel": false,
+        "excludeFromGameProgressionCompletion": false,
+        "excludeFromGameProgressionCompletionScalar": 0.0,
+        "progressionMap": {
+          "typeScalarMap": {
+            "EInventoryType::EIT_S3Egg": 200.0,
+            "EInventoryType::EIT_Treasure": 1.0
+          }
+        }
+      },
+      "/LS337_SuperBonusRound/Maps/": {
+        "levelPath": "/LS337_SuperBonusRound/Maps/",
+        "homeLevel": "/LS328_MidnightMountain_Home/Maps/",
+        "displayName": "Super Bonus Round",
+        "bossLevel": false,
+        "flightLevel": false,
+        "excludeFromGameProgressionCompletion": true,
+        "excludeFromGameProgressionCompletionScalar": 0.17,
+        "progressionMap": {
+          "typeScalarMap": {
+            "EInventoryType::EIT_Treasure": 1.0,
+            "EInventoryType::EIT_S3Egg": 0.0
+          }
+        }
+      }
+    }
+  }
+]

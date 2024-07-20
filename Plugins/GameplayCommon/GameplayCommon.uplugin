@@ -4,7 +4,7 @@
 	"VersionName": "1.0",
 	"FriendlyName": "GameplayCommon",
 	"Description": "",
-	"Category": "Other",
+	"Category": "GameplayCommon",
 	"CreatedBy": "",
 	"CreatedByURL": "",
 	"DocsURL": "",
@@ -12,5 +12,6 @@
 	"SupportURL": "",
 	"CanContainContent": true,
 	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
 	"Installed": false
 }

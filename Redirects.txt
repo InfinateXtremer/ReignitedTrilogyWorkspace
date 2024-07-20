@@ -1,0 +1,11 @@
+#include "GameplayEventData.h" --> #include "Abilities/GameplayAbilityTypes.h"
+#include "GameplayTargetDataFilter.h" --> #include "Abilities/GameplayAbilityTargetDataFilter.h"
+#include "GameplayAttribute.h" --> #include "AttributeSet.h"
+#include "GameplayEffectSpecHandle.h" --> #include "GameplayEffectTypes.h"
+#include "ActiveGameplayEffectHandle.h" --> #include "GameplayEffectTypes.h"
+#include "GameplayEffectContextHandle.h" --> #include "GameplayEffectTypes.h"
+#include "GameplayAbilityActorInfo.h" --> #include "Abilities/GameplayAbilityTypes.h"
+#include "GameplayAbilityTargetDataHandle.h" --> #include "Abilities/GameplayAbilityTargetTypes.h"
+#include "GameplayTargetDataFilterHandle.h" --> #include "Abilities/GameplayAbilityTargetDataFilter.h"
+
+#include "AI/Navigation/NavAreas/NavArea.h"

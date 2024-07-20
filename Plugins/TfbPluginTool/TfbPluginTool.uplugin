@@ -1,0 +1,32 @@
+{
+	"FileVersion": 3,
+	"Version": 2,
+	"VersionName": "2.0",
+	"FriendlyName": "Tfb Plugin Tools",
+	"Description": "Outsource, Cinematic and Asset Dependency tools",
+	"Category": "Editor",
+	"CreatedBy": "Peter Lipson",
+	"CreatedByURL": "http://toysforbob.com",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EnabledByDefault": false,
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Plugins": [
+		{
+			"Name": "Wwise",
+			"Enabled": true
+		},
+		{
+			"Name": "TfbWiseExtensions",
+			"Enabled": true
+		},
+		{
+			"Name": "TfbContentBrowser",
+			"Enabled": true
+		}
+	]
+}
