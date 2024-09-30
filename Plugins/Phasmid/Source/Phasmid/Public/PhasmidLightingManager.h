@@ -13,7 +13,7 @@ class PHASMID_API APhasmidLightingManager : public AActor {
 public:
 protected:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
-    TArray<UObject*> Lights;
+    TArray<AActor*> Lights;
     
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
