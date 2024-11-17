@@ -8,6 +8,9 @@
 # Syncthing
 .stfolder/
 
+# Ignore bak file from hex editing
+*.bak
+
 # Compiled Object files
 *.slo
 *.lo
