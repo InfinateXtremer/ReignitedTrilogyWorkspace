@@ -3,7 +3,7 @@
 APhasmidLevelInventoryMonitor::APhasmidLevelInventoryMonitor() {
 }
 
-//void APhasmidLevelInventoryMonitor::doUpdateInventory() {
-//}
+void APhasmidLevelInventoryMonitor::doUpdateInventory() {
+}
 
 

@@ -8,13 +8,13 @@ UCLASS(Blueprintable)
 class PHASMID_API APhasmidLevelInventoryMonitor : public AActor {
 	GENERATED_BODY()
 public:
-	//UPROPERTY()
-	//	TMap<EInventoryType, int32> itemMap;
-	//
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, meta = (AllowPrivateAccess = true), SaveGame)
+	TMap<EInventoryType, int32> itemMap;
+	
 	APhasmidLevelInventoryMonitor();
-	//
-	//UFUNCTION(BlueprintCallable)
-	//	void doUpdateInventory();
+	
+	UFUNCTION(BlueprintCallable)
+	void doUpdateInventory();
 
 };
 
