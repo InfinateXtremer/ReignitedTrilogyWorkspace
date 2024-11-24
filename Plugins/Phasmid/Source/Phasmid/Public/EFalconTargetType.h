@@ -2,8 +2,8 @@
 #include "CoreMinimal.h"
 #include "EFalconTargetType.generated.h"
 
-UENUM()
-enum class EFalconTargetType : int32 {
+UENUM(BlueprintType)
+enum class EFalconTargetType : uint8 {
     Player,
     Origin,
     Waypoint,
