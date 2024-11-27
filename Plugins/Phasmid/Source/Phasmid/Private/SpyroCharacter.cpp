@@ -14,7 +14,10 @@ void ASpyroCharacter::DoFireAttack() {
 void ASpyroCharacter::DoCharge() {
 }
 
-ASpyroCharacter::ASpyroCharacter() {
+
+ASpyroCharacter::ASpyroCharacter(const FObjectInitializer& ObjectInitializer)
+    : Super(ObjectInitializer) 
+{
     this->FollowCamera = CreateDefaultSubobject<UFollowCameraComponent>(TEXT("FollowCamera"));
     this->bIsChargePressed = false;
     this->bDivingDisabledVolume = false;

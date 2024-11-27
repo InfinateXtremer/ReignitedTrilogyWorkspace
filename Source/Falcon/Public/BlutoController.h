@@ -7,6 +7,9 @@ UCLASS(Blueprintable)
 class FALCON_API ABlutoController : public APhasmidCharacter {
     GENERATED_BODY()
 public:
+
+	ABlutoController(const FObjectInitializer& ObjectInitializer);
+	
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     float turnSpeed;
     

@@ -98,7 +98,10 @@ bool UPhasmidCharacterMovementComponent::AreFeetOffGround(int32 Feet, int32& Fee
 void UPhasmidCharacterMovementComponent::ActivateAutoSkateTurbo(float Seconds) {
 }
 
-UPhasmidCharacterMovementComponent::UPhasmidCharacterMovementComponent() {
+
+
+UPhasmidCharacterMovementComponent::UPhasmidCharacterMovementComponent(const FObjectInitializer& ObjectInitializer)
+	: Super(ObjectInitializer) {
     this->bDisableWallSliding = false;
     this->bMoveAnywaysWhenBlocked = false;
     this->bHorizontalPush = false;

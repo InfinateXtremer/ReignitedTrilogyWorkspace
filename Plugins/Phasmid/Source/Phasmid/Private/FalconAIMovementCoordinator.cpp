@@ -19,7 +19,7 @@ UFalconAIMovementCoordinator::UFalconAIMovementCoordinator() {
     this->FleeCheckRadius = 500.00f;
     this->FleeCheckHalfAngle = 45.00f;
     this->FleeDebounceTime = 1.00f;
-    this->bDontStopFleeing = false;
+    this->bDontStopFleeing = true;
     this->WanderBFactor = 1.00f;
     this->WanderMinTurnTime = 0.52f;
     this->WanderMaxTurnTime = 2.36f;

@@ -33,6 +33,8 @@ class PHASMID_API APhasmidCharacter : public ACharacter //, public IGenericTeamA
     GENERATED_BODY()
 public:
     DECLARE_DYNAMIC_MULTICAST_DELEGATE_ThreeParams(FOnInputDelegate, APhasmidCharacter*, Character, FGameplayTag, InputTag, bool, bPressed);
+
+	APhasmidCharacter(const FObjectInitializer& ObjectInitializer);
     
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     float BaseTurnRate;
@@ -80,7 +82,7 @@ public:
     UPROPERTY(BlueprintAssignable, BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     FDamageEventDelegate OnDealDamageDelegate;
     
-    APhasmidCharacter();
+    //APhasmidCharacter();
     virtual void GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const override;
     
     UFUNCTION(BlueprintCallable)

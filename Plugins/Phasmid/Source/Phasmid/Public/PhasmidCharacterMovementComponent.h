@@ -20,7 +20,7 @@ class UPrimitiveComponent;
 
 UCLASS(Blueprintable, ClassGroup=Custom, meta=(BlueprintSpawnableComponent))
 class PHASMID_API UPhasmidCharacterMovementComponent : public UCharacterMovementComponent {
-    GENERATED_BODY()
+    GENERATED_UCLASS_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     uint8 bDisableWallSliding: 1;

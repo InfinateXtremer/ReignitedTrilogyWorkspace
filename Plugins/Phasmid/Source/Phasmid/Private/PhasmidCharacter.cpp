@@ -47,7 +47,9 @@ void APhasmidCharacter::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& Ou
     DOREPLIFETIME(APhasmidCharacter, TeamId);
 }
 
-APhasmidCharacter::APhasmidCharacter() {
+APhasmidCharacter::APhasmidCharacter(const FObjectInitializer& ObjectInitializer) 
+	: Super(ObjectInitializer.SetDefaultSubobjectClass<UPhasmidCharacterMovementComponent>(ACharacter::CharacterMovementComponentName))
+	{
     this->BaseTurnRate = 45.00f;
     this->BaseLookUpRate = 45.00f;
     this->InitialAttributeDataTable = NULL;

@@ -32,6 +32,10 @@ protected:
     uint8 bDivingDisabledShallow: 1;
     
 public:
+
+	ASpyroCharacter(const FObjectInitializer& ObjectInitializer);
+	
+	
     UPROPERTY(BlueprintAssignable, BlueprintCallable, BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     FAbilityActionDelegate AbilityActionDispatcher;
     
