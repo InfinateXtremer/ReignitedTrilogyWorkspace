@@ -25,7 +25,7 @@ struct FFalconEverythingState {
     GENERATED_BODY()
 public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
-    FName stateName;
+    FName StateName;
     
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
     UAnimMontage* Montage;
@@ -103,16 +103,16 @@ public:
     FFalconSignalData Signal;
     
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
-    float WanderDelay;
+    float WanderDelay = 0.5;
     
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
-    float WanderOuterRadius;
+    float WanderOuterRadius = 500;
     
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
-    float WanderTurnRate;
+    float WanderTurnRate =1.571;
     
     UPROPERTY(BlueprintReadWrite, EditAnywhere, meta=(AllowPrivateAccess=true))
-    float ActorTickIntervalOverride;
+    float ActorTickIntervalOverride = -1;
     
     PHASMID_API FFalconEverythingState();
 };
