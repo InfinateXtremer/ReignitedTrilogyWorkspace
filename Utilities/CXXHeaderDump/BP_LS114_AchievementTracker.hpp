@@ -1,0 +1,16 @@
+#ifndef UE4SS_SDK_BP_LS114_AchievementTracker_HPP
+#define UE4SS_SDK_BP_LS114_AchievementTracker_HPP
+
+class ABP_LS114_AchievementTracker_C : public AActor
+{
+    FPointerToUberGraphFrame UberGraphFrame;                                          // 0x0318 (size: 0x8)
+    class USceneComponent* DefaultSceneRoot;                                          // 0x0320 (size: 0x8)
+    TArray<class ABP_TreasureChest_Explosive_C*> Chests;                              // 0x0328 (size: 0x10)
+    int32 destroyedCount;                                                             // 0x0338 (size: 0x4)
+
+    void UserConstructionScript();
+    void ReceiveTick(float DeltaSeconds);
+    void ExecuteUbergraph_BP_LS114_AchievementTracker(int32 EntryPoint);
+}; // Size: 0x33C
+
+#endif

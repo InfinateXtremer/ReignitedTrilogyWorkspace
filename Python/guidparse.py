@@ -23,7 +23,7 @@ def little_endian_transform(guid):
     return transformed_guid
 
 # Test the function with the given GUID
-original_guid = "57731B13-4D4FFC19-3510C48B-678FDF7A".replace("-","")
+original_guid = "FA9AD37B425342DAE0A5768E8360EE12".replace("-","")
 transformed_guid = little_endian_transform(original_guid)
 
 # Display the results

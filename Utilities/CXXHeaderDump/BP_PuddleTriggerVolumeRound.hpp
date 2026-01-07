@@ -1,0 +1,25 @@
+#ifndef UE4SS_SDK_BP_PuddleTriggerVolumeRound_HPP
+#define UE4SS_SDK_BP_PuddleTriggerVolumeRound_HPP
+
+class ABP_PuddleTriggerVolumeRound_C : public APhasmidLevelActor
+{
+    FPointerToUberGraphFrame UberGraphFrame;                                          // 0x03C8 (size: 0x8)
+    class UStaticMeshComponent* MeshTriggerCylinder;                                  // 0x03D0 (size: 0x8)
+    class UStaticMeshComponent* MeshTriggerPlaneRound;                                // 0x03D8 (size: 0x8)
+    class UBoxComponent* PuddleTriggerVolume;                                         // 0x03E0 (size: 0x8)
+    class USceneComponent* DefaultSceneRoot;                                          // 0x03E8 (size: 0x8)
+    class AActor* playerCharacter;                                                    // 0x03F0 (size: 0x8)
+    bool PlayerTouchedWater;                                                          // 0x03F8 (size: 0x1)
+    bool DisableDiving;                                                               // 0x03F9 (size: 0x1)
+    FLinearColor LiquidColorInfo;                                                     // 0x03FC (size: 0x10)
+    bool do201Logic?;                                                                 // 0x040C (size: 0x1)
+
+    void UserConstructionScript();
+    void ReceiveTick(float DeltaSeconds);
+    void ReceiveBeginPlay();
+    void BndEvt__MeshTriggerCylinder_K2Node_ComponentBoundEvent_46_ComponentBeginOverlapSignature__DelegateSignature(class UPrimitiveComponent* OverlappedComponent, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
+    void BndEvt__MeshTriggerCylinder_K2Node_ComponentBoundEvent_49_ComponentEndOverlapSignature__DelegateSignature(class UPrimitiveComponent* OverlappedComponent, class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex);
+    void ExecuteUbergraph_BP_PuddleTriggerVolumeRound(int32 EntryPoint);
+}; // Size: 0x40D
+
+#endif

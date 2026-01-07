@@ -1,6 +1,6 @@
 #include "PhasmidLevelInventoryMonitor.h"
 
-APhasmidLevelInventoryMonitor::APhasmidLevelInventoryMonitor() {
+APhasmidLevelInventoryMonitor::APhasmidLevelInventoryMonitor(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {
 }
 
 void APhasmidLevelInventoryMonitor::doUpdateInventory() {

@@ -1,0 +1,97 @@
+#ifndef UE4SS_SDK_BP_Falcon_Sky_Sphere_HPP
+#define UE4SS_SDK_BP_Falcon_Sky_Sphere_HPP
+
+class ABP_Falcon_Sky_Sphere_C : public AActor
+{
+    FPointerToUberGraphFrame UberGraphFrame;                                          // 0x0318 (size: 0x8)
+    class UStaticMeshComponent* Sky_Sphere;                                           // 0x0320 (size: 0x8)
+    class USceneComponent* Base;                                                      // 0x0328 (size: 0x8)
+    float SkyDomeScale;                                                               // 0x0330 (size: 0x4)
+    class UMaterialInstanceDynamic* Sky material;                                     // 0x0338 (size: 0x8)
+    bool Refresh material;                                                            // 0x0340 (size: 0x1)
+    class ADirectionalLight* Directional light actor;                                 // 0x0348 (size: 0x8)
+    bool Colors determined by sun position;                                           // 0x0350 (size: 0x1)
+    float Sun Height;                                                                 // 0x0354 (size: 0x4)
+    bool Override Sun Colors;                                                         // 0x0358 (size: 0x1)
+    FLinearColor Sun Color;                                                           // 0x035C (size: 0x10)
+    float Sun Brightness;                                                             // 0x036C (size: 0x4)
+    float Sun Radius;                                                                 // 0x0370 (size: 0x4)
+    float Sun Rim Intensity;                                                          // 0x0374 (size: 0x4)
+    float Sun Height Offset;                                                          // 0x0378 (size: 0x4)
+    float Sun Side Offset;                                                            // 0x037C (size: 0x4)
+    float Horizon Falloff;                                                            // 0x0380 (size: 0x4)
+    float Astral Horizon Falloff;                                                     // 0x0384 (size: 0x4)
+    float Astral Horizon Intensity;                                                   // 0x0388 (size: 0x4)
+    bool Use Ue4 Clouds;                                                              // 0x038C (size: 0x1)
+    bool One Cloud Layer;                                                             // 0x038D (size: 0x1)
+    class UTexture2D* Cloud Pattern;                                                  // 0x0390 (size: 0x8)
+    float Cloud Density;                                                              // 0x0398 (size: 0x4)
+    float Cloud Tiling;                                                               // 0x039C (size: 0x4)
+    float Cloud Layer 1 Height;                                                       // 0x03A0 (size: 0x4)
+    float Cloud Layer 2 Height;                                                       // 0x03A4 (size: 0x4)
+    float Cloud Phase;                                                                // 0x03A8 (size: 0x4)
+    float Cloud Speed;                                                                // 0x03AC (size: 0x4)
+    float Cloud Direction;                                                            // 0x03B0 (size: 0x4)
+    float Cloud Opacity;                                                              // 0x03B4 (size: 0x4)
+    float Sun Corona;                                                                 // 0x03B8 (size: 0x4)
+    float Sun Corona Softness;                                                        // 0x03BC (size: 0x4)
+    float Sun Corona Intensity;                                                       // 0x03C0 (size: 0x4)
+    float Moon Opacity;                                                               // 0x03C4 (size: 0x4)
+    FLinearColor Zenith color;                                                        // 0x03C8 (size: 0x10)
+    FLinearColor Horizon color;                                                       // 0x03D8 (size: 0x10)
+    float Cloud Sun Alpha Edge Falloff;                                               // 0x03E8 (size: 0x4)
+    FLinearColor Cloud Light Color;                                                   // 0x03EC (size: 0x10)
+    FLinearColor Cloud Dark Color;                                                    // 0x03FC (size: 0x10)
+    FLinearColor Overall Color;                                                       // 0x040C (size: 0x10)
+    FLinearColor Cloud Sun RimColor;                                                  // 0x041C (size: 0x10)
+    class UCurveLinearColor* Horizon color curve;                                     // 0x0430 (size: 0x8)
+    class UCurveLinearColor* Zenith color curve;                                      // 0x0438 (size: 0x8)
+    class UCurveLinearColor* Cloud color curve;                                       // 0x0440 (size: 0x8)
+    FLinearColor Cloud Sun RimShadowColor;                                            // 0x0448 (size: 0x10)
+    float Cloud Rim Sun Color Intesnity;                                              // 0x0458 (size: 0x4)
+    float Cloud Rim Sun Highlight Radius;                                             // 0x045C (size: 0x4)
+    float Cloud Sun Lighting Intensity;                                               // 0x0460 (size: 0x4)
+    float Cloud Sun Brightness;                                                       // 0x0464 (size: 0x4)
+    float Cloud Shine Variation;                                                      // 0x0468 (size: 0x4)
+    float Cloud Shine Intensity;                                                      // 0x046C (size: 0x4)
+    float Cloud Wisps Opacity;                                                        // 0x0470 (size: 0x4)
+    FLinearColor Wisp Cloud Color;                                                    // 0x0474 (size: 0x10)
+    float Wispy Sun Rim Falloff;                                                      // 0x0484 (size: 0x4)
+    float Wispy Clouds Rim Radius;                                                    // 0x0488 (size: 0x4)
+    float CloudHemisphereShadowLength2;                                               // 0x048C (size: 0x4)
+    float CloudHemisphereShadowFalloff;                                               // 0x0490 (size: 0x4)
+    float CloudShadowLength;                                                          // 0x0494 (size: 0x4)
+    float CloudShadowFalloff;                                                         // 0x0498 (size: 0x4)
+    float Stars brightness;                                                           // 0x049C (size: 0x4)
+    TArray<class UMaterialInstance*> CloudMaterials;                                  // 0x04A0 (size: 0x10)
+    float SkyDomeRadius;                                                              // 0x04B0 (size: 0x4)
+    FVector Light direction;                                                          // 0x04B4 (size: 0xC)
+    float Stars Tiling U;                                                             // 0x04C0 (size: 0x4)
+    float Stars Tiling V;                                                             // 0x04C4 (size: 0x4)
+    float Moon Phase Y;                                                               // 0x04C8 (size: 0x4)
+    float Moon Phase Z;                                                               // 0x04CC (size: 0x4)
+    bool Use Auroras;                                                                 // 0x04D0 (size: 0x1)
+    float Aurora Speed;                                                               // 0x04D4 (size: 0x4)
+    float Aurora Intensity;                                                           // 0x04D8 (size: 0x4)
+    float Aurora Exponent;                                                            // 0x04DC (size: 0x4)
+    float Aurora Blur;                                                                // 0x04E0 (size: 0x4)
+    float Aurora Layer1 Base Scale;                                                   // 0x04E4 (size: 0x4)
+    float Aurora Layer2 Base Scale;                                                   // 0x04E8 (size: 0x4)
+    float Moon Texture Scale;                                                         // 0x04EC (size: 0x4)
+    float Moon Texture Opacity;                                                       // 0x04F0 (size: 0x4)
+    class UTexture* Moon Texture;                                                     // 0x04F8 (size: 0x8)
+    class UTexture* Star Texture;                                                     // 0x0500 (size: 0x8)
+
+    void SetOpacitySkyDome(float Opacity);
+    void SetScaleSkyDome(float Scale);
+    void SetSkyMaterialParameters();
+    void GetLightDirectionVector(class ADirectionalLight* Directional Light, FVector& NormalizedVector);
+    void UpdateSunDirection();
+    void UserConstructionScript();
+    void ReceiveBeginPlay();
+    void Set_SkyDome_Opacity(float SkyDome_Opacity);
+    void Set_SkyDome_Scale(float SkyDomeScale);
+    void ExecuteUbergraph_BP_Falcon_Sky_Sphere(int32 EntryPoint);
+}; // Size: 0x508
+
+#endif

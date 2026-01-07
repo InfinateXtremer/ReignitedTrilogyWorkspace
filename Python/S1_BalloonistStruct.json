@@ -1,0 +1,105 @@
+[
+  {
+    "Type": "UserDefinedStruct",
+    "Name": "S1_BalloonistStruct",
+    "Class": "UScriptClass'UserDefinedStruct'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Guid": "57731B13-4D4FFC19-3510C48B-678FDF7A"
+    },
+    "Children": [
+      {
+        "ObjectName": "ByteProperty'S1_BalloonistStruct:Destination_Name_15_D8694891405884337C9A28AB6C25978B'",
+        "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/Cinematics/Util/S1_BalloonistStruct.1"
+      },
+      {
+        "ObjectName": "TextProperty'S1_BalloonistStruct:Text_String_7_65CB7D5C42F22631D12B35B1E38AC0E7'",
+        "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/Cinematics/Util/S1_BalloonistStruct.5"
+      },
+      {
+        "ObjectName": "StructProperty'S1_BalloonistStruct:TableRow_11_CC94221240DD378D73DDDC958D94DB5E'",
+        "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/Cinematics/Util/S1_BalloonistStruct.3"
+      },
+      {
+        "ObjectName": "StrProperty'S1_BalloonistStruct:PartnerPortal_14_0F3817B648A5636840E7D2BD3684874A'",
+        "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/Cinematics/Util/S1_BalloonistStruct.2"
+      },
+      {
+        "ObjectName": "TextProperty'S1_BalloonistStruct:Text_DestinationString_18_47D7F6174512028222E2328E4112C6C7'",
+        "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/Cinematics/Util/S1_BalloonistStruct.4"
+      }
+    ],
+    "StructFlags": 0,
+    "DefaultProperties": {
+      "Destination_Name_15_D8694891405884337C9A28AB6C25978B": "S1_Balloonist_Enum::NewEnumerator1",
+      "Text_String_7_65CB7D5C42F22631D12B35B1E38AC0E7": {
+        "Namespace": "",
+        "Key": "131B86D941FF0367EB0FED8C7B5FCBF3",
+        "SourceString": "Artisans",
+        "LocalizedString": "Artisans"
+      },
+      "TableRow_11_CC94221240DD378D73DDDC958D94DB5E": {
+        "DataTable": {
+          "ObjectName": "DataTable'Spyro1_StreamData'",
+          "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/LevelMechanics/LevelStreaming/StreamingData/LevelStreams/Spyro1_StreamData.0"
+        },
+        "RowName": "LS101"
+      },
+      "PartnerPortal_14_0F3817B648A5636840E7D2BD3684874A": "LS101_BalloonPoint",
+      "Text_DestinationString_18_47D7F6174512028222E2328E4112C6C7": {
+        "Namespace": "",
+        "Key": "BD19E7C24153C82349E0F4A5EE0C5AD5",
+        "SourceString": "Go To Artisans",
+        "LocalizedString": "Go To Artisans"
+      }
+    }
+  },
+  {
+    "Type": "ByteProperty",
+    "Name": "Destination_Name_15_D8694891405884337C9A28AB6C25978B",
+    "Outer": "S1_BalloonistStruct",
+    "Class": "UScriptClass'ByteProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Edit | BlueprintVisible",
+    "Enum": {
+      "ObjectName": "UserDefinedEnum'S1_Balloonist_Enum'",
+      "ObjectPath": "Falcon/Plugins/GameplayCommon/Content/Cinematics/Util/S1_Balloonist_Enum.0"
+    }
+  },
+  {
+    "Type": "StrProperty",
+    "Name": "PartnerPortal_14_0F3817B648A5636840E7D2BD3684874A",
+    "Outer": "S1_BalloonistStruct",
+    "Class": "UScriptClass'StrProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Edit | BlueprintVisible"
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "TableRow_11_CC94221240DD378D73DDDC958D94DB5E",
+    "Outer": "S1_BalloonistStruct",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Edit | BlueprintVisible",
+    "Struct": {
+      "ObjectName": "ScriptStruct'DataTableRowHandle'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "Text_DestinationString_18_47D7F6174512028222E2328E4112C6C7",
+    "Outer": "S1_BalloonistStruct",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Edit | BlueprintVisible"
+  },
+  {
+    "Type": "TextProperty",
+    "Name": "Text_String_7_65CB7D5C42F22631D12B35B1E38AC0E7",
+    "Outer": "S1_BalloonistStruct",
+    "Class": "UScriptClass'TextProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Edit | BlueprintVisible"
+  }
+]
